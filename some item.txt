@@ -9,3 +9,5 @@ Mortgage Rate vs New Home Under Construction – data organize
 Mean absolute deviation
 https://real-statistics.com/descriptive-statistics/measures-variability/relationship-between-std-and-mad/
 
+-------------------------
+kelly criterion
