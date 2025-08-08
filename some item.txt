@@ -1,13 +1,9 @@
-Patric S’ wiki/folder
+Lasso vs Regression, how does lasso shrink variable to 0 beta
+
 GPT: Multivariate regression beta formula
-	Jachen message in myself
 Bonferroni Correction
 Benjamini-Hochberg
-Email data
-Mortgage Rate vs New Home Under Construction – data organize
 
 Mean absolute deviation
 https://real-statistics.com/descriptive-statistics/measures-variability/relationship-between-std-and-mad/
 
--------------------------
-kelly criterion
