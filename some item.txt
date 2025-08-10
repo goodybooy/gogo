@@ -1,3 +1,10 @@
+Flag Email x3
+Read Folder x3
+Bookmark Bar x1
+~Slack my message x1
+Prioritize relevant to proj for reference
+email + daily read sort out + wechat read + daily task
+
 Lasso vs Regression, how does lasso shrink variable to 0 beta
 
 GPT: Multivariate regression beta formula
@@ -6,4 +13,5 @@ Benjamini-Hochberg
 
 Mean absolute deviation
 https://real-statistics.com/descriptive-statistics/measures-variability/relationship-between-std-and-mad/
+
 
