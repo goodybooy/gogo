@@ -12,7 +12,4 @@ GPT: Multivariate regression beta formula
 Bonferroni Correction
 Benjamini-Hochberg
 
-Mean absolute deviation
-https://real-statistics.com/descriptive-statistics/measures-variability/relationship-between-std-and-mad/
-
 
