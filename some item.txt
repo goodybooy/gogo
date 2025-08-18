@@ -1,9 +1,11 @@
 Flag Email x3
 Read Folder x3
 Bookmark Bar x1
-~Slack my message x1
+
 Prioritize relevant to proj for reference, second priority is learn other knowledge, can always revisit on interesting but non related topics
 email + daily read sort out + wechat read + daily task
+
+~Slack my message x1
 
 Rolling Regression - overlapping samples. Moving Average on overlapping finance data
 Lasso vs Regression, how does lasso shrink variable to 0 beta
