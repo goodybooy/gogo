@@ -1,9 +1,11 @@
-Flag Email x3
-Read Folder x3
-Bookmark Bar x1
+1st thing in morning: email + daily read sort out + wechat read + daily task
 
-Prioritize relevant to proj for reference, second priority is learn other knowledge, can always revisit on interesting but non related topics
-email + daily read sort out + wechat read + daily task
+Stage 1: sort thru -> proj/reference/revisit(irrelevant) for now 8/24
+  Flag Email/Email Folder
+  Read Folder
+  Bookmark Bar
+
+Stage 2: proj/reference go deep
 
 Quick one
   ~Slack my message x1
