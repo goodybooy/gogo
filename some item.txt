@@ -1,11 +1,13 @@
-1st thing in morning: email + daily read sort out + wechat read + daily task
+1st thing in morning: 
+    email + daily read sort out + wechat read + daily task
 
-Stage 1: sort thru -> proj/reference/revisit(irrelevant) for now 8/24
-  Flag Email/Email Folder
-  Read Folder
-  Bookmark Bar
-
+Stage 1: sort thru -> proj/reference/revisit(irrelevant) for now 8/24 -> 8/31
 Stage 2: proj/reference go deep
+
+  Read Folder x3
+  Flag Email/Email Folder x3
+
+  Bookmark Bar T1 x3, T2 x2, T3 x1 
 
 Quick one
   ~Slack my message x1
@@ -16,3 +18,6 @@ Quick one
   Benjamini-Hochberg
 
 
+Done:
+Stage 1: sort thru -> proj/reference/revisit(irrelevant) for now 8/24
+  Flag Email/Email Folder
