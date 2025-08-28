@@ -7,8 +7,6 @@ Stage 2: proj/reference go deep
   Read Folder x3
   Flag Email/Email Folder x3
 
- 
-
 Quick one
   ~Slack my message x1
   Rolling Regression - overlapping samples. Moving Average on overlapping finance data
