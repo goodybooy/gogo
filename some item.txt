@@ -3,10 +3,11 @@
 
 Stage 2: proj/reference go deep
 
+  Bookmark Bar T1 x3, T2 x2, T3 x1 
   Read Folder x3
   Flag Email/Email Folder x3
 
-  Bookmark Bar T1 x3, T2 x2, T3 x1 
+ 
 
 Quick one
   ~Slack my message x1
