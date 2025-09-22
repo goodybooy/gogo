@@ -1,13 +1,27 @@
-Patric S’ wiki/folder
-GPT: Multivariate regression beta formula
-	Jachen message in myself
-Bonferroni Correction
-Benjamini-Hochberg
-Email data
-Mortgage Rate vs New Home Under Construction – data organize
+1st thing in morning: 
+    email + daily read sort out + wechat read + daily task
 
-Mean absolute deviation
-https://real-statistics.com/descriptive-statistics/measures-variability/relationship-between-std-and-mad/
+Stage 2: proj/reference go deep （results: organize summary writeups/talking points into proj folder）
 
--------------------------
-kelly criterion
+  Bookmark Bar T1 x3, T2 x2, T3 x1 
+  Read Folder x3
+    best idea2023
+  Flag Email/Email Folder x3
+    T1, Aug + flag
+    T2, mostly done
+    T3, mostly done except Berhe FX
+    Broader Market Finance
+    Archived Folder
+
+Quick one
+  ~Slack my message x1
+  Rolling Regression - overlapping samples. Moving Average on overlapping finance data
+  Lasso vs Regression, how does lasso shrink variable to 0 beta
+  GPT: Multivariate regression beta formula
+  Bonferroni Correction
+  Benjamini-Hochberg
+
+
+Done:
+Stage 1: sort thru -> proj/reference/revisit(irrelevant) for now 8/24 -> 8/31
+
