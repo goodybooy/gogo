@@ -54,3 +54,5 @@ Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
 | 2026-04-12 | Created CLAUDE.md | Documented git workflow and session notes |
 | 2026-04-12 | Added .gitignore | Excludes `github_token.txt` from commits |
 | 2026-04-12 | Token-based push | Used PAT in remote URL to authenticate pushes from Cowork |
+| 2026-04-12 | Deleted ~$Items.docx | Removed Word temp file from repo |
+| 2026-04-12 | Added research_1.md | Deep-dive on tokenized securities, BlackRock BUIDL, and retail investor opportunities |
