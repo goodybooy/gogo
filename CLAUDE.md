@@ -38,6 +38,29 @@ cd /sessions/<session-id>/gogo_repo \
   && git push origin main
 ```
 
+## Markdown Formatting Notes
+
+When writing `.md` files for this repo, follow these conventions so they render well on GitHub:
+
+### Things that work well
+
+- **Mermaid diagrams** instead of ASCII art — GitHub renders ` ```mermaid ` blocks natively; ASCII box-drawing breaks on narrow screens
+- **GitHub alert syntax** for callouts: `> [!NOTE]`, `> [!IMPORTANT]`, `> [!CAUTION]` — renders as colored boxes
+- **`<br />` spacers** between sections for breathing room
+- **Blockquotes (`>`)** for multi-point lists that need visual separation
+- **Left-aligned tables** with `:------` — easier to scan than center-aligned
+- **Collapsible `<details>` blocks** for long tables of contents
+- **Shield badges** via `img.shields.io` for status/metadata at the top
+- **`<p align="right">(<a href="#readme-top">back to top</a>)</p>`** for navigation in long docs
+- **Reference-style links** at bottom of file to keep the body clean
+
+### Things to avoid
+
+- **`<![CDATA[` wrappers** — breaks all HTML rendering on GitHub
+- **ASCII art diagrams** — fragile on mobile/narrow viewports
+- **Wide tables with long cells** — compress badly; keep cell text concise
+- **Inline long URLs** — use `[text](url)` or reference-style links instead
+
 ### Commit message format
 
 Include `Co-Authored-By` trailer when Claude helps author a file:
