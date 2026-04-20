@@ -51,3 +51,24 @@ Materials queued for reading. Includes CTA math behind momentum, tail risk forec
 - **resume projs.txt / resume projs detail write up.txt** — project descriptions for resume
 - **One Liner.docx** — one-liner summaries (likely for networking/elevator pitches)
 - **Schedule.docx** — study or interview schedule
+
+## Sample folder judgement
+
+A task running on the "New Go" folder — goal is to judge each folder/file on two axes (quality, and fit to a systematic mid-frequency global macro quant researcher role: RV/basis, event, CTA/trend, FI carry/rolldown, UST + EM focus) and produce a consolidated review.
+
+**Scope**: walks E:\New Go, skips /Archive/ and /Company and People/.
+
+**Scoring**: every item gets a global relevance rank (1 = most relevant), a High/Med/Low quality grade, a blunt 1–3 sentence "why it relates or not", and a go-deeper yes/no/maybe flag.
+
+**Output**: one consolidated markdown file with:
+- Executive summary
+- Target role recap
+- Top 10 cross-folder items
+- Bottom 5 / deprioritize
+- Per-folder deep dive tables
+- Gaps — topics the role requires that aren't in the folder
+- Prioritized action list
+
+**Delivery**: saves a copy to E:\New Go\ and commits the review (`new-go-review-2026-04-19.md`) to the root of the Github repo at E:\Github Go (tracking main on github.com/goodybooy/gogo).
+
+**Side flag**: `github_token.txt` is sitting uncommitted in the repo root and not gitignored — worth rotating and ignoring if it's still a live token.
