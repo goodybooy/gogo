@@ -190,14 +190,14 @@ Reading queue. Some excellent papers here, some noise. Re-prioritize aggressivel
 
 ### 5.6 Root files
 
-| File | Rank | Quality | Fit | Why / takeaway | Deeper? |
-|------|------|---------|-----|----------------|---------|
-| `One Liner.docx` | 3 | High | High | See Top-10 #3. Your interview cheat sheet. | **Yes — reorganize and expand.** |
-| `Resume points.docx` | 10 | Med | High (career) | See Top-10 #10. Generic language; lacks instrument specificity and quantified outcomes. | **Yes — rewrite every bullet.** |
-| `resume projs detail write up.txt` | 60 | ? | ? | File appears nearly empty on inspection. If it's the real source, needs to be populated. | Fill it. |
-| `resume projs.txt` | Bottom | Stub | N/A | Contains one path string (`E:\UC ...\需要整理`). Dead. | Drop. |
-| `Schedule.docx` | 61 | Med | Med (planning) | Actual schedule plus a dump of chat-GPT study content, resume timeline, exam dates, book chapters, and a reading plan going back to 7/26. Useful historical record of what you've actually done — good for self-awareness, less so as a working doc. | **Yes — create a current 2026-04 → 2026-06 schedule from scratch using the action list in §7.** Don't keep bolting onto the old doc. |
-| `CLAUDE.md` | 62 | High | N/A (meta) | Good meta-doc. Keep current. | Update after this review. |
+| File | Rank | Quality | Fit | Why / takeaway | Deeper? | Pipeline |
+|------|------|---------|-----|----------------|---------|----------|
+| `One Liner.docx` | 3 | High | High | See Top-10 #3. Your interview cheat sheet. | **Yes — reorganize and expand.** | 4/20–4/24 |
+| `Resume points.docx` | 10 | Med | High (career) | See Top-10 #10. Generic language; lacks instrument specificity and quantified outcomes. | **Yes — rewrite every bullet.** |  |
+| `resume projs detail write up.txt` | 60 | ? | ? | File appears nearly empty on inspection. If it's the real source, needs to be populated. | Fill it. |  |
+| `resume projs.txt` | Bottom | Stub | N/A | Contains one path string (`E:\UC ...\需要整理`). Dead. | Drop. |  |
+| `Schedule.docx` | 61 | Med | Med (planning) | Actual schedule plus a dump of chat-GPT study content, resume timeline, exam dates, book chapters, and a reading plan going back to 7/26. Useful historical record of what you've actually done — good for self-awareness, less so as a working doc. | **Yes — create a current 2026-04 → 2026-06 schedule from scratch using the action list in §7.** Don't keep bolting onto the old doc. |  |
+| `CLAUDE.md` | 62 | High | N/A (meta) | Good meta-doc. Keep current. | Update after this review. |  |
 
 ---
 
