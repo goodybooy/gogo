@@ -89,33 +89,33 @@ What you've already read and kept. Quality is mixed.
 ### 5.2 `/Good Read and Revisit for Go/`
 The core study folder. Large, mixed quality. Noticeable duplication across the CTA PDFs, and most content is image-based WeChat screenshots.
 
-| File | Rank | Quality | Fit | Why / takeaway | Deeper? |
-|------|------|---------|-----|----------------|---------|
-| `finm36700_2021_lec_8_carry.pdf` | 1 | High | High | See Top-10 #1. Rates & FX carry, EH, rate parity — Chicago Booth. | **Yes.** |
-| `finm36700_2021_lec_6_pricing_factors + pca.pdf` | 5 | High | Med-High | See Top-10 #5. Fama-French, momentum, APT, PCA. | **Yes** — build yield curve PCA as extension. |
-| `finm33200_module4.pdf` | 9 | High | Med | See Top-10 #9. Foundational linear combos of RVs. | Skim. |
-| `因子正交分析 (reference for my resume experiene).pdf` | 12 | Med | Med-High | Factor orthogonalization — Gram-Schmidt / residualization of factor exposures. Topic is right (your resume claims "multivariate statistical methods"), but source is a Chinese blog with image-only content. You should be able to re-derive and verbally explain. | **Yes** — own the derivation. Don't cite this file in interview; cite the concept. |
-| `相关性，协方差，策略收益和因子收益 (reference for my resume experiene).pdf` | 13 | Med | Med-High | Strategy return vs factor return — variance decomposition, beta vs alpha. Same comment as above: right topic, weak source. | **Yes** — know this cold. |
-| `因子开发！.pdf` (16MB) | 14 | Med | Med | Chinese factor development guide. Covers signal construction, IC, IR, turnover. Useful overview; not rigorous. | Read once. |
-| `数据处理专题(data neutralize, standardize).pdf` | 15 | Med | Med | Neutralization / standardization / winsorization — daily pre-processing in equity factor work. Generalizes to macro factor work. | Know the 3–4 standard transforms; don't over-study. |
-| `常见模型.pdf` | 16 | Med | Low-Med | "Common models" survey — ML grab-bag. Low marginal value given ESL textbook is in the folder. | No. |
-| `极值理论（EVT）在VaR与ES计算中的应用.pdf` | 17 | Med | Med | EVT for VaR/ES — Block Maxima and POT, GEV/GPD, shape parameter. Pair with the Bloomberg VaR paper in `/To do/`. | **Yes** if you're pitching a risk/tail-risk angle in interviews. |
-| `Sharp Ratio and Probability of Meet Target.pdf` | 18 | Med | Med | Sharpe → probability of hitting a target return. Useful intuition for sizing / horizon choice. | Know the calculation. |
-| `Kelly Criterion and Sizing Bet.html` + `Kelly Formula.doc` | 19 | Med | Med | Kelly with edge/odds, half-Kelly, fractional. Classic. Two copies, consolidate. | Know cold for interviews. |
-| `CTA - Momentum and PCA.pdf` | 21 | Med | High (topic) | Topic squarely on target role (trend / CTA + dim reduction). Source is WeChat screenshots. | Re-read academic literature instead: Moskowitz-Ooi-Pedersen 2012, Hurst-Ooi-Pedersen "Century of Trend". |
-| `CTA - PCA + Mean Reversion.pdf` | 22 | Med | High (topic) | Residualize with PCA, trade mean reversion of residuals. Same quality issue — do the real paper version. | **Yes**, with primary sources. |
-| `CTA - PCA Residual+ Mean Reversion.pdf` | 23 | Med | High | Duplicate / continuation of #22. Consolidate. | No. |
-| `CTA - Momentum and Smoothing.pdf` | 24 | Med | High (topic) | Smoothing / filtering momentum signals — Kalman / EWMA / moving averages. | Worth understanding the smoothing → lag / variance tradeoff. |
-| `CTA - Momentrum 离散变连续处理.pdf` | 25 | Med | Med | Discrete-to-continuous for momentum signals — implementation detail. | Skim. |
-| `CTA - 凹凸均线.pdf` | 26 | Med | Med | "Convex / concave moving averages" — Chinese retail indicator. Tangential. | No. |
-| `Reason Behind Structural Trade.pdf` | 27 | Med | Med | Reasons behind structural / persistent trades (carry, term premium, risk premia). | Yes, if source is credible — check it. |
-| `Math - BS Model.pdf` | 28 | Med | Low-Med | Black-Scholes. Know it, don't over-study for a macro seat. | Skim. |
-| `Short Term Sample Hard to Reject.pdf` | 29 | Med | Med | Short samples → low power to reject H0. Classic point; supports backtesting discipline. | Internalize the intuition. |
-| `Data Transformation (log).pdf` | 30 | Med | Low-Med | Log transform for returns. Basic. | No. |
-| `Median to Standard Deviation.pdf` | 31 | Med | Low | Estimating SD from median / MAD. Niche. | No. |
-| `Window Dressing.jpg` / `Pricing Plot.jpg` | 32 | Low | Low | Screenshots. Keep as visual reference. | No. |
-| `自动化策略需要考虑到几点因素.pdf` | 33 | Med | Med | "Considerations for automated strategies" — latency, slippage, risk controls. Useful overview. | Skim. |
-| `0 coupon bond duration = maturity.txt` / `Duration Measures.txt` | Bottom | N/A | Med (topic) | Empty + URL. | Delete stubs; the concept is covered in FINM 36700 lecture materials. |
+| File | Rank | Quality | Fit | Why / takeaway | Deeper? | Pipeline |
+|------|------|---------|-----|----------------|---------|----------|
+| `finm36700_2021_lec_8_carry.pdf` | 1 | High | High | See Top-10 #1. Rates & FX carry, EH, rate parity — Chicago Booth. | **Yes.** | 4/20–4/24 |
+| `finm36700_2021_lec_6_pricing_factors + pca.pdf` | 5 | High | Med-High | See Top-10 #5. Fama-French, momentum, APT, PCA. | **Yes** — build yield curve PCA as extension. | 4/20–4/24 |
+| `finm33200_module4.pdf` | 9 | High | Med | See Top-10 #9. Foundational linear combos of RVs. | Skim. | 4/20–4/24 |
+| `因子正交分析 (reference for my resume experiene).pdf` | 12 | Med | Med-High | Factor orthogonalization — Gram-Schmidt / residualization of factor exposures. Topic is right (your resume claims "multivariate statistical methods"), but source is a Chinese blog with image-only content. You should be able to re-derive and verbally explain. | **Yes** — own the derivation. Don't cite this file in interview; cite the concept. | 4/20–4/24 |
+| `相关性，协方差，策略收益和因子收益 (reference for my resume experiene).pdf` | 13 | Med | Med-High | Strategy return vs factor return — variance decomposition, beta vs alpha. Same comment as above: right topic, weak source. | **Yes** — know this cold. | 4/20–4/24 |
+| `因子开发！.pdf` (16MB) | 14 | Med | Med | Chinese factor development guide. Covers signal construction, IC, IR, turnover. Useful overview; not rigorous. | Read once. | 4/20–4/24 |
+| `数据处理专题(data neutralize, standardize).pdf` | 15 | Med | Med | Neutralization / standardization / winsorization — daily pre-processing in equity factor work. Generalizes to macro factor work. | Know the 3–4 standard transforms; don't over-study. | 4/20–4/24 |
+| `常见模型.pdf` | 16 | Med | Low-Med | "Common models" survey — ML grab-bag. Low marginal value given ESL textbook is in the folder. | No. | 4/20–4/24 |
+| `极值理论（EVT）在VaR与ES计算中的应用.pdf` | 17 | Med | Med | EVT for VaR/ES — Block Maxima and POT, GEV/GPD, shape parameter. Pair with the Bloomberg VaR paper in `/To do/`. | **Yes** if you're pitching a risk/tail-risk angle in interviews. | 4/20–4/24 |
+| `Sharp Ratio and Probability of Meet Target.pdf` | 18 | Med | Med | Sharpe → probability of hitting a target return. Useful intuition for sizing / horizon choice. | Know the calculation. | 4/20–4/24 |
+| `Kelly Criterion and Sizing Bet.html` + `Kelly Formula.doc` | 19 | Med | Med | Kelly with edge/odds, half-Kelly, fractional. Classic. Two copies, consolidate. | Know cold for interviews. |  |
+| `CTA - Momentum and PCA.pdf` | 21 | Med | High (topic) | Topic squarely on target role (trend / CTA + dim reduction). Source is WeChat screenshots. | Re-read academic literature instead: Moskowitz-Ooi-Pedersen 2012, Hurst-Ooi-Pedersen "Century of Trend". |  |
+| `CTA - PCA + Mean Reversion.pdf` | 22 | Med | High (topic) | Residualize with PCA, trade mean reversion of residuals. Same quality issue — do the real paper version. | **Yes**, with primary sources. |  |
+| `CTA - PCA Residual+ Mean Reversion.pdf` | 23 | Med | High | Duplicate / continuation of #22. Consolidate. | No. |  |
+| `CTA - Momentum and Smoothing.pdf` | 24 | Med | High (topic) | Smoothing / filtering momentum signals — Kalman / EWMA / moving averages. | Worth understanding the smoothing → lag / variance tradeoff. |  |
+| `CTA - Momentrum 离散变连续处理.pdf` | 25 | Med | Med | Discrete-to-continuous for momentum signals — implementation detail. | Skim. |  |
+| `CTA - 凹凸均线.pdf` | 26 | Med | Med | "Convex / concave moving averages" — Chinese retail indicator. Tangential. | No. |  |
+| `Reason Behind Structural Trade.pdf` | 27 | Med | Med | Reasons behind structural / persistent trades (carry, term premium, risk premia). | Yes, if source is credible — check it. |  |
+| `Math - BS Model.pdf` | 28 | Med | Low-Med | Black-Scholes. Know it, don't over-study for a macro seat. | Skim. |  |
+| `Short Term Sample Hard to Reject.pdf` | 29 | Med | Med | Short samples → low power to reject H0. Classic point; supports backtesting discipline. | Internalize the intuition. |  |
+| `Data Transformation (log).pdf` | 30 | Med | Low-Med | Log transform for returns. Basic. | No. |  |
+| `Median to Standard Deviation.pdf` | 31 | Med | Low | Estimating SD from median / MAD. Niche. | No. |  |
+| `Window Dressing.jpg` / `Pricing Plot.jpg` | 32 | Low | Low | Screenshots. Keep as visual reference. | No. |  |
+| `自动化策略需要考虑到几点因素.pdf` | 33 | Med | Med | "Considerations for automated strategies" — latency, slippage, risk controls. Useful overview. | Skim. |  |
+| `0 coupon bond duration = maturity.txt` / `Duration Measures.txt` | Bottom | N/A | Med (topic) | Empty + URL. | Delete stubs; the concept is covered in FINM 36700 lecture materials. |  |
 
 **Folder takeaway:** This is your study core, and it has two problems. (1) The high-signal items are 3 Chicago Booth lectures and a handful of your own notes — everything else is WeChat-tier. (2) There's heavy topical duplication on CTA/PCA/momentum across 5–6 near-identical PDFs. Deduplicate, and for each topic force yourself to read **one real academic source** (Moskowitz, Asness, Hurst, Koijen, Pedersen et al.) instead of four WeChat posts.
 
@@ -158,31 +158,31 @@ Reference material. Good books, not all relevant to the target seat.
 ### 5.5 `/To do/`
 Reading queue. Some excellent papers here, some noise. Re-prioritize aggressively.
 
-| File | Rank | Quality | Fit | Why / takeaway | Deeper? |
-|------|------|---------|-----|----------------|---------|
-| `Improving the Accuracy of Tail Risk Forecasts.pdf` | 6 | High | Med-High | See Top-10 #6. | Yes. |
-| `To read for strat folder/Pair Trading/No. 1 Optimal Mean Reversion Trading with Transaction Costs and StopLoss Exit.pdf` | 7 | High | Med-High | See Top-10 #7. | Yes. |
-| `To read for strat folder/Pair Trading/No. 2 On the Efficacy of Optimized Exit Rule for Mean Reversion Trading.pdf` | 7b | High | Med-High | Follow-on to #7. | Yes. |
-| `To read for strat folder/Pair Trading/(Original Document) Pairs Trading with Optimized Positions & Exit Rules.pdf` | 46 | Med | Med-High | Tim Leung's Medium post summarizing the two papers above. Use as TL;DR. | If short on time, read this instead of the papers. |
-| `To read for strat folder/Pair Trading/(Original Document 2) A Diversification Framework...` | 47 | Med | Med-High | Leung on diversifying across multiple pairs — risk-parity / correlation-aware allocation. | Yes — natural extension. |
-| `To read for strat folder/Pair Trading/(Alternative Short Summary of No 1) Optimal Stopping...Hudson & Thames.html` | 48 | Med | Med | Hudson & Thames blog summary. Same content. | Pick one — don't read three versions. |
-| `To read for strat folder/Pair Trading/（Python Pack Tutorial) A Python Package for Optimal Mean Reversion Trading.html` | 49 | Med | Med-High | Hudson & Thames `arbitragelab`. If it still exists, actually code a pair trade with it. | **Yes** — this is the single "do" item to convert theory to P&L. |
-| `To read for strat folder/CDS Mean Revert with theory.pdf` | 8 | Med-High | Med-High | See Top-10 #8. | Yes. |
-| `To read for strat folder/Long-Short Strategy Overview.pdf` | 50 | Med | Med | LLMQuant blog on long-short equity. Generic. | No — read AQR's systematic L/S papers instead. |
-| `To read for strat folder/Equity Implied Vol Cash Dividend.pdf` | 51 | High (Klassen) | Low | Rigorous but scope-drift for macro RV. | Only if targeting a vol/derivatives seat. |
-| `To read for strat folder/高频交易 - market impact section.pdf` | 52 | Med | Low-Med | HFT market impact — Aldridge / Almgren-Chriss flavor. Too micro for mid-freq. | Skim the Almgren-Chriss idea only. |
-| `To read for strat folder/海通高频因子低频.pdf` | 53 | Med | Low | 海通 equity HFT-to-LF factor report. Wrong asset class + wrong freq for target seat. | Skip. |
-| `To read for strat folder/高频因子 海通.pdf` | 54 | Med | Low | Same. | Skip. |
-| `To read for strat folder/（Convergence 不converge 转vol trade)因子的发现和检验.pdf` | 55 | Med | Med | "Factor discovery & testing: points, experience, inspiration" — Chinese quant blog. Decent points on IC / IR / overfitting. | Skim — nothing you can't get from López de Prado chapters. |
-| `To read for strat folder/Portfolio Analytics - Efficient Portfolio Dimension (PCA clustering).pdf` | 56 | Unknown (image) | Med-High | PCA clustering for portfolio dimension. Relevant — do you actually have content or just title? | Verify content — if valuable, read; else drop. |
-| `To read for strat folder/优化 距离.pdf` | 57 | Med | Low | "Optimized distance" — likely DTW / Mahalanobis variant. | Skim. |
-| `To read for strat folder/常见随机过程.pdf` | Bottom | Unknown | Med | Common stochastic processes. Stub-like. | Verify content. |
-| `To read for strat folder/PCA 双因子资产定价预测.txt` / `PCA 双因子预测.txt` | Bottom | Stub | N/A | Empty + URL. | Drop. |
-| `To read for strat folder/均线因子.rtf` | Bottom | Stub | Low | One-line RTF pointing to a weixin URL. | Drop. |
-| `To read for strat folder/Model - Probability of Random Event Happen.pdf` | Bottom | Unknown | Low | Stub. | Verify or drop. |
-| `To read for strat folder/分享一个IF日线策略思路及源码.txt` / `分享三个IC日线策略思路及源码.txt` | Bottom | N/A | Low | China index-futures daily strategies. Wrong geography/seat. | Drop. |
-| `CTA - Math Behind Momentum.pdf` | 58 | Unknown (image) | High (topic) | Title is bang on target (math behind momentum — convergence rates, signal-to-noise). Verify content. | **Yes if real** — else go find Hurst-Ooi-Pedersen. |
-| `Two Sigma -WJY Interview.docx` | 59 | Low (notes) | Med | 10 lines of interview notes (factor timing, min pairwise correlation, Bonferroni, BH). Fine seed. | Expand with real prep. |
+| File | Rank | Quality | Fit | Why / takeaway | Deeper? | Pipeline |
+|------|------|---------|-----|----------------|---------|----------|
+| `Improving the Accuracy of Tail Risk Forecasts.pdf` | 6 | High | Med-High | See Top-10 #6. | Yes. | 4/20–4/24 |
+| `To read for strat folder/Pair Trading/No. 1 Optimal Mean Reversion Trading with Transaction Costs and StopLoss Exit.pdf` | 7 | High | Med-High | See Top-10 #7. | Yes. | 4/20–4/24 |
+| `To read for strat folder/Pair Trading/No. 2 On the Efficacy of Optimized Exit Rule for Mean Reversion Trading.pdf` | 7b | High | Med-High | Follow-on to #7. | Yes. | 4/20–4/24 |
+| `To read for strat folder/Pair Trading/(Original Document) Pairs Trading with Optimized Positions & Exit Rules.pdf` | 46 | Med | Med-High | Tim Leung's Medium post summarizing the two papers above. Use as TL;DR. | If short on time, read this instead of the papers. | 4/20–4/24 |
+| `To read for strat folder/Pair Trading/(Original Document 2) A Diversification Framework...` | 47 | Med | Med-High | Leung on diversifying across multiple pairs — risk-parity / correlation-aware allocation. | Yes — natural extension. | 4/20–4/24 |
+| `To read for strat folder/Pair Trading/(Alternative Short Summary of No 1) Optimal Stopping...Hudson & Thames.html` | 48 | Med | Med | Hudson & Thames blog summary. Same content. | Pick one — don't read three versions. |  |
+| `To read for strat folder/Pair Trading/（Python Pack Tutorial) A Python Package for Optimal Mean Reversion Trading.html` | 49 | Med | Med-High | Hudson & Thames `arbitragelab`. If it still exists, actually code a pair trade with it. | **Yes** — this is the single "do" item to convert theory to P&L. |  |
+| `To read for strat folder/CDS Mean Revert with theory.pdf` | 8 | Med-High | Med-High | See Top-10 #8. | Yes. |  |
+| `To read for strat folder/Long-Short Strategy Overview.pdf` | 50 | Med | Med | LLMQuant blog on long-short equity. Generic. | No — read AQR's systematic L/S papers instead. |  |
+| `To read for strat folder/Equity Implied Vol Cash Dividend.pdf` | 51 | High (Klassen) | Low | Rigorous but scope-drift for macro RV. | Only if targeting a vol/derivatives seat. |  |
+| `To read for strat folder/高频交易 - market impact section.pdf` | 52 | Med | Low-Med | HFT market impact — Aldridge / Almgren-Chriss flavor. Too micro for mid-freq. | Skim the Almgren-Chriss idea only. |  |
+| `To read for strat folder/海通高频因子低频.pdf` | 53 | Med | Low | 海通 equity HFT-to-LF factor report. Wrong asset class + wrong freq for target seat. | Skip. |  |
+| `To read for strat folder/高频因子 海通.pdf` | 54 | Med | Low | Same. | Skip. |  |
+| `To read for strat folder/（Convergence 不converge 转vol trade)因子的发现和检验.pdf` | 55 | Med | Med | "Factor discovery & testing: points, experience, inspiration" — Chinese quant blog. Decent points on IC / IR / overfitting. | Skim — nothing you can't get from López de Prado chapters. |  |
+| `To read for strat folder/Portfolio Analytics - Efficient Portfolio Dimension (PCA clustering).pdf` | 56 | Unknown (image) | Med-High | PCA clustering for portfolio dimension. Relevant — do you actually have content or just title? | Verify content — if valuable, read; else drop. |  |
+| `To read for strat folder/优化 距离.pdf` | 57 | Med | Low | "Optimized distance" — likely DTW / Mahalanobis variant. | Skim. |  |
+| `To read for strat folder/常见随机过程.pdf` | Bottom | Unknown | Med | Common stochastic processes. Stub-like. | Verify content. |  |
+| `To read for strat folder/PCA 双因子资产定价预测.txt` / `PCA 双因子预测.txt` | Bottom | Stub | N/A | Empty + URL. | Drop. |  |
+| `To read for strat folder/均线因子.rtf` | Bottom | Stub | Low | One-line RTF pointing to a weixin URL. | Drop. |  |
+| `To read for strat folder/Model - Probability of Random Event Happen.pdf` | Bottom | Unknown | Low | Stub. | Verify or drop. |  |
+| `To read for strat folder/分享一个IF日线策略思路及源码.txt` / `分享三个IC日线策略思路及源码.txt` | Bottom | N/A | Low | China index-futures daily strategies. Wrong geography/seat. | Drop. |  |
+| `CTA - Math Behind Momentum.pdf` | 58 | Unknown (image) | High (topic) | Title is bang on target (math behind momentum — convergence rates, signal-to-noise). Verify content. | **Yes if real** — else go find Hurst-Ooi-Pedersen. |  |
+| `Two Sigma -WJY Interview.docx` | 59 | Low (notes) | Med | 10 lines of interview notes (factor timing, min pairwise correlation, Bonferroni, BH). Fine seed. | Expand with real prep. |  |
 
 **Folder takeaway:** Three or four papers here (Frank/Lazanas/Menchero VaR, both Leung papers, CDS-BSIC) are genuinely high-value. Everything else can be triaged hard. Your `/To do/` queue is 20 items deep — cut it to 6 and finish them.
 
@@ -190,14 +190,14 @@ Reading queue. Some excellent papers here, some noise. Re-prioritize aggressivel
 
 ### 5.6 Root files
 
-| File | Rank | Quality | Fit | Why / takeaway | Deeper? |
-|------|------|---------|-----|----------------|---------|
-| `One Liner.docx` | 3 | High | High | See Top-10 #3. Your interview cheat sheet. | **Yes — reorganize and expand.** |
-| `Resume points.docx` | 10 | Med | High (career) | See Top-10 #10. Generic language; lacks instrument specificity and quantified outcomes. | **Yes — rewrite every bullet.** |
-| `resume projs detail write up.txt` | 60 | ? | ? | File appears nearly empty on inspection. If it's the real source, needs to be populated. | Fill it. |
-| `resume projs.txt` | Bottom | Stub | N/A | Contains one path string (`E:\UC ...\需要整理`). Dead. | Drop. |
-| `Schedule.docx` | 61 | Med | Med (planning) | Actual schedule plus a dump of chat-GPT study content, resume timeline, exam dates, book chapters, and a reading plan going back to 7/26. Useful historical record of what you've actually done — good for self-awareness, less so as a working doc. | **Yes — create a current 2026-04 → 2026-06 schedule from scratch using the action list in §7.** Don't keep bolting onto the old doc. |
-| `CLAUDE.md` | 62 | High | N/A (meta) | Good meta-doc. Keep current. | Update after this review. |
+| File | Rank | Quality | Fit | Why / takeaway | Deeper? | Pipeline |
+|------|------|---------|-----|----------------|---------|----------|
+| `One Liner.docx` | 3 | High | High | See Top-10 #3. Your interview cheat sheet. | **Yes — reorganize and expand.** | 4/20–4/24 |
+| `Resume points.docx` | 10 | Med | High (career) | See Top-10 #10. Generic language; lacks instrument specificity and quantified outcomes. | **Yes — rewrite every bullet.** |  |
+| `resume projs detail write up.txt` | 60 | ? | ? | File appears nearly empty on inspection. If it's the real source, needs to be populated. | Fill it. |  |
+| `resume projs.txt` | Bottom | Stub | N/A | Contains one path string (`E:\UC ...\需要整理`). Dead. | Drop. |  |
+| `Schedule.docx` | 61 | Med | Med (planning) | Actual schedule plus a dump of chat-GPT study content, resume timeline, exam dates, book chapters, and a reading plan going back to 7/26. Useful historical record of what you've actually done — good for self-awareness, less so as a working doc. | **Yes — create a current 2026-04 → 2026-06 schedule from scratch using the action list in §7.** Don't keep bolting onto the old doc. |  |
+| `CLAUDE.md` | 62 | High | N/A (meta) | Good meta-doc. Keep current. | Update after this review. |  |
 
 ---
 
