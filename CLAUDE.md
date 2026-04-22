@@ -71,11 +71,44 @@ Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
 
 ## History
 
-| Date | Action | Details |
-|------|--------|---------|
-| 2026-04-12 | Created README.md | Added basic folder info and timestamp, committed as `32c084d` |
-| 2026-04-12 | Created CLAUDE.md | Documented git workflow and session notes |
-| 2026-04-12 | Added .gitignore | Excludes `github_token.txt` from commits |
-| 2026-04-12 | Token-based push | Used PAT in remote URL to authenticate pushes from Cowork |
-| 2026-04-12 | Deleted ~$Items.docx | Removed Word temp file from repo |
-| 2026-04-12 | Added research_1.md | Deep-dive on tokenized securities, BlackRock BUIDL, and retail investor opportunities |
+| Date       | Action               | Details                                                                               |
+| ---------- | -------------------- | ------------------------------------------------------------------------------------- |
+| 2026-04-12 | Created README.md    | Added basic folder info and timestamp, committed as `32c084d`                         |
+| 2026-04-12 | Created CLAUDE.md    | Documented git workflow and session notes                                             |
+| 2026-04-12 | Added .gitignore     | Excludes `github_token.txt` from commits                                              |
+| 2026-04-12 | Token-based push     | Used PAT in remote URL to authenticate pushes from Cowork                             |
+| 2026-04-12 | Deleted ~$Items.docx | Removed Word temp file from repo                                                      |
+| 2026-04-12 | Added research_1.md  | Deep-dive on tokenized securities, BlackRock BUIDL, and retail investor opportunities |
+
+
+
+Research Guidelines
+
+## What to look for when researching stocks and investable securities
+
+### Public Stocks
+
+* **What they do** — one-paragraph business overview
+* **Basic company info** — market cap, P/E ratio, sector, headquarters
+* **Stock performance** — recent price action, 1Y / YTD returns, line chart
+* **Comparable companies** — 3–5 peers with brief descriptions
+* **Comparable stock performance** — side-by-side performance metrics and line charts
+
+### ETFs
+
+* **Composition** — top 10 holdings with weights
+* **Quick overview** — fund objective, AUM, expense ratio
+* **Star holdings** — deeper look at 1–2 top or notable holdings with performance line charts
+
+### Private Companies
+
+* **Background** — founding story, leadership, headquarters
+* **Business** — what they do, key products/services, target market
+* **Revenue** — latest known revenue figures or range
+* **Valuation timeline** — funding rounds, valuations over time, latest known valuation
+
+## Output Format
+
+* All tickers in a single Word document for high-level overview
+* Half a page to 1 page per ticker
+* Keep it scannable — tables, bullet points, and charts where helpful

@@ -346,7 +346,97 @@ Once any one of those is confirmed, this section can be filled out with the same
 
 ---
 
-## 14. Robinhood Venture Fund — Private-Market Access Product
+## 14. Fundrise — Private Platform (Real Estate + Innovation Fund)
+
+Fundrise is the largest direct-to-consumer private-alternatives platform in the US, founded in 2010 by brothers Ben and Dan Miller and headquartered in Washington, DC. The platform pioneered the "eREIT" wrapper to give non-accredited retail investors institutional-style access to private real estate, and has more recently expanded into private tech via the **Fundrise Innovation Fund** and into private credit via the **Fundrise Income Fund**. As of 2025–2026, total AUM has grown to roughly $3–4B across ~500K+ retail investors, with entry minimums as low as $10. Fundrise itself is **private — not publicly traded** — though it has periodically signaled interest in eventually going public.
+
+### Key facts
+
+| Item | Detail |
+|---|---|
+| Founded | 2010 |
+| HQ | Washington, DC |
+| Status | Private (not publicly listed) |
+| AUM | ~$3–4B (verify latest) |
+| Investor count | ~500K+ retail |
+| Minimum investment | As low as $10 (Innovation Fund), $1k for some products |
+
+### Product line
+
+- **eREITs** — diversified private real estate (residential, commercial, industrial), the original product
+- **eFunds** — single-asset or concentrated real estate funds
+- **Fundrise Innovation Fund** — late-stage private tech, launched 2022; reported holdings have included Anthropic, Databricks, Canva, ServiceTitan, ScaleAI, and similar growth-stage names. Effectively a retail-accessible venture-growth fund.
+- **Fundrise Income Fund** — private credit, real-estate-backed lending
+- **IRA wrapper** — same products inside a retirement account
+
+### Why this matters
+
+Fundrise sits at the intersection of two retail-access trends: (1) **democratization of private real estate**, where Fundrise was first-mover and remains category leader vs. Cadre, RealtyMogul, and Yieldstreet; and (2) **democratization of late-stage venture**, where the Innovation Fund competes with ARK Venture (ARKVX), Linqto, EquityZen, and now the Robinhood Ventures product (see §16 below). Unlike most accredited-only platforms, Fundrise is open to **any retail investor at any income level**, which is the key structural differentiator.
+
+### Comparable platforms
+
+| Name | Ticker | Focus |
+|---|---|---|
+| ARK Venture Fund | ARKVX | Late-stage venture, retail-accessible interval fund |
+| Forge Global | FRGE | Public broker-dealer for private secondaries |
+| Yieldstreet | Private | Multi-asset alternatives, accredited focus |
+| Cadre | Private | Commercial real estate, accredited |
+| RealtyMogul | Private | Crowdfunded real estate |
+| EquityZen / Linqto | Private | Accredited-only private secondaries |
+
+---
+
+## 15. Moonvest ETF (MNVT) — Public ETF (Active, Creator-Led)
+
+The Moonvest ETF (`MNVT`, listed on Nasdaq) is a newly-launched **actively managed, creator-led equity ETF** run by Alex G ([@AlexMoonvest](https://x.com/AlexMoonvest)) and co-founder Venkat ([@venkat4754](https://x.com/venkat4754)). It is the institutionalization of Alex G's personal investing strategy — multi-industry, multi-geography, multi-style — packaged into an ETF wrapper for US investors. The vehicle is high-risk / higher-potential-reward by the manager's own description, with a contrarian "fallen-but-fixable" stock-picking thesis at its core.
+
+### Strategy
+
+The fund targets stocks with **asymmetric risk-reward profiles trading significantly below their 52-week highs**. The manager's stated edge is deep fundamental analysis to **distinguish temporary setbacks from structural headwinds** — i.e. catch the dislocations where the market has lumped a recoverable name in with the truly broken ones. In practice this is a contrarian / deep-value / "buy the drawdown" approach, applied across sectors and geographies rather than confined to a single thematic.
+
+### Why launch as an ETF
+
+The manager cited three reasons in the launch announcement:
+
+1. **Simplicity** — direct, single-ticker access for investors who already align with the manager's style.
+2. **Tax efficiency** — ETF in-kind redemption mechanism reduces capital-gains drag vs. trading in a taxable personal account.
+3. **Transparency** — holdings and trades published with a **1-day lag**, plus daily returns. This is more transparent than typical quarterly 13F disclosure.
+
+The manager has also publicly committed to investing a significant portion of personal portfolio into the fund (manager skin-in-the-game).
+
+### Key facts
+
+| Item | Detail |
+|---|---|
+| Ticker | MNVT |
+| Exchange | Nasdaq |
+| Structure | Actively managed equity ETF |
+| Strategy | Contrarian / asymmetric upside, names well below 52-week highs |
+| Disclosure | Holdings and trades on T+1 lag |
+| Managers | Alex G (@AlexMoonvest), Venkat (@venkat4754) |
+| Listed | 2026 (recent) |
+| Distribution channel | Creator-driven via X and RedNote (Xiaohongshu) audience |
+
+### What this fits among (creator-led / active style ETFs)
+
+| Ticker | Name | Style |
+|---|---|---|
+| ARKK / ARKQ / ARKW | ARK Innovation suite | Cathie Wood, high-conviction disruptive innovation |
+| AVUV | Avantis US Small Cap Value | Systematic small-cap value |
+| RPV | Invesco S&P 500 Pure Value | Rules-based deep value tilt |
+| FALN | iShares Fallen Angels HY Bond | Fallen-angel concept, but in credit not equity |
+| TWLV | Roundhill MAGS / similar manager-led actives | Active concentrated equity |
+
+### Investor-lens considerations
+
+- **Creator-led product risk**: returns are tied to the manager's continued engagement and judgment. Key-person risk is real for single-manager active funds; succession is rarely defined.
+- **Audience overlap with strategy**: RedNote distribution suggests a sizable Chinese-speaking retail following — flows can be momentum-y around the manager's social-media activity, which can amplify NAV/AUM volatility.
+- **Drawdown-buying strategies have well-known failure modes**: catching falling knives in true structural declines (e.g. melting-ice-cube businesses, fraud, regulatory cliff). The "temporary setback vs. structural headwind" call is exactly where active managers earn or lose their fees.
+- **Compare honestly to a passive value tilt**: the right benchmark is not the S&P 500 — it's RPV, IUSV, or AVUV. Beating large-cap passive doesn't validate the strategy; beating a value benchmark net of fees does.
+
+---
+
+## 16. Robinhood Venture Fund — Private-Market Access Product
 
 Robinhood Markets (HOOD) has aggressively pushed into private-market and alternative-asset access for retail investors as a strategic complement to its public-market brokerage. "Robinhood Venture Fund" most plausibly refers to one of three related initiatives Robinhood has been building out:
 
