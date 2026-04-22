@@ -72,3 +72,80 @@ A task running on the "New Go" folder — goal is to judge each folder/file on t
 **Delivery**: saves a copy to E:\New Go\ and commits the review (`new-go-review-2026-04-19.md`) to the root of the Github repo at E:\Github Go (tracking main on github.com/goodybooy/gogo).
 
 **Side flag**: `github_token.txt` is sitting uncommitted in the repo root and not gitignored — worth rotating and ignoring if it's still a live token.
+
+## Reading PDFs and DOCX with screenshots / Chinese / image-heavy content
+
+When working with `/New Go/` study materials, many PDFs are **image-based scans, screenshots embedded in docs, or contain Chinese text**. Plain text extraction often returns garbage or empty strings. Below is the recipe that worked — drop it in if you're a future agent picking this up.
+
+### PDFs
+
+1. **Try text extraction first** — fastest, works for born-digital PDFs:
+   ```bash
+   pdftotext -layout "/path/to/file.pdf" -
+   ```
+   If output is empty, mostly whitespace, or shows mojibake (especially for Chinese), it's a scanned/image PDF — fall back to step 2.
+
+2. **Use the multimodal `Read` tool directly on the PDF** — Claude can natively parse PDF pages as images, including Chinese characters, equations, and embedded screenshots. **Hard limit: 20 pages per call.** For longer PDFs, chunk with the `pages` parameter:
+   ```
+   Read(file_path="/path/to/file.pdf", pages="1-20")
+   Read(file_path="/path/to/file.pdf", pages="21-40")
+   ```
+   This is the workhorse. It handles screenshots-of-screenshots, hand-drawn diagrams, Chinese math papers — anything visual.
+
+3. **Render pages as images** (only if you need to pass pages to a different tool or want JPGs on disk):
+   ```bash
+   pdftoppm -jpeg -r 150 "/path/to/file.pdf" /tmp/page
+   ```
+   Produces `/tmp/page-1.jpg`, `/tmp/page-2.jpg`, ...
+
+4. **Do NOT reach for tesseract for Chinese.** The sandbox tesseract install only ships with `eng` and `osd` language packs — `chi_sim` / `chi_tra` are not available. Multimodal `Read` is the answer for Chinese, not OCR.
+
+### DOCX
+
+1. **Quick text + tables** — pandoc to markdown:
+   ```bash
+   pandoc "/path/to/file.docx" -t markdown --atx-headers -o /tmp/out.md
+   ```
+   Note: pandoc 2.9.2.1 in the sandbox uses `--atx-headers`, **not** `--markdown-headings=atx`. Watch out for docx files with duplicate-name styles ("Heading 1" vs "Heading1") — pandoc may emit headings as plain numbered text. If that happens, fall back to writing the markdown by hand.
+
+2. **Programmatic edits** — `python-docx`:
+   ```python
+   from docx import Document
+   doc = Document("/path/to/file.docx")
+   for p in doc.paragraphs: ...
+   for t in doc.tables: ...
+   doc.save("/path/to/file.docx")
+   ```
+   When duplicate-name styles break `add_heading(level=1)`, look up by **style id** instead of name:
+   ```python
+   H1 = doc.styles['Heading1']      # by id
+   p = doc.add_paragraph("title")
+   p.style = H1
+   ```
+
+3. **Extract embedded images / screenshots** — DOCX is just a ZIP archive:
+   ```bash
+   unzip -o "/path/to/file.docx" -d /tmp/docx_unpacked
+   ls /tmp/docx_unpacked/word/media/   # png/jpeg embeds live here
+   ```
+   Then `Read` the extracted image files directly to view them.
+
+### Legacy `.doc` (Word 97-2003)
+
+`python-docx` cannot open these. Convert first with LibreOffice:
+```bash
+soffice --headless --convert-to docx "/path/to/file.doc" --outdir /tmp/
+```
+Then proceed with the DOCX recipes above.
+
+### Quick decision tree
+
+| Source | First try | Fallback |
+|:------|:------|:------|
+| Born-digital PDF | `pdftotext -layout` | multimodal `Read` (chunked) |
+| Scanned / image PDF | multimodal `Read` (≤20 pp/call) | `pdftoppm` then `Read` images |
+| Chinese PDF | multimodal `Read` | (not tesseract — no `chi_sim`) |
+| DOCX text/tables | `pandoc -t markdown --atx-headers` | `python-docx` walk |
+| DOCX with duplicate styles | hand-write the markdown | `python-docx` with style-id lookup |
+| Embedded images in DOCX | `unzip` → `word/media/` | — |
+| `.doc` (legacy) | `soffice --convert-to docx` first | — |
