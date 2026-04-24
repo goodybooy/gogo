@@ -474,4 +474,45 @@ The exact structure and accessibility of "Robinhood Venture Fund" matters a lot 
 
 ---
 
+## 17. Firefly Aerospace (FLY) — Public Stock
+
+Firefly Aerospace is an end-to-end responsive space company offering **launch, lunar, and on-orbit services**. Its core product lineup spans: the **Alpha** small-lift rocket (~1,030 kg to LEO at ~$15M per launch), the **Blue Ghost** lunar lander (first commercial lander to fully succeed on the Moon — Mission 1 touched down at Mare Crisium on March 2, 2025), the **Eclipse** medium-lift vehicle (formerly MLV, co-developed with Northrop Grumman, first flight targeted 2027), and the **Elytra** orbital-transfer-vehicle family for LEO / GEO / cislunar mobility. Founded in 2014 (relaunched 2017 after restructuring) and headquartered in Cedar Park, Texas. The company IPO'd on Nasdaq under ticker `FLY` in August 2025, pricing at $45 and closing its debut day at ~$60 for a ~$8.5B valuation, raising $868M.
+
+### Key Metrics
+
+| Metric | Value |
+|---|---|
+| Stock Price | ~$42 |
+| Market Cap | ~$7.0B |
+| P/E (Trailing) | N/A (currently unprofitable) |
+| 2025 Revenue | $159.9M (+163% YoY) |
+| 2026 Guidance | $420M–$450M (~80% booked) |
+| YE 2025 Cash | ~$793M |
+| 2025 Net Loss | $298M |
+| 2025 FCF Burn | ~$238M |
+| Sector | Aerospace & Defense |
+| HQ | Cedar Park, Texas |
+
+### Stock Performance & Recent Developments
+
+FLY debuted on Nasdaq on **August 7, 2025** at $45 and surged ~34% on its first day to close at $60.35 (~$8.5B valuation). The stock has since pulled back to ~$42 (market cap ~$7.0B) on profitability concerns. Key 2026 catalysts:
+
+- **Alpha return-to-flight on March 11, 2026** (Flight 7) after a five-month stand-down following a September 2025 ground-test anomaly that destroyed a booster.
+- **VICTUS DIEM responsive-launch simulation** with Lockheed Martin and the US Space Force in March 2026 — sub-12-hour payload processing, sub-36-hour launch readiness. This is a direct play into the Space Force's "tactically responsive space" procurement track.
+- **$176.7M NASA CLPS award** (July 2025) for a 2029 lunar south-pole mission.
+- **SciTec acquisition** lifted the FORGE missile-warning ground-system contract from $263M to $372M.
+
+**Key risks**: persistent cash burn, Alpha launch-cadence execution, MLV/Eclipse first-flight slippage, and lumpy government-contract timing.
+
+### Comparable Companies
+
+| Company | Ticker | Focus |
+|---|---|---|
+| Rocket Lab | RKLB | Small/medium launch + satellite buses + Neutron |
+| Intuitive Machines | LUNR | Commercial lunar landers (Nova-C) + NASA CLPS |
+| AST SpaceMobile | ASTS | Space-based cellular broadband (LEO) |
+| Sidus Space | SIDU | Satellite-as-a-service + on-board AI |
+
+---
+
 ***Disclaimer:** This report is for informational purposes only and does not constitute investment advice. Data sourced from public filings, news reports, and financial databases as of April 2026. Verify all figures before making investment decisions.*
