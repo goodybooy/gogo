@@ -8,6 +8,16 @@
 
 ## Git Workflow Notes
 
+### Local-first editing rule (IMPORTANT)
+
+When HX asks for any change to a file in this repo:
+
+1. **Always modify the local working-directory file first.** Never edit the remote version directly (e.g., via GitHub API, `git show` redirects into committed state, or pushing a change that wasn't applied locally).
+2. **Do not commit or push automatically.** Leave changes uncommitted in the working tree after editing.
+3. **Only commit and push when HX explicitly says so** — e.g., "push to git", "commit and push", "push to gogo". Then run the full commit + push flow.
+
+Why: editing remote without touching local leaves the working directory out of sync with `origin/main`, which caused a stuck merge + `index.lock` issue on 2026-04-23. Local is always the source of truth; remote is updated from local on demand.
+
 ### Mounted folder limitation
 
 Git operations through the Cowork-mounted folder are unreliable. The workaround is to **clone the repo directly into the Cowork working directory** and operate from there:
