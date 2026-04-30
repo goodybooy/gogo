@@ -20,10 +20,18 @@ Why: editing remote without touching local leaves the working directory out of s
 
 ### Mounted folder limitation
 
-Git operations through the Cowork-mounted folder are unreliable. The workaround is to **clone the repo directly into the Cowork working directory** and operate from there:
+Git operations through the Cowork-mounted folder are unreliable. The workaround is to **clone the repo directly into the Cowork working directory** and operate from there.
+
+Initial clone (with the token embedded in the URL — see Authentication below):
 
 ```bash
-cd /sessions/<session-id>/gogo_repo
+git clone https://goodybooy:${TOKEN}@github.com/goodybooy/gogo.git /sessions/<session-id>/gogo_repo
+```
+
+If the clone already exists from earlier in the session, pull the latest instead:
+
+```bash
+cd /sessions/<session-id>/gogo_repo && git pull origin main
 ```
 
 This cloned copy is used for all git operations (add, commit, push), then the mounted folder stays in sync.
@@ -37,16 +45,39 @@ TOKEN=$(cat github_token.txt)
 git remote set-url origin https://goodybooy:${TOKEN}@github.com/goodybooy/gogo.git
 ```
 
-### Commit and push command
+### Push workflow
 
-Since the working directory doesn't have a global git user configured, pass credentials inline with `-c`:
+Before committing, copy the file(s) into the clone (the source could be the working directory, a mounted folder, or anywhere else):
+
+```bash
+cp "<source-path>" /sessions/<session-id>/gogo_repo/<desired-filename>
+```
+
+If the destination is a subdirectory, `mkdir -p` it first.
+
+Since the working directory doesn't have a global git user configured, pass credentials inline with `-c`. Use a HEREDOC for the commit message so multi-line messages and the `Co-Authored-By` trailer render correctly:
 
 ```bash
 cd /sessions/<session-id>/gogo_repo \
-  && git -c user.name="HX" -c user.email="huanxiliu99@gmail.com" add <file> \
-  && git -c user.name="HX" -c user.email="huanxiliu99@gmail.com" commit -m "commit message" \
+  && git -c user.name="HX" -c user.email="huanxiliu99@gmail.com" add <file-or-files> \
+  && git -c user.name="HX" -c user.email="huanxiliu99@gmail.com" commit -m "$(cat <<'EOF'
+<commit message>
+
+Co-Authored-By: Claude <noreply@anthropic.com>
+EOF
+)" \
   && git push origin main
 ```
+
+### Commit message format
+
+- Keep it concise (1–2 lines).
+- Use conventional prefixes: `Add ...`, `Update ...`, `Fix ...`, etc.
+- Include the `Co-Authored-By: Claude <noreply@anthropic.com>` trailer when Claude helped author or prepare the file.
+
+### Confirm before bundled pushes
+
+If a commit would include more than what HX explicitly asked to push (e.g. unrelated edits already in the working tree), **confirm with HX before pushing** — pushes go directly to `main` and there is no PR review step.
 
 ## Markdown Formatting Notes
 
