@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/Good PC/.claude/plugins/**)",
+      "Read(//c/Users/Good PC/.claude/skills/**)",
+      "Bash(tasklist)"
+    ]
+  }
+}
