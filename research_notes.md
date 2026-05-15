@@ -2,6 +2,18 @@
 
 ---
 
+## 7. Cerebras Systems — IPO
+
+**Overview.** Cerebras Systems is an AI chipmaker founded in 2016, best known for building the Wafer Scale Engine (WSE) — a chip roughly the size of a dinner plate (~46,000 mm²). The WSE-3 packs 4 trillion transistors and 900,000 AI-optimized cores onto a single silicon wafer, eliminating the inter-chip networking bottleneck that plagues Nvidia's multi-GPU clusters. The result is 10–15x faster inference than an H100 for large language models. The company has pivoted from pure chip sales toward operating its own AI cloud — customers pay for inference capacity rather than buying hardware outright.
+
+**Financials.** 2025 revenue was ~$510M, up 76% YoY from ~$290M in 2024. The company turned profitable in 2025 with $87.9M in net income. Key relationships: a $10B+ multi-year agreement with OpenAI (including a loan and warrants), and a binding term sheet with AWS to deploy Cerebras chips inside Amazon data centers — the first major hyperscaler to do so.
+
+**IPO — second attempt.** Cerebras originally filed for an IPO in October 2025 but withdrew after the U.S. government raised national security concerns over heavy reliance on UAE-based investor G42. It refiled in April 2026 after restructuring that relationship. The current offering targets 28M shares at $115–$125/share, aiming to raise $3.5B at a ~$26.6B valuation on Nasdaq (ticker: CBRS). IPO pricing is set for May 13, 2026. Demand is running hot — Bloomberg reported ~$10B in orders for the $3.5B on offer, suggesting pricing above the range.
+
+**Risks.** Customer concentration is significant — two customers accounted for 86% of 2025 revenue. Competitors in the S-1 include every major cloud provider (AWS, Azure, GCP, Oracle, CoreWeave) plus Nvidia as the dominant underlying hardware. The company's wafer-scale approach is technically differentiated but capital-intensive to scale, and the pivot to cloud inference puts it in direct competition with deep-pocketed hyperscalers.
+
+---
+
 ## 1. VRT — Vertiv Holdings
 
 ### Business Overview
@@ -224,3 +236,41 @@ Obsidian and Notion serve fundamentally different use cases: Notion dominates te
 ---
 
 *Research compiled May 7, 2026. Data sourced from Yahoo Finance, MarketBeat, CoinDesk, BeinCrypto, TechCrunch, Pluscios Management, Tracxn, and other public sources.*
+
+---
+
+## 8. Dell Technologies — Trump Endorsement
+
+**The Call.** On May 8, 2026, during a White House Mother's Day event, President Trump publicly urged Americans to "go out and buy a Dell computer" in a show of support for domestic tech manufacturing. The endorsement was accompanied by a Truth Social post and immediately sent shares surging — DELL hit an all-time record of $263.99 intraday (+14.6%), ultimately closing up ~12%. It was Dell's best weekly performance in over two years, with the stock gaining ~24% on the week.
+
+**Background: The Dell–Trump Relationship.** The endorsement followed a $6.25 billion donation from Michael and Susan Dell to "Trump Accounts" — a federal wealth-building initiative for children — announced in December 2025. Michael Dell has re-entered the top 10 wealthiest Americans in 2026 partly on the back of the stock's run.
+
+**Fundamentals Supporting the Move.** Beyond the political tailwind, Dell's AI business has been accelerating rapidly. AI-optimized server revenue surged 342% year-over-year in Q4 fiscal 2026, positioning Dell as a major beneficiary of the data center buildout cycle alongside names like VRT and VST. The Trump call served as a catalyst on top of an already improving fundamental picture.
+
+**Key Risk.** The stock's move is partially sentiment-driven and could give back quickly if the political relationship sours or the broader AI capex cycle slows. The stock was already up significantly YTD before the endorsement, so valuation risk is real at current levels.
+
+---
+
+## 9. DRAM ETF — Roundhill Memory ETF (Ticker: DRAM) + Tuttle Capital Context
+
+**Roundhill Memory ETF (DRAM).** Launched April 2, 2026, the Roundhill Memory ETF (BATS: DRAM) is the first U.S.-listed pure-play memory semiconductor ETF — the closest match to what you described. It surged ~70% in its first 24 sessions and pulled in over $5 billion in assets (including $1B+ in a single day), making it one of the fastest-ramping ETF launches on record. The fund holds ~14 names with ~70% concentration in Micron (MU), SK Hynix, and Samsung. Expense ratio: 0.65%. The thesis is straightforward: memory is the critical bottleneck in AI inference pipelines (HBM for GPUs, DRAM for servers), and HBM pricing is inflecting.
+
+**Tuttle Capital Angle.** Tuttle Capital Management is known for launching aggressive leveraged and thematic single-stock or niche ETFs quickly (they've done 2x leveraged ETFs on names like NVDA, TSLA, META, etc.). As of the research date, a dedicated Tuttle Capital 2x DRAM ETF has not yet been confirmed in public filings or announcements — though given Tuttle's history of rapidly following hot thematic trades with leveraged wrappers, a 2x memory/DRAM product would be consistent with their playbook. Worth monitoring SEC filings and ETF launch announcements for a potential DRAX or similar ticker. If you have a specific ticker in mind, flag it and I can dig further.
+
+**Why It Matters.** Pure-play memory exposure is distinct from broad semis (SOXX, SMH) because memory companies are more cyclical and more directly tied to AI HBM demand. A 2x leveraged version would amplify both the upside from HBM supercycle dynamics and the downside from DRAM pricing cycles — high risk, high reward instrument.
+
+---
+
+## 10. Hammond Power Solutions (TSX: HPS.A)
+
+**Company Overview.** Hammond Power Solutions (TSX: HPS.A) is a Canadian manufacturer of dry-type transformers and power quality solutions, serving industrial, commercial, and data center markets. It's a Toronto-listed small/mid-cap with growing exposure to the North American data center buildout and grid electrification theme — a picks-and-shovels AI infrastructure play.
+
+**Q1 2026 Earnings (reported May 5, 2026).** Record quarterly sales of $265M, up 31.5% year-over-year. Adjusted EPS came in at $2.08 vs. $1.60 in Q1 2025 (+30%), though GAAP EPS declined to $1.64 from $2.20 due to non-recurring items. Growth was driven by strength in U.S. and Mexico custom product shipments and data center-related orders. A new Mexico factory began shipping in Q1, adding capacity for future growth. Backlog grew 4.1% from year-end 2025 — a forward indicator of continued demand.
+
+**Analyst Reaction.** RBC raised its price target to C$350 (from C$250) with an Outperform rating. National Bank Financial raised its target to C$325 (from C$235). The stock has been re-rated sharply higher as the market prices in sustained data center transformer demand.
+
+**Investment Thesis.** HPS.A is a direct beneficiary of the AI infrastructure buildout — data centers require large custom transformers, and lead times are long (6–18 months), meaning backlog provides good visibility. It trades at a premium to historical multiples but has been consistently beating estimates. Key risks: tariff exposure (U.S./Canada trade friction), commodity cost pass-through, and cyclicality if data center capex slows.
+
+---
+
+*Research updated May 8, 2026. Additional sources: Investing.com, GlobeNewswire, MarketBeat, Roundhill Investments, ETFdb.com, Benzinga.*
