@@ -274,3 +274,73 @@ Obsidian and Notion serve fundamentally different use cases: Notion dominates te
 ---
 
 *Research updated May 8, 2026. Additional sources: Investing.com, GlobeNewswire, MarketBeat, Roundhill Investments, ETFdb.com, Benzinga.*
+
+---
+
+## 11. ABB Ltd (SWX: ABBN) — Switzerland
+
+**Overview.** ABB is a Swiss industrial conglomerate spanning electrification, motion, process automation, and robotics. It's one of the largest automation and power technology companies globally, with a growing footprint in AI-driven data center power infrastructure — a key re-rating driver in 2025–2026.
+
+**Q1 2026 Earnings.** Net income attributable to shareholders was $1.32B, up 20% YoY. Basic EPS of $0.73 vs. $0.60 a year prior. Free cash flow of $1.3B was the strongest Q1 in company history. Following a jump in data center-related orders, ABB raised full-year comparable revenue growth guidance to high single-digit to low double-digit percent, up from the prior 6–9% range. Shares hit a 1-year high of ~$103.31 on May 6 (+3.4% on the day).
+
+**Robotics Spinoff — Major Catalyst.** ABB announced it will spin off its robotics division (industrial robots, software) as a separately listed company in Q2 2026, with likely listings in Switzerland and Sweden. This is a significant strategic move — it allows ABB to focus on its higher-margin electrification unit (which is directly benefiting from AI data center buildout) while unlocking value in the robotics business as a pure-play. The spinoff is an event-driven catalyst worth watching for both the parent and the new entity.
+
+**Investment Thesis.** ABB sits at the intersection of two mega-themes: AI data center power infrastructure (electrification) and physical AI/automation (robotics). Post-spinoff, the parent becomes a cleaner electrification/automation story. Key risk: European industrial exposure and FX headwinds from CHF strength.
+
+---
+
+## 12. BOT — RoboStrategy Inc (NASDAQ: BOT)
+
+**Overview.** RoboStrategy Inc. (Nasdaq: BOT) listed on May 11, 2026 — just days ago. It's the first publicly traded closed-end fund designed to give retail and institutional investors access to private, pre-IPO, and public robotics and physical AI companies in a single stock. Think of it as a listed VC vehicle for the humanoid/physical AI wave.
+
+**Structure.** Non-diversified closed-end management investment company. At least 13 portfolio companies, average investment size ~$7.2M per round. Holdings include Figure AI, Apptronik, Dyna Robotics, Standard Bots, Dexmate, and others across autonomous systems and the robotics supply chain. The fund gives public market investors access to names that are typically only available to venture capital.
+
+**Why It's Interesting.** The humanoid robot space (Figure AI, 1X, Apptronik, etc.) is largely private and inaccessible to public investors. BOT is one of the only listed vehicles providing direct exposure without waiting for individual IPOs. It's essentially a bet on the physical AI / embodied intelligence theme as a basket. Key risk: NAV discount/premium volatility typical of closed-end funds, early-stage portfolio with no near-term profitability, and illiquid underlying positions.
+
+---
+
+## 13. Harmonic Drive Systems (TSE: 6324) — Japan
+
+**Note on ticker.** The correct TSE ticker is **6324**, not 6342. Trades in Tokyo; OTC ADR ticker is HSYDF.
+
+**Overview.** Harmonic Drive Systems manufactures precision control components — primarily strain wave gears (the "harmonic drive" mechanism), rotary and linear actuators, motors, sensors, and controllers. These components are critical in robotics, aerospace, semiconductor equipment, and e-mobility. Harmonic drive gears are the de facto standard in robot joints requiring high precision and zero backlash — virtually every industrial and humanoid robot arm uses them or equivalent technology.
+
+**Financials.** Trailing 12-month revenue ~$381M (as of Sep 2025). Current price ~¥6,970 (+5.6% recent session). The company unveiled a 2026–2030 growth plan focused on AI robots, aerospace, and e-mobility. Near-term earnings are under pressure (profit slump noted) but management guided a strong rebound in FY2027 as humanoid robot demand ramps. Next earnings: Aug 11, 2026.
+
+**Investment Thesis.** Pure-play picks-and-shovels bet on the humanoid robot wave — every robot that ships is a potential customer for precision actuators. Demand from Figure AI, Boston Dynamics, Unitree, and Chinese humanoid makers is a major growth vector. Valued at a premium to historical multiples; the stock is essentially pricing in a multi-year humanoid ramp. Key risk: customer concentration, Japanese yen dynamics, and competition from Chinese precision component makers.
+
+---
+
+## 14. ASTS (AST SpaceMobile) & Firefly Aerospace (FLY)
+
+### AST SpaceMobile (NASDAQ: ASTS)
+**Overview.** ASTS is building a space-based cellular broadband network — satellites that connect directly to standard smartphones without special hardware, partnered with AT&T, Verizon, Rakuten, and others. The vision is global coverage including remote and rural areas currently without cellular service.
+
+**Q1 2026.** Revenue $14.7M (well below ~$37M analyst estimate). Net loss $191M. Cash on hand: $3.5B — providing a long runway. Full-year revenue guidance reaffirmed at $150–$200M. The company is targeting 45 BlueBird satellites in orbit by year-end. BlueBird 6 (largest commercial comms array antenna ever deployed in LEO) unfolded in Feb 2026; BlueBird 7 launched April 19 aboard Blue Origin's New Glenn but experienced a failure, potentially leaving ASTS ~7 satellites short of its 45-unit target. Stock surged ~20% post-earnings on the guidance reaffirmation despite the miss. FCC approval for direct-to-device broadband service secured; peak speeds of 98.9 Mbps demonstrated. Stock around $74, off highs; satellite execution and SpaceX IPO (potential competitive threat) are key overhangs.
+
+### Firefly Aerospace (NASDAQ: FLY)
+**Overview.** Firefly is a Texas-based space launch and lunar lander company. IPO'd in late 2025 at a ~$6B valuation, raising ~$697M. Q1 2026 revenue of $80.9M was a record, driven by government contracts, Moon lander milestones, and AI-enabled defense programs. Full-year 2026 revenue guidance: $420–$450M. Stock up ~34% in 2026 YTD. Key catalysts: Blue Ghost Mission 2 lunar landing, medium-lift Eclipse rocket development, and a partnership with Nvidia/SciTec to fly an AI computing module on a late-2026 lunar imaging mission. Also selected to support a $3.2B Space Force Space-Based Interceptor program. Analysts: 9/9 Buy, avg. 12-month target $40.13.
+
+---
+
+## 15. Cadence Design Systems (NASDAQ: CDNS)
+
+**Overview.** Cadence is one of the two dominant EDA (Electronic Design Automation) software companies alongside Synopsys. EDA software is the toolchain that chip designers use to design, simulate, verify, and sign off semiconductor layouts before fabrication. Every chip made by NVIDIA, AMD, Apple, Qualcomm, and custom silicon teams runs through Cadence or Synopsys tools. As chip complexity explodes with AI, EDA spend is growing structurally.
+
+**Q1 2026 Earnings.** Revenue $1.474B, up 19% YoY — every segment grew double digits. Non-GAAP EPS $1.96. Record backlog of $8B, described as "ahead of plan." Full-year 2026 revenue guidance raised to $6.125–$6.225B (~17% growth, midpoint up $65M organically). Non-GAAP EPS guidance raised to $7.85–$7.95. IP segment +22% YoY; Core EDA +18%; System Design & Analysis +18%.
+
+**AI Angle.** Cadence is embedding AI across its design flow through its "Cadence.AI" suite. New agentic AI tools — ChipStack, ViraStack, InnoStack — are driving consumption-based revenue on top of core subscriptions. A TSMC alliance and AI Super Agents are boosting customer adoption. The AI chip design boom is directly expanding Cadence's addressable market — more custom AI chips = more EDA hours. Stock ~$348.50 as of May 8, up ~15% YTD. Analyst consensus: 12 Buy, 2 Hold, 1 Sell.
+
+**Investment Thesis.** Cadence is a structural compounder — sticky subscription revenue, high switching costs (chip teams can't mid-cycle switch EDA vendors), and direct leverage to the AI chip design wave. Trades at ~45x forward earnings, which is elevated but has been historically justified by consistent double-digit growth. Key risk: the Synopsys–Ansys merger (if approved) creates a stronger competitor in system simulation; also macro slowdown in semiconductor capex.
+
+---
+
+---
+
+## 16. Situational Awareness Fund (LP)
+
+Founded by Leopold Aschenbrenner — ex-OpenAI Superalignment researcher, age 23 — and seeded by Nat Friedman, Daniel Gross, and Patrick & John Collison (Stripe founders). Started at ~$225M AUM; grew to ~$5.5B in U.S. equity exposure by Feb 2026 13F. The thesis is AGI-infrastructure: bet on the physical bottlenecks (power, compute capacity) rather than the model builders. Portfolio is concentrated (~24–30 positions) and heavy in power plays and Bitcoin miners pivoting to AI hosting — Bloom Energy (largest holding), Coherent, Tower Semi, SanDisk, Core Scientific, Riot Platforms, IREN, BitDeer, Hut 8, Applied Digital. Worth tracking 13F filings for positioning signals on the AI infrastructure theme.
+
+---
+
+*Research updated May 14, 2026. Additional sources: ABB Q1 results, GlobeNewswire (BOT listing), Yahoo Finance (ASTS, FLY, CDNS), Investing.com (Harmonic Drive), TIKR (CDNS earnings), StockAnalysis.*

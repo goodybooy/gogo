@@ -1,0 +1,15 @@
+reddit discussion trend (# of topics, comments, hotness)
+
+from terminal market cap(sector 标杆企业 as reference 等）, backout initial market cap pool stock and screen big moves (20%, 30% move which trigger/begin multiple growth)
+小市值，搜索过去已经20%~50% return 的，结合是否是热板块判断后期能否翻倍
+盈利从负到正等
+
+leopold's tracker , autopilot
+
+sector list of etf/tickers
+news (major/reddit/x) - price reaction
+
+social media following people, check overlap names etc
+
+
+
