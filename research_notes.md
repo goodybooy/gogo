@@ -344,3 +344,16 @@ Founded by Leopold Aschenbrenner — ex-OpenAI Superalignment researcher, age 23
 ---
 
 *Research updated May 14, 2026. Additional sources: ABB Q1 results, GlobeNewswire (BOT listing), Yahoo Finance (ASTS, FLY, CDNS), Investing.com (Harmonic Drive), TIKR (CDNS earnings), StockAnalysis.*
+
+---
+
+## 17. Queued for Research
+
+The following names have been flagged for follow-up research — bare tickers/names only at this stage, no write-up yet:
+
+- **Towa**
+- **SIVE (SIVEF)**
+- **Cien**
+- **CRDO**
+
+*Queued May 16, 2026.*
