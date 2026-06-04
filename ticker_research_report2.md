@@ -23,11 +23,13 @@ Vertiv Holdings (NYSE: VRT) is a global provider of critical digital infrastruct
 ### Recent Financials & Earnings
 
 Vertiv reported strong Q1 2026 results:
+
 - **Net sales: $2.65 billion** — up 30% year-over-year, beating guidance by ~$50 million
 - **Adjusted operating profit: $551 million** — up 64% YoY, beating guidance by ~$56 million
 - **EPS: $1.36**, beating analyst consensus of $1.29 by $0.07
 
 For full year 2026, Vertiv raised its guidance:
+
 - Revenue outlook: **$13.50–$14.00 billion**
 - EPS guidance: **$5.97–$6.07**
 
@@ -38,6 +40,7 @@ The primary growth engine is the AI data center boom. Hyperscalers and co-locati
 ### Analyst Sentiment
 
 Wall Street is broadly bullish:
+
 - **Consensus: Strong Buy** (based on 18 analysts — 22 Buy, 3 Hold, 0 Sell)
 - **Average price target: ~$339**, with a high of $414 and a low of $260
 - **Forward growth projections:** Earnings forecast to grow ~22% per annum, revenue ~18% per annum
@@ -59,6 +62,7 @@ Vistra Corp. (NYSE: VST) is the largest competitive power producer in the United
 ### Recent Financials & Earnings (Q1 2026)
 
 Vistra reported on May 7, 2026 (today):
+
 - **Q1 2026 Adjusted EBITDA: $1.494 billion** (record, up ~20% YoY)
 - **GAAP net income: $1.029 billion**
 - **EPS: $1.31**, beating the $1.28 consensus estimate
@@ -98,6 +102,7 @@ A SpaceX USDT perpetual swap (also called a perpetual futures contract) is a cry
 ### Which Exchanges Offer It
 
 As of May 2026, multiple crypto exchanges have launched or announced SpaceX USDT perpetual futures:
+
 - **OKX** — launched perpetual futures for SpaceX (alongside OpenAI and Anthropic) as of ~May 6, 2026, framing it as part of a "pre-IPO frenzy" of private company derivatives
 - **MEXC** — lists SPACEX_USDT perpetual futures (ticker: `SPACEXUSDT`)
 - **BTCC** — launched SPACEXUSDT perpetual futures with up to **50x leverage**, listed in its tokenized stocks section
@@ -135,6 +140,7 @@ Connie brings 30+ years of capital markets and alternative investing experience 
 ### Strategy & AUM
 
 Pluscios is a **hedge fund-of-funds** manager with a differentiated angle: rather than a traditional diversified FOF, the firm focuses on finding **niche, opportunistic, idiosyncratic managers** — often diversity-led and emerging managers — who offer differentiated return streams. Services include:
+
 - Custom diversity-focused allocations
 - Manager due diligence
 - Diversified hedge fund-of-funds portfolios
@@ -153,6 +159,7 @@ Pluscios is a smaller, niche firm with limited media coverage. There are no nota
 ### Product Overview
 
 Perplexity AI is an "answer engine" that uses large language models combined with real-time web search to give cited, sourced answers to user queries — positioning itself as a direct alternative to traditional search engines (Google) and chat-based AI (ChatGPT). Its core differentiator is providing synthesized answers with source citations rather than a list of links. As of 2026, it has expanded beyond search into:
+
 - **Deep Research** — multi-step research workflows
 - **Model Council** — lets users compare outputs from GPT-5.2, Claude 4.6, and others simultaneously on the same query
 - **Perplexity Computer** — an agentic product that can execute complex workflows using 19 AI models, spawning subagents for sub-tasks
@@ -160,6 +167,7 @@ Perplexity AI is an "answer engine" that uses large language models combined wit
 ### Funding & Valuation
 
 Perplexity's funding trajectory has been extraordinary:
+
 - January 2024: ~$500M valuation
 - December 2024: ~$9B valuation
 - May 2025: **$500M Series E** (largest single round)
@@ -171,12 +179,14 @@ Perplexity's funding trajectory has been extraordinary:
 ### Business Model
 
 Revenue streams:
+
 - **Perplexity Pro:** $20/month (standard premium)
 - **Perplexity Max:** $200/month (launched July 2025, enterprise-grade)
 - **Enterprise contracts**
 - In **February 2026**, Perplexity abandoned its AI-integrated advertising strategy, pivoting fully to a **subscription-first model** to preserve the objectivity of its answers
 
 Financial milestones:
+
 - ARR grew from **$80M** (late 2024) → **$200M** (February 2026) → **$450M+** (April 2026, after a 50% MoM revenue surge)
 - Management targets **$656M revenue** by end of 2026
 - Signed a **$750M, 3-year GPU compute deal with Microsoft Azure** (January 2026)
@@ -195,6 +205,7 @@ Financial milestones:
 ### Product Overview
 
 Obsidian is a **local-first, markdown-based personal knowledge management (PKM)** application developed by Dynalist Inc. (a two-to-three person team). It stores notes as plain `.md` files in a folder ("vault") on the user's device — you own your data and it's never locked in a proprietary format. Key distinguishing features:
+
 - **Bidirectional linking** between notes (wiki-style `[[wikilinks]]`)
 - **Graph View** — visual map of note connections (updated in 2025 with improved algorithms)
 - **Canvas** — infinite whiteboard for embedding live notes, images, and web pages
@@ -207,6 +218,7 @@ As of March 2026, Obsidian is on version **1.12.x**.
 ### Business Model — Bootstrapped and Profitable
 
 Obsidian is **fully bootstrapped** (no venture funding raised). The core app is **free** for personal use — the commercial license requirement was dropped in early 2025. Revenue comes from optional paid services:
+
 - **Obsidian Sync:** $4/month — end-to-end encrypted sync across devices
 - **Obsidian Publish:** $8/month — publish vaults as websites
 - **Catalyst:** one-time $25+ — early access to insider builds and community badge
@@ -223,13 +235,13 @@ AI is available **only via community plugins** (e.g., AI Assistant plugin), not 
 
 ### Competitive Landscape
 
-| App | Model | Users | Notes |
-|---|---|---|---|
-| **Notion** | Cloud-first, freemium SaaS | 100M+ | $10B valuation; 70%+ of Fortune 500 |
-| **Obsidian** | Local-first, bootstrapped | Millions (est.) | Privacy-first; ~5% enterprise adoption |
-| **Logseq** | Open-source, local-first | Smaller | Free; strong among developers |
-| **Roam Research** | SaaS, subscription | Niche | $15/mo; early mover in linked notes |
-| **Anytype** | Open-source, local+sync | Growing | Privacy-focused alternative |
+| App               | Model                      | Users           | Notes                                  |
+| ----------------- | -------------------------- | --------------- | -------------------------------------- |
+| **Notion**        | Cloud-first, freemium SaaS | 100M+           | $10B valuation; 70%+ of Fortune 500    |
+| **Obsidian**      | Local-first, bootstrapped  | Millions (est.) | Privacy-first; ~5% enterprise adoption |
+| **Logseq**        | Open-source, local-first   | Smaller         | Free; strong among developers          |
+| **Roam Research** | SaaS, subscription         | Niche           | $15/mo; early mover in linked notes    |
+| **Anytype**       | Open-source, local+sync    | Growing         | Privacy-focused alternative            |
 
 Obsidian and Notion serve fundamentally different use cases: Notion dominates team collaboration and project management, while Obsidian is the tool of choice for individual researchers, writers, and knowledge workers who prioritize data ownership, speed, and extensibility. Obsidian's lack of real-time collaboration makes enterprise adoption low, but its core user base is intensely loyal.
 
@@ -314,11 +326,13 @@ Obsidian and Notion serve fundamentally different use cases: Notion dominates te
 ## 14. ASTS (AST SpaceMobile) & Firefly Aerospace (FLY)
 
 ### AST SpaceMobile (NASDAQ: ASTS)
+
 **Overview.** ASTS is building a space-based cellular broadband network — satellites that connect directly to standard smartphones without special hardware, partnered with AT&T, Verizon, Rakuten, and others. The vision is global coverage including remote and rural areas currently without cellular service.
 
 **Q1 2026.** Revenue $14.7M (well below ~$37M analyst estimate). Net loss $191M. Cash on hand: $3.5B — providing a long runway. Full-year revenue guidance reaffirmed at $150–$200M. The company is targeting 45 BlueBird satellites in orbit by year-end. BlueBird 6 (largest commercial comms array antenna ever deployed in LEO) unfolded in Feb 2026; BlueBird 7 launched April 19 aboard Blue Origin's New Glenn but experienced a failure, potentially leaving ASTS ~7 satellites short of its 45-unit target. Stock surged ~20% post-earnings on the guidance reaffirmation despite the miss. FCC approval for direct-to-device broadband service secured; peak speeds of 98.9 Mbps demonstrated. Stock around $74, off highs; satellite execution and SpaceX IPO (potential competitive threat) are key overhangs.
 
 ### Firefly Aerospace (NASDAQ: FLY)
+
 **Overview.** Firefly is a Texas-based space launch and lunar lander company. IPO'd in late 2025 at a ~$6B valuation, raising ~$697M. Q1 2026 revenue of $80.9M was a record, driven by government contracts, Moon lander milestones, and AI-enabled defense programs. Full-year 2026 revenue guidance: $420–$450M. Stock up ~34% in 2026 YTD. Key catalysts: Blue Ghost Mission 2 lunar landing, medium-lift Eclipse rocket development, and a partnership with Nvidia/SciTec to fly an AI computing module on a late-2026 lunar imaging mission. Also selected to support a $3.2B Space Force Space-Based Interceptor program. Analysts: 9/9 Buy, avg. 12-month target $40.13.
 
 ---
@@ -355,5 +369,20 @@ The following names have been flagged for follow-up research — bare tickers/na
 - **SIVE (SIVEF)**
 - **Cien**
 - **CRDO**
+- aaoi
 
 *Queued May 16, 2026.*
+
+
+
+tema space
+
+ripple, blackrock tokenize
+
+cognition and another competitor high school classmate in (check offering forge)
+
+jbl stock
+
+
+
+星迈创投，鲸准jingdata
