@@ -1,6 +1,6 @@
 # Ticker Research Report — Combined
 
-*High-Level Overview | Sources: April 14, 2026 · May 7, 2026 · May 8, 2026 · May 14, 2026*
+*High-Level Overview | Sources: April 14, 2026 · May 7, 2026 · May 8, 2026 · May 14, 2026 · June 8, 2026*
 
 ---
 
@@ -8,44 +8,7 @@
 
 ---
 
-### 1. Cerebras Systems — Private (IPO Pending)
-
-Cerebras builds the world's largest AI chips, including the Wafer Scale Engine (WSE), which packs an entire wafer's worth of transistors into a single chip. The company competes directly with Nvidia in AI training and inference hardware. It has since pivoted from pure chip sales toward operating its own AI cloud — customers pay for inference capacity rather than buying hardware outright.
-
-#### Key Facts
-
-| Metric | Value |
-|---|---|
-| Latest Valuation | $26.6B (IPO target, May 2026) |
-| Prior Valuation | $23.1B (Series H, Feb 2026) |
-| Total Funding | ~$2.9B across 8 rounds |
-| 2023 Revenue | $78.7M |
-| 2024 Revenue | ~$421M (estimated) |
-| 2025 Revenue | ~$510M (+76% YoY) |
-| 2025 Net Income | $87.9M (turned profitable) |
-| Key Deal | $10B+ compute agreement with OpenAI through 2028; binding AWS term sheet |
-| IPO Target | Nasdaq (ticker: CBRS), pricing May 13, 2026 |
-| HQ | Sunnyvale, California |
-
-#### Funding Timeline
-
-| Round | Date | Amount | Valuation |
-|---|---|---|---|
-| Series F | 2021 | $250M | $4B |
-| Series G | Sep 2025 | $1.1B | $8.1B |
-| Series H | Feb 2026 | $1B | $23.1B |
-
-#### IPO — Second Attempt
-
-Cerebras originally filed for an IPO in October 2025 but withdrew after the U.S. government raised national security concerns over heavy reliance on UAE-based investor G42. It refiled in April 2026 after restructuring that relationship. The current offering targets 28M shares at $115–$125/share, aiming to raise $3.5B at a ~$26.6B valuation. Demand ran hot — Bloomberg reported ~$10B in orders for the $3.5B on offer, suggesting pricing above the range.
-
-Key investors include Tiger Global, AMD, Fidelity, Benchmark, Coatue, and Altimeter. CFIUS cleared the company after G42's stake was restructured to non-voting shares.
-
-**Risks.** Customer concentration is significant — two customers accounted for 86% of 2025 revenue. Competitors in the S-1 include every major cloud provider (AWS, Azure, GCP, Oracle, CoreWeave) plus Nvidia as the dominant underlying hardware. The wafer-scale approach is technically differentiated but capital-intensive to scale, and the pivot to cloud inference puts it in direct competition with deep-pocketed hyperscalers.
-
----
-
-### 2. Astera Labs (ALAB) — Public Stock
+### 1. Astera Labs (ALAB) — Public Stock
 
 Astera Labs designs purpose-built connectivity semiconductors for AI and cloud infrastructure. Its product portfolio targets the data-movement bottleneck inside modern AI servers: **Aries** (PCIe and CXL retimers that preserve signal integrity over long board traces and cable runs), **Taurus** (smart cable modules for high-bandwidth Ethernet and storage links), **Leo** (CXL memory connectivity controllers enabling memory expansion and pooling across servers), and **Scorpio** (PCIe Gen 5/6 fabric switches for GPU-to-GPU and CPU-to-GPU connectivity inside AI clusters). Founded in 2017 and headquartered in Santa Clara, California, the company IPO'd on Nasdaq in March 2024 at $36/share and quickly became one of the most-watched AI infrastructure pure-plays. Customers include major hyperscalers and the leading AI accelerator vendors; revenue scales directly with the GPU build-out cycle.
 
@@ -76,7 +39,7 @@ ALAB has been a high-beta proxy for the AI infrastructure trade since its March 
 
 ---
 
-### 3. DRAM / Memory Chip — ETF & Pure Plays
+### 2. DRAM / Memory Chip — ETF & Pure Plays
 
 #### Why Memory Matters Right Now
 
@@ -118,73 +81,7 @@ A clean DRAM/HBM thematic ETF would have to weigh international names heavily �
 
 ---
 
-### 4. Perplexity — AI Search Company
-
-#### Product Overview
-
-Perplexity AI is an "answer engine" that uses large language models combined with real-time web search to give cited, sourced answers to user queries — positioning itself as a direct alternative to traditional search engines (Google) and chat-based AI (ChatGPT). Its core differentiator is providing synthesized answers with source citations rather than a list of links. As of 2026, it has expanded beyond search into:
-
-- **Deep Research** — multi-step research workflows
-- **Model Council** — lets users compare outputs from GPT-5.2, Claude 4.6, and others simultaneously on the same query
-- **Perplexity Computer** — an agentic product that can execute complex workflows using 19 AI models, spawning subagents for sub-tasks
-
-#### Funding & Valuation
-
-Perplexity's funding trajectory has been extraordinary:
-
-- January 2024: ~$500M valuation
-- December 2024: ~$9B valuation
-- May 2025: **$500M Series E** (largest single round)
-- September 2025: **$200M at $20B valuation**
-- Early 2026: Valuation reaches **~$21.21B** (Series E-6)
-- Total raised: **~$1.72B across 11 rounds from 61 investors**
-- Key investors: NVIDIA, SoftBank Vision Fund 2, Accel, IVP, NEA, Bessemer, Databricks, Jeff Bezos
-
-#### Business Model
-
-Revenue streams:
-
-- **Perplexity Pro:** $20/month (standard premium)
-- **Perplexity Max:** $200/month (launched July 2025, enterprise-grade)
-- **Enterprise contracts**
-- In **February 2026**, Perplexity abandoned its AI-integrated advertising strategy, pivoting fully to a **subscription-first model** to preserve the objectivity of its answers
-
-Financial milestones:
-
-- ARR grew from **$80M** (late 2024) → **$200M** (February 2026) → **$450M+** (April 2026, after a 50% MoM revenue surge)
-- Management targets **$656M revenue** by end of 2026
-- Signed a **$750M, 3-year GPU compute deal with Microsoft Azure** (January 2026)
-
-#### Competition & Recent News
-
-- Primary competitors: Google Search, OpenAI's ChatGPT/SearchGPT, Anthropic, and Microsoft Bing/Copilot
-- Launched **"Billion Dollar Build"** — an 8-week competition with $1M seed funding for founders building AI companies using Perplexity Computer
-- Over **30M active users** generating 780M+ monthly queries
-- **Legal challenges:** The BBC, New York Times, Reddit, and multiple Japanese newspapers have filed copyright infringement suits over Perplexity's content scraping and summarization
-
----
-
-### 5. Scale AI — Private
-
-Scale AI provides data infrastructure for AI development, including data labeling, model evaluation, and synthetic data generation. Originally a labeling company, Scale evolved into a critical AI supply chain player serving OpenAI, Google, Microsoft, Meta, and the US Department of Defense.
-
-#### Key Facts
-
-| Metric | Value |
-|---|---|
-| Latest Valuation | $29B (post-Meta investment) |
-| Total Funding | ~$15.9B |
-| Meta Investment | $14.8B for 49% non-voting stake (Jun 2025) |
-| 2024 Revenue | $870M (ARR $1.5B by year-end) |
-| 2026 Revenue Target | ~$2B (+130% YoY) |
-| Key Contracts | OpenAI, Google, Microsoft, DoD ($249M) |
-| HQ | San Francisco, California |
-
-Former CEO Alexandr Wang moved to a senior role inside Meta as part of the deal. Scale is now led by former Uber executive Jason Droege as CEO. No IPO has been announced.
-
----
-
-### 6. Luma AI — Private
+### 3. Luma AI — Private
 
 Luma AI develops generative AI models for video and image creation. Its flagship product, Dream Machine, enables users to generate photorealistic videos from text and image prompts. The company targets creators, advertisers, and film studios.
 
@@ -204,7 +101,7 @@ Key investors include Amazon, Andreessen Horowitz, and Amplify Partners. Luma co
 
 ---
 
-### 7. Cadence Design Systems (NASDAQ: CDNS)
+### 4. Cadence Design Systems (NASDAQ: CDNS)
 
 **Overview.** Cadence is one of the two dominant EDA (Electronic Design Automation) software companies alongside Synopsys. EDA software is the toolchain that chip designers use to design, simulate, verify, and sign off semiconductor layouts before fabrication. Every chip made by NVIDIA, AMD, Apple, Qualcomm, and custom silicon teams runs through Cadence or Synopsys tools. As chip complexity explodes with AI, EDA spend is growing structurally.
 
@@ -216,56 +113,11 @@ Key investors include Amazon, Andreessen Horowitz, and Amplify Partners. Luma co
 
 ---
 
-### 8. Obsidian — Note-Taking / PKM App
-
-#### Product Overview
-
-Obsidian is a **local-first, markdown-based personal knowledge management (PKM)** application developed by Dynalist Inc. (a two-to-three person team). It stores notes as plain `.md` files in a folder ("vault") on the user's device — you own your data and it's never locked in a proprietary format. Key distinguishing features:
-
-- **Bidirectional linking** between notes (wiki-style `[[wikilinks]]`)
-- **Graph View** — visual map of note connections (updated in 2025 with improved algorithms)
-- **Canvas** — infinite whiteboard for embedding live notes, images, and web pages
-- **1,400+ community plugins** enabling workflows from Zettelkasten to GTD to code execution
-- **Obsidian CLI** — introduced in v1.12, enables terminal-based scripting and automation
-- **Bases plugin** (v1.9) — transforms any set of notes into a queryable database
-
-As of March 2026, Obsidian is on version **1.12.x**.
-
-#### Business Model — Bootstrapped and Profitable
-
-Obsidian is **fully bootstrapped** (no venture funding raised). The core app is **free** for personal use — the commercial license requirement was dropped in early 2025. Revenue comes from optional paid services:
-
-- **Obsidian Sync:** $4/month — end-to-end encrypted sync across devices
-- **Obsidian Publish:** $8/month — publish vaults as websites
-- **Catalyst:** one-time $25+ — early access to insider builds and community badge
-
-The company is reportedly valued at approximately **$350 million** (informal estimate) while running with roughly **3 engineers** — a widely-cited example of a highly efficient, profitable indie software business. Approximately 80% of clients use the free tier, with the Sync and Publish services sustaining the company.
-
-#### Recent Updates (2025–2026)
-
-- **v1.9 (Aug 2025):** Bases plugin (note-as-database), improved Graph View algorithm
-- **v1.11:** Theming enhancements via Chromium 139 corner shape support
-- **v1.12 (March 2026):** Obsidian CLI, Bases search, image resizing, auto-cleanup of unused images, native iOS share sheet, improved copy/paste to rich text apps
-
-AI is available **only via community plugins** (e.g., AI Assistant plugin), not natively baked in — a deliberate choice reflecting the team's focus on local-first privacy.
-
-#### Competitive Landscape
-
-| App | Model | Users | Notes |
-|---|---|---|---|
-| **Notion** | Cloud-first, freemium SaaS | 100M+ | $10B valuation; 70%+ of Fortune 500 |
-| **Obsidian** | Local-first, bootstrapped | Millions (est.) | Privacy-first; ~5% enterprise adoption |
-| **Logseq** | Open-source, local-first | Smaller | Free; strong among developers |
-| **Roam Research** | SaaS, subscription | Niche | $15/mo; early mover in linked notes |
-| **Anytype** | Open-source, local+sync | Growing | Privacy-focused alternative |
-
----
-
 ## Power & Energy Infrastructure
 
 ---
 
-### 9. Vertiv Holdings (NYSE: VRT)
+### 5. Vertiv Holdings (NYSE: VRT)
 
 #### Business Overview
 
@@ -304,7 +156,7 @@ Wall Street is broadly bullish:
 
 ---
 
-### 10. Vistra Corp. (NYSE: VST)
+### 6. Vistra Corp. (NYSE: VST)
 
 #### Business Overview
 
@@ -344,7 +196,7 @@ Vistra reported on May 7, 2026:
 
 ---
 
-### 11. Bloom Energy (NYSE: BE) — Public Stock
+### 7. Bloom Energy (NYSE: BE) — Public Stock
 
 Bloom Energy designs and manufactures solid oxide fuel cell (SOFC) systems that generate clean, reliable on-site electricity. Originally focused on commercial and industrial power, the company has pivoted heavily toward AI data center power solutions, partnering with Oracle for up to 2.8 GW of fuel cell deployments.
 
@@ -375,7 +227,7 @@ Bloom Energy shares surged approximately 291% over the past year, driven by mass
 
 ---
 
-### 12. Hammond Power Solutions (TSX: HPS.A)
+### 8. Hammond Power Solutions (TSX: HPS.A)
 
 **Company Overview.** Hammond Power Solutions (TSX: HPS.A) is a Canadian manufacturer of dry-type transformers and power quality solutions, serving industrial, commercial, and data center markets. It's a Toronto-listed small/mid-cap with growing exposure to the North American data center buildout and grid electrification theme — a picks-and-shovels AI infrastructure play.
 
@@ -387,7 +239,7 @@ Bloom Energy shares surged approximately 291% over the past year, driven by mass
 
 ---
 
-### 13. ABB Ltd (SWX: ABBN) — Switzerland
+### 9. ABB Ltd (SWX: ABBN) — Switzerland
 
 **Overview.** ABB is a Swiss industrial conglomerate spanning electrification, motion, process automation, and robotics. It's one of the largest automation and power technology companies globally, with a growing footprint in AI-driven data center power infrastructure — a key re-rating driver in 2025–2026.
 
@@ -399,7 +251,7 @@ Bloom Energy shares surged approximately 291% over the past year, driven by mass
 
 ---
 
-### 14. Allo Energy — Private
+### 10. Allo Energy — Private
 
 "Allo Energy" does not appear to be a publicly traded company. Two private companies match this name:
 
@@ -413,7 +265,7 @@ A US-based private company working on carbon-negative green hydrogen production.
 
 ---
 
-### 15. Aalo Atomics — Private
+### 11. Aalo Atomics — Private
 
 Aalo Atomics is a US nuclear startup designing factory-built sodium-cooled fast modular reactors (the "Aalo Pod" at ~10 MWe each, configurable into a multi-pod "Aalo Park" of ~50 MWe). The company is positioned squarely at the AI-data-center power bottleneck — the thesis is that hyperscalers cannot get enough firm clean power from the grid through 2030+, and small, fast-deployable factory-built nuclear can fill the gap. Aalo's design is Gen IV non-LWR (non-light-water reactor), derived from the MARVEL microreactor that co-founder Yasir Arafat led at Idaho National Lab. Founded in 2022 in Austin, Texas, with continuing R&D operations in Idaho.
 
@@ -442,7 +294,7 @@ Key investors include 50Y, Valor Equity Partners, Hitachi Ventures, Harpoon Vent
 
 ---
 
-### 16. Power Infrastructure ETFs — GRID & VOLT
+### 12. Power Infrastructure ETFs — GRID & VOLT
 
 Two ETFs best capture the "power infrastructure" theme:
 
@@ -476,7 +328,7 @@ Top 5 Holdings: Bel Fuse (6.6%), Powell Industries (6.5%), NextEra Energy (6.4%)
 
 ---
 
-### 17. Firefly Aerospace (NASDAQ: FLY) — Public Stock
+### 13. Firefly Aerospace (NASDAQ: FLY) — Public Stock
 
 Firefly Aerospace is an end-to-end responsive space company offering **launch, lunar, and on-orbit services**. Its core product lineup spans: the **Alpha** small-lift rocket (~1,030 kg to LEO at ~$15M per launch), the **Blue Ghost** lunar lander (first commercial lander to fully succeed on the Moon — Mission 1 touched down at Mare Crisium on March 2, 2025), the **Eclipse** medium-lift vehicle (formerly MLV, co-developed with Northrop Grumman, first flight targeted 2027), and the **Elytra** orbital-transfer-vehicle family for LEO / GEO / cislunar mobility. Founded in 2014 (relaunched 2017 after restructuring) and headquartered in Cedar Park, Texas. The company IPO'd on Nasdaq under ticker `FLY` in August 2025, pricing at $45 and closing its debut day at ~$60 for a ~$8.5B valuation, raising $868M.
 
@@ -484,8 +336,8 @@ Firefly Aerospace is an end-to-end responsive space company offering **launch, l
 
 | Metric | Value |
 |---|---|
-| Stock Price | ~$42 |
-| Market Cap | ~$7.0B |
+| Stock Price | ~$36 (verify latest) |
+| Market Cap | ~$5.9B |
 | P/E (Trailing) | N/A (currently unprofitable) |
 | Q1 2026 Revenue | $80.9M (record) |
 | 2025 Revenue | $159.9M (+163% YoY) |
@@ -498,7 +350,7 @@ Firefly Aerospace is an end-to-end responsive space company offering **launch, l
 
 #### Stock Performance & Recent Developments
 
-FLY debuted on Nasdaq on **August 7, 2025** at $45 and surged ~34% on its first day to close at $60.35 (~$8.5B valuation). The stock has since pulled back to ~$42 (market cap ~$7.0B) on profitability concerns. Stock up ~34% in 2026 YTD. Key 2026 catalysts:
+FLY debuted on Nasdaq on **August 7, 2025** at $45 and surged ~34% on its first day to close at $60.35 (~$8.5B valuation). The stock has since pulled back to ~$36 on profitability concerns. Key 2026 catalysts:
 
 - **Alpha return-to-flight on March 11, 2026** (Flight 7) after a five-month stand-down following a September 2025 ground-test anomaly that destroyed a booster
 - **VICTUS DIEM responsive-launch simulation** with Lockheed Martin and the US Space Force in March 2026 — sub-12-hour payload processing, sub-36-hour launch readiness
@@ -521,15 +373,15 @@ FLY debuted on Nasdaq on **August 7, 2025** at $45 and surged ~34% on its first 
 
 ---
 
-### 18. AST SpaceMobile (NASDAQ: ASTS)
+### 14. AST SpaceMobile (NASDAQ: ASTS)
 
 **Overview.** ASTS is building a space-based cellular broadband network — satellites that connect directly to standard smartphones without special hardware, partnered with AT&T, Verizon, Rakuten, and others. The vision is global coverage including remote and rural areas currently without cellular service.
 
-**Q1 2026.** Revenue $14.7M (well below ~$37M analyst estimate). Net loss $191M. Cash on hand: $3.5B — providing a long runway. Full-year revenue guidance reaffirmed at $150–$200M. The company is targeting 45 BlueBird satellites in orbit by year-end. BlueBird 6 (largest commercial comms array antenna ever deployed in LEO) unfolded in Feb 2026; BlueBird 7 launched April 19 aboard Blue Origin's New Glenn but experienced a failure, potentially leaving ASTS ~7 satellites short of its 45-unit target. Stock surged ~20% post-earnings on the guidance reaffirmation despite the miss. FCC approval for direct-to-device broadband service secured; peak speeds of 98.9 Mbps demonstrated. Stock around $74, off highs; satellite execution and SpaceX IPO (potential competitive threat) are key overhangs.
+**Q1 2026.** Revenue $14.7M (well below ~$37M analyst estimate). Net loss $191M. Cash on hand: $3.5B — providing a long runway. Full-year revenue guidance reaffirmed at $150–$200M. The company is targeting 45 BlueBird satellites in orbit by year-end. BlueBird 6 (largest commercial comms array antenna ever deployed in LEO) unfolded in Feb 2026; BlueBird 7 launched April 19 aboard Blue Origin's New Glenn but experienced a failure, potentially leaving ASTS ~7 satellites short of its 45-unit target. Stock surged ~20% post-earnings on the guidance reaffirmation despite the miss. FCC approval for direct-to-device broadband service secured; peak speeds of 98.9 Mbps demonstrated. Stock ~$92 (verify latest), off highs; satellite execution and SpaceX IPO (potential competitive threat) are key overhangs.
 
 ---
 
-### 19. Sidus Space (NASDAQ: SIDU) — Public Stock
+### 15. Sidus Space (NASDAQ: SIDU) — Public Stock
 
 Sidus Space is a micro-cap satellite company providing space-as-a-service through its LizzieSat multi-mission platform, onboard AI computing (FeatherEdge), and mission software (FeatherWare). The company designs, manufactures, and operates small satellites for near-real-time Earth observation and data analytics.
 
@@ -537,8 +389,8 @@ Sidus Space is a micro-cap satellite company providing space-as-a-service throug
 
 | Metric | Value |
 |---|---|
-| Stock Price | ~$4.93 |
-| Market Cap | ~$328M |
+| Stock Price | ~$4.06 (verify latest) |
+| Market Cap | ~$300M |
 | P/E (Trailing) | N/A (unprofitable) |
 | 2025 Revenue | $3.4M |
 | 52-Week Low/High | ~$0.80 / ~$5.00 |
@@ -547,7 +399,7 @@ Sidus Space is a micro-cap satellite company providing space-as-a-service throug
 
 #### Stock Performance
 
-SIDU surged ~97% in late March/early April 2026 after being selected for the Missile Defense Agency (MDA) SHIELD program — an IDIQ contract with a $151B ceiling. YTD the stock is up roughly 44%. However, the company remains deeply unprofitable with a net loss of $29.5M in 2025.
+SIDU surged ~97% in late March/early April 2026 after being selected for the Missile Defense Agency (MDA) SHIELD program — an IDIQ contract with a $151B ceiling. The company remains deeply unprofitable with a net loss of $29.5M in 2025.
 
 #### Comparable Companies
 
@@ -560,7 +412,7 @@ SIDU surged ~97% in late March/early April 2026 after being selected for the Mis
 
 ---
 
-### 20. Astranis — Private
+### 16. Astranis — Private
 
 Astranis builds small (~400 kg class) geostationary communications satellites using its proprietary "MicroGEO" platform — roughly an order of magnitude smaller and cheaper than traditional GEO satellites built by Boeing, Lockheed, or Maxar. Each MicroGEO is dedicated to a single customer or coverage area, enabling targeted bandwidth delivery at significantly lower cost per Mbps. Founded in 2015 in San Francisco, the company launched its first commercial satellite "Arcturus" in April 2023 to provide broadband internet to Alaska through Pacific Dataport. Astranis sits at the intersection of two structural tailwinds: (1) the broader space-based connectivity market alongside Starlink and OneWeb, but with a differentiated focus on regional/enterprise bandwidth rather than global LEO constellations; and (2) the in-flight connectivity, government, and rural/remote enterprise markets where dedicated MicroGEO capacity beats shared LEO bandwidth on latency and reliability for fixed coverage areas.
 
@@ -590,25 +442,397 @@ Key customers include Pacific Dataport (Alaska connectivity), Anuvu (in-flight W
 
 ---
 
-### 21. Castelion — Private
+### 17. Iridium Communications (NASDAQ: IRDM) — Public Stock
 
-Castelion is a modern defense production company specializing in advanced hypersonic strike systems. Founded in 2022, it became a unicorn in just 3 years. The company applies modern hardware development and manufacturing processes to address national security challenges, with its flagship product being the Blackbeard hypersonic missile system.
+Iridium operates the only commercial satellite constellation providing truly global voice and data coverage — 66 cross-linked LEO satellites covering the entire planet, including the poles and oceans where terrestrial and GEO networks can't reach. The business is a mix of commercial subscribers (IoT, maritime, aviation, handsets), a long-term US government contract, and a growing position in PNT (positioning, navigation, and timing) as a GPS backup/complement. It's the most mature, cash-generative pure-play in the satellite-comms space — a stark contrast to the pre-revenue names elsewhere in this section.
 
-#### Key Facts
+#### Key Metrics
 
 | Metric | Value |
 |---|---|
-| Latest Valuation | $2.8B (Series B, Jul 2025) |
-| Total Funding | ~$504M across 5 rounds |
-| Series B | $350M–$360M (Jul 2025, 12 investors) |
-| Employees | ~166 (as of Mar 2026) |
-| Flagship Product | Blackbeard hypersonic missile |
-| Founded | 2022 |
-| HQ | El Segundo, California |
+| Stock Price | ~$47.48 |
+| Market Cap | ~$5.0B |
+| P/E (Trailing) | ~48x |
+| Q1 2026 Revenue | $219.1M (+2% YoY) |
+| Q1 2026 Net Income | $21.6M (EPS $0.20) |
+| 2026 Guidance | Service revenue flat to +2%; OIBDA $480–490M |
+| Sector | Aerospace & Defense / Satellite Comms |
+| HQ | McLean, Virginia |
 
-#### Key Developments
+#### Q1 2026 Earnings (reported April 2026)
 
-In January 2026, Castelion broke ground on Project Ranger, a 1,000-acre manufacturing campus in Rio Rancho, NM, designed for high-cadence production of hypersonic strike systems. The company completed a major flight test at Point Mugu Sea Range with the Naval Air Warfare Center Weapons Division. Backed by a16z and other top-tier investors. Plans for continued high-tempo testing in 2026 with increasingly complex capability demonstrations.
+Revenue rose 2% to $219.1M, with $158.0M of service revenue and $61.0M from equipment/engineering/support. Net income declined to $21.6M (EPS $0.20) from $30.4M ($0.27) as SG&A rose and the tax rate moved higher. Operational EBITDA fell 5% to $116.3M, largely on a $4.2M shift to cash-based incentive comp. Commercial IoT grew 5% to $46.0M; voice and data rose 3% to $57.4M (ARPU steady at $48); government service revenue was $27.6M (+3%), supported by the seven-year $738.5M EMSS contract. Full-year guidance reaffirmed.
+
+#### Investment Thesis
+
+Iridium is the rare profitable, FCF-positive satellite operator, with a constellation already fully deployed (no near-term replacement capex cliff until the next-gen constellation) and a sticky government anchor tenant. The growth narrative hinges on IoT subscriber additions, the PNT/GPS-backup opportunity, and new chipset-embedded direct-to-device partnerships. Key risks: maturing core subscriber growth, competitive pressure from LEO direct-to-cell entrants (Starlink, AST SpaceMobile), and the eventual capex required for a next-generation constellation.
+
+#### Comparable Companies
+
+| Company | Ticker | Focus |
+|---|---|---|
+| Globalstar | GSAT | LEO satellite comms, Apple emergency SOS partner |
+| Viasat | VSAT | GEO broadband + government/defense comms |
+| EchoStar | SATS | GEO satellite + spectrum + Boost Mobile |
+| AST SpaceMobile | ASTS | LEO direct-to-cell broadband |
+
+---
+
+### 18. Redwire Corporation (NYSE: RDW) — Public Stock
+
+Redwire is a space infrastructure and defense-tech company supplying components and systems used on spacecraft — solar arrays, deployable structures, avionics, sensors, and in-space manufacturing — plus, since 2025, a fast-growing uncrewed-aircraft (drone) business. The June 2025 acquisition of **Edge Autonomy** transformed Redwire from a pure space-components supplier into a dual space + defense-tech platform, materially lifting revenue and gross margins.
+
+#### Key Metrics
+
+| Metric | Value |
+|---|---|
+| Stock Price | ~$18.57 |
+| Market Cap | ~$3.7B |
+| P/E (Trailing) | N/A (unprofitable) |
+| Q1 2026 Revenue | $97.0M (+58% YoY) |
+| Q1 2026 Gross Margin | 27% (up from 15%) |
+| Q1 2026 Net Loss | $76.5M (incl. $42.5M accelerated equity comp) |
+| 2026 Guidance | $450M–$500M revenue (~42% growth at midpoint) |
+| Liquidity | ~$175M (cash + undrawn revolver) |
+| Sector | Aerospace & Defense / Space Infrastructure |
+| HQ | Jacksonville, Florida |
+
+#### Q1 2026 Earnings (reported May 8, 2026)
+
+Revenue rose 58% YoY to $97.0M — Space segment $52.7M, Defense Tech $44.3M — driven by the Edge Autonomy acquisition, favorable contract mix, and wins in next-gen spacecraft, quantum-secure satellites, and defense tech. Gross margin improved to 27% from 15%. Net loss widened to $76.5M, primarily on over $42.5M of accelerated equity-based comp and higher SG&A from the acquisition. Full-year 2026 revenue guidance of $450–$500M reaffirmed.
+
+#### Investment Thesis
+
+Redwire is a leveraged bet on both the commercial/defense space buildout and the drone/autonomy theme post-Edge Autonomy. The acquisition diversified the revenue base and improved margins, but the company remains unprofitable with lumpy, contract-driven revenue and significant share issuance (49.8M shares issued for Edge Autonomy). Key risks: integration execution, dilution, continued losses, and dependence on government program timing.
+
+---
+
+### 19. Viasat, Inc. (NASDAQ: VSAT) — Public Stock
+
+Viasat is a global satellite communications company operating across two segments: **Communication Services** (in-flight WiFi, maritime, government broadband, fixed satellite) and **Defense and Advanced Technologies** (tactical networking, secure comms, space and mission systems). The 2023 acquisition of Inmarsat dramatically expanded its global L-band and Ka-band footprint and added significant aviation and maritime mobility revenue. The stock is a deleveraging-plus-spectrum-value story: a large debt load offset by valuable, potentially monetizable spectrum holdings.
+
+#### Key Metrics
+
+| Metric | Value |
+|---|---|
+| Stock Price | ~$65.48 |
+| Market Cap | ~$8.9B |
+| P/E (Trailing) | N/A / volatile |
+| FY2026 Revenue | ~$4.67B–$4.76B (analyst range) |
+| Segment Driver | Defense & Advanced Technologies (+9% YoY) |
+| Sector | Aerospace & Defense / Satellite Comms |
+| HQ | Carlsbad, California |
+
+#### Recent Results & Developments
+
+Viasat reported Q4 and full fiscal 2026 results on May 28, 2026. Earlier in the year (Q3 FY2026) it swung to net income of $25M from a $158M prior-year loss, with revenue +3% YoY driven by 9% growth in Defense and Advanced Technologies and 1% in Communication Services. Management confirmed it will apply to extend its **S-band spectrum rights** (a key value driver) and is pursuing capital-efficiency moves such as using common satellites to light up multiple spectrum bands with partners. The investment narrative increasingly centers on spectrum value and debt reduction rather than near-term broadband growth.
+
+#### Investment Thesis
+
+VSAT is a turnaround/value play: heavily indebted post-Inmarsat, but with a growing defense business and underappreciated spectrum assets that could be monetized (echoing the EchoStar spectrum-sale playbook). Key risks: high leverage, competition from Starlink in consumer/mobility broadband, satellite execution, and the binary nature of spectrum-extension and monetization outcomes.
+
+---
+
+### 20. Intuitive Machines (NASDAQ: LUNR) — Public Stock
+
+Intuitive Machines is a commercial space company best known for its **Nova-C lunar lander** (the first US commercial vehicle to land on the Moon, IM-1 in February 2024) and its broader portfolio across lunar delivery (NASA CLPS), lunar data relay/communications, orbital services, and space-network infrastructure. The 2025 **Lanteris** acquisition broadened the company into a wider space-services platform and roughly tripled revenue.
+
+#### Key Metrics
+
+| Metric | Value |
+|---|---|
+| Stock Price | ~$29.73 |
+| Market Cap | ~$4.8B |
+| P/E (Trailing) | N/A (unprofitable) |
+| Q1 2026 Revenue | $186.7M (record, ~3x YoY) |
+| Q1 2026 Gross Profit | $30.1M (up from $6.7M) |
+| Backlog | ~$1.1B |
+| New Awards (Q1) | $428.9M |
+| 2026 Guidance | $900M–$1.0B revenue, positive Adj. EBITDA |
+| Sector | Aerospace & Defense / Lunar & Space Services |
+| HQ | Houston, Texas |
+
+#### Q1 2026 Earnings
+
+Record Q1 revenue of $186.7M (nearly 3x YoY), driven by the Lanteris acquisition and major contract wins, with backlog reaching ~$1.1B. Gross profit rose to $30.1M from $6.7M. The company still posted a GAAP loss of ~$0.18/share, missing estimates. New awards totaled $428.9M; full-year 2026 guidance is $900M–$1.0B revenue with positive Adjusted EBITDA. The **IM-3** mission (estimated ~$91.3M of fixed-price revenue) runs on a timeline through March 2027.
+
+#### Investment Thesis
+
+LUNR is one of the few scaled, publicly traded pure-plays on the cislunar economy and NASA's commercial lunar strategy, now with a path to positive EBITDA. The Lanteris deal added scale and backlog visibility. Key risks: mission execution (lunar landings remain technically hard — IM-1 tipped over on landing), reliance on NASA program funding and timing, dilution, and ongoing GAAP losses.
+
+#### Comparable Companies
+
+| Company | Ticker | Focus |
+|---|---|---|
+| Firefly Aerospace | FLY | Launch + Blue Ghost lunar lander + CLPS |
+| Rocket Lab | RKLB | Launch + spacecraft + space systems |
+| Redwire | RDW | Space infrastructure components + defense tech |
+| Astrobotic | Private | Competing CLPS lunar lander provider |
+
+---
+
+### 21. Rocket Lab Corporation (NASDAQ: RKLB) — Public Stock
+
+Rocket Lab is the leading small-launch provider after SpaceX and an increasingly diversified end-to-end space company. Its **Electron** rocket is the most-flown US small launcher; **HASTE** is its suborbital/hypersonic-test variant; and **Space Systems** (satellite buses, components, separation systems, solar) is now the larger revenue segment. The pivotal catalyst is **Neutron**, a medium-lift reusable rocket targeting the constellation-deployment and national-security launch markets — Rocket Lab's bid to compete head-to-head with SpaceX's Falcon 9.
+
+#### Key Metrics
+
+| Metric | Value |
+|---|---|
+| Stock Price | ~$113.65 (verify latest) |
+| Market Cap | ~$71B (per provided data; verify) |
+| P/E (Trailing) | N/A (unprofitable) |
+| Q1 2026 Revenue | $200.3M (record, +63.5% YoY) |
+| Space Systems / Launch | $136.7M / $63.7M |
+| Non-GAAP Gross Margin | 43% |
+| Backlog | >$2.2B |
+| Sector | Aerospace & Defense / Launch & Space Systems |
+| HQ | Long Beach, California |
+
+#### Q1 2026 Earnings & Neutron Status
+
+Record Q1 revenue of $200.3M (+63.5% YoY): Space Systems $136.7M (+57.2%), Launch Services $63.7M (+78.9%). GAAP gross margin 38.2%, non-GAAP 43%. Rocket Lab signed 31 new Electron/HASTE contracts plus five dedicated Neutron launches in the quarter; total manifest now exceeds 70 missions and backlog topped $2.2B. On **Neutron**, management held Q4 2026 as the first-launch target, but a January 2026 Stage 1 tank rupture during a hydrostatic pressure test introduced schedule risk — the team is reviewing test data to assess impact.
+
+#### Investment Thesis
+
+RKLB is the premium small-launch franchise with a credible path into medium-lift via Neutron and a high-margin, fast-growing space-systems business. Valuation is rich and prices in successful Neutron execution. Key risks: Neutron schedule slippage (the tank-rupture incident is the near-term overhang), continued losses, launch-cadence execution, and intense competition from SpaceX.
+
+---
+
+### 22. Virgin Galactic Holdings (NYSE: SPCE) — Public Stock
+
+Virgin Galactic is a suborbital space-tourism company. After retiring its first-generation VSS Unity, the entire thesis now rests on the **Delta-class** spaceships — a new, higher-cadence vehicle designed to fly far more frequently and economically and finally turn the business toward commercial viability. This is a binary, execution-and-cash-runway story.
+
+#### Key Metrics
+
+| Metric | Value |
+|---|---|
+| Stock Price | ~$4.12 |
+| Market Cap | ~$0.4B |
+| P/E (Trailing) | N/A (unprofitable) |
+| Q1 2026 Net Loss | $65M (narrowed from $84M) |
+| Cash & Securities | ~$251M (Q1 2026) |
+| Ticket Price | $750,000/seat (reopened sales) |
+| Backlog | ~650 founding astronauts booked |
+| Sector | Aerospace & Defense / Space Tourism |
+| HQ | Tustin, California |
+
+#### Q1 2026 & Delta Progress
+
+Virgin Galactic narrowed its Q1 2026 loss to $65M (from $84M), cut operating expenses ~26%, and reopened ticket sales for 50 Delta flights at $750,000/seat. Management targets **Q3 2026** for Delta glide/flight testing and **Q4 2026** for rocket-powered commercial service, backed by several hundred pre-booked customers. The first Delta ship was moved from the assembly hangar to the test-and-launch hangar at Spaceport America; a second ship has begun fabrication, expected in service around late Q4 2026 / early Q1 2027. Management aims for four flights/month by January 2027, scaling to eight/month by Q2 2027. The stock has been volatile, popping on each Delta milestone.
+
+#### Investment Thesis
+
+SPCE is a high-risk, speculative bet entirely dependent on Delta ships entering commercial service on schedule and the company reaching cash-flow break-even before its ~$251M cash balance runs down. Success means a step-change in flight cadence and revenue; failure (further delays, anomalies, or a dilutive raise) is the dominant risk. Key risks: execution/schedule, cash burn and dilution, single-product concentration, and the inherent safety profile of human spaceflight.
+
+---
+
+### 23. EchoStar Corporation (NASDAQ: SATS) — Public Stock
+
+EchoStar (which absorbed DISH Network) is a satellite, pay-TV, and wireless company whose investment narrative in 2026 is dominated by one thing: the **monetization of its enormous spectrum holdings**. After years of being valued largely on the embedded option value of its wireless spectrum, EchoStar struck landmark deals to sell spectrum to SpaceX and AT&T — crystallizing that value at ~$40B+.
+
+#### Key Metrics
+
+| Metric | Value |
+|---|---|
+| Stock Price | ~$116.62 |
+| Market Cap | ~$33.8B |
+| P/E (Trailing) | N/A / volatile |
+| Spectrum Sales | ~$40B+ to SpaceX & AT&T (FCC-approved May 2026) |
+| Segments | Pay-TV (DISH/Sling), wireless (Boost), satellite (Hughes) |
+| Sector | Aerospace & Defense / Satellite & Spectrum |
+| HQ | Englewood, Colorado |
+
+#### The $40B+ Spectrum Sale (FCC-approved May 2026)
+
+In May 2026 the FCC approved EchoStar's sale of wireless spectrum to **SpaceX and AT&T**:
+
+- **AT&T:** ~50 MHz (30 MHz mid-band + 20 MHz low-band) for ~$23B, to bolster its 5G network
+- **SpaceX:** ~65 MHz (AWS-4 and H-block licenses) for an amended ~$20B (up from $17B), to power Starlink's next-gen direct-to-device service
+- **Boost Mobile:** continues via a hybrid MVNO arrangement with AT&T
+
+The FCC granted SpaceX special waivers to deploy the spectrum across terrestrial, satellite, and hybrid architectures. The deals transform EchoStar from a leveraged, cash-burning operator into a vastly more liquid entity, reshaping the balance sheet and strategic outlook.
+
+#### Investment Thesis
+
+SATS is a spectrum-value-realization story. The SpaceX/AT&T sales validate the long-standing bull case that EchoStar's spectrum was worth far more than the market credited, and the proceeds dramatically de-risk the balance sheet. Forward questions: what EchoStar does with the cash, the trajectory of its remaining pay-TV (secularly declining) and Boost wireless businesses, and the Hughes satellite unit. Key risks: execution on remaining operating businesses, deal-close mechanics, and capital-allocation decisions.
+
+---
+
+### 24. RTX Corporation (NYSE: RTX) — Public Stock
+
+RTX (formerly Raytheon Technologies) is one of the world's largest aerospace and defense primes, organized into three businesses: **Raytheon** (missiles, air and missile defense, radars, munitions), **Pratt & Whitney** (commercial and military jet engines), and **Collins Aerospace** (avionics, interiors, aerostructures). It sits at the center of both the global defense-spending upcycle and the commercial-aerospace aftermarket recovery.
+
+#### Key Metrics
+
+| Metric | Value |
+|---|---|
+| Stock Price | ~$178.66 |
+| Market Cap | ~$240.6B |
+| P/E (Trailing) | ~33.6x |
+| Q1 2026 Revenue | $22.1B (+9%, +10% organic) |
+| Q1 2026 Adj. EPS | $1.78 (+21% YoY) |
+| Backlog | $271B ($162B commercial / $109B defense) |
+| 2026 Guidance | Sales $92.5–93.5B; Adj. EPS $6.70–6.90; FCF $8.25–8.75B |
+| Sector | Aerospace & Defense |
+| HQ | Arlington, Virginia |
+
+#### Q1 2026 Earnings
+
+Sales of $22.1B rose 9% (10% organic); adjusted EPS of $1.78 was up 21% YoY. Backlog hit a record $271B with a 1.56 book-to-bill — roughly three years of revenue under contract. Raytheon was the standout, with 9% organic growth to $6.9B and operating margin expanding 150 bps to 12.2% on favorable program mix and munitions output up over 40% YoY. RTX raised full-year guidance: sales to $92.5–93.5B and adjusted EPS to $6.70–6.90; FCF reaffirmed at $8.25–8.75B. Overhangs included tariff and geopolitical risk and an Airbus engine-related issue weighing on shares.
+
+#### Investment Thesis
+
+RTX is a diversified, large-cap way to play both rising global defense budgets (missiles, air defense, munitions restocking) and the commercial-aero aftermarket recovery (Pratt & Whitney spares, Collins). Massive backlog provides multi-year visibility. Key risks: Pratt & Whitney GTF powder-metal engine issues and associated costs, tariff/supply-chain exposure, and program execution.
+
+---
+
+### 25. General Dynamics Corporation (NYSE: GD) — Public Stock
+
+General Dynamics is a diversified aerospace and defense prime spanning four segments: **Aerospace** (Gulfstream business jets), **Marine Systems** (nuclear submarines and surface ships), **Combat Systems** (armored vehicles, weapons), and **Technologies** (IT and mission systems, via GDIT). It uniquely couples a premium business-jet franchise with one of the two US nuclear-submarine builders.
+
+#### Key Metrics
+
+| Metric | Value |
+|---|---|
+| Stock Price | ~$340.86 |
+| Market Cap | ~$92.2B |
+| P/E (Trailing) | ~21.4x |
+| Backlog | $131B (+48% YoY); Total Est. Contract Value $188B |
+| Q1 2026 Aerospace Rev | $3.3B (+8.4%); 38 Gulfstream deliveries (Q1 record) |
+| 2026 EPS Guidance | $16.45–$16.55 (raised) |
+| Sector | Aerospace & Defense |
+| HQ | Reston, Virginia |
+
+#### Q1 2026 Earnings (reported April 29, 2026)
+
+Backlog reached $131B, up 48% YoY and 11% sequentially, on $26B+ of orders and a 2:1 book-to-bill; total estimated contract value hit a record $188B (+33% YoY). The Aerospace segment generated $3.3B revenue (+8.4%) and $493M operating earnings (15% margin) on a Q1-record 38 Gulfstream deliveries (31 large-cabin, 7 midsize). Management raised full-year EPS guidance to $16.45–$16.55 (from $16.10–$16.20). Note: a flagged risk is potential minor impact on G280 deliveries if Middle East conflict persists.
+
+#### Investment Thesis
+
+GD offers a balanced mix of secular defense demand (notably the multi-decade Columbia/Virginia-class submarine programs and combat-vehicle restocking) and a high-margin Gulfstream franchise leveraged to the G700/G800 ramp. The record submarine-driven backlog underpins long-term visibility. Key risks: Gulfstream supply-chain and delivery timing, defense budget/appropriations cycles, and shipbuilding execution and labor.
+
+---
+
+### 26. Northrop Grumman Corporation (NYSE: NOC) — Public Stock
+
+Northrop Grumman is a defense prime concentrated in the highest-end, most strategic US programs: **Aeronautics** (the B-21 Raider stealth bomber), **Space Systems** (the Sentinel ICBM, launch and missile-warning), **Mission Systems**, and **Defense Systems**. It is the prime on two of the most consequential US nuclear-modernization programs of the decade — B-21 and Sentinel.
+
+#### Key Metrics
+
+| Metric | Value |
+|---|---|
+| Stock Price | ~$540.81 |
+| Market Cap | ~$76.8B |
+| P/E (Trailing) | ~17.0x |
+| Q1 2026 Revenue | $9.9B (+4%) |
+| Q1 2026 Diluted EPS | $6.14 (+85% YoY) |
+| Operating Margin | 10.0% (up from 6.1%) |
+| Backlog | $95.6B |
+| Sector | Aerospace & Defense |
+| HQ | Falls Church, Virginia |
+
+#### Q1 2026 Earnings
+
+Sales rose 4% to $9.9B; diluted EPS jumped 85% to $6.14 as operating income climbed to $989M (10.0% margin, up from 6.1%) — helped by the absence of the prior year's B-21 loss provision and stronger segment margins. Net awards were $9.8B and backlog stood at $95.6B (35% expected to convert to revenue within 12 months, 60% within 24). Critically, Northrop reached agreements with the US Air Force to **increase B-21 production capacity by 25%** (via a $2.5B company-funded investment) and to **accelerate Sentinel** ICBM initial operating capability toward 2026–2027 milestones.
+
+#### Investment Thesis
+
+NOC is the purest large-cap play on US nuclear-triad modernization and strategic deterrence, with B-21 transitioning from a loss-making development program to production and Sentinel scaling up. The lowest headline P/E among the primes reflects both that transition and prior B-21 charge history. Key risks: fixed-price development cost overruns (the B-21 charge history is instructive), Sentinel cost growth and schedule, and dependence on US budget priorities.
+
+---
+
+### 27. Archer Aviation (NYSE: ACHR) — Public Stock
+
+Archer is a leading US eVTOL (electric vertical takeoff and landing) developer building **Midnight**, a piloted air taxi designed for short urban hops. The investment case is a race to FAA type certification and the start of commercial air-taxi operations, with parallel ambitions in defense/autonomy and international (UAE) launch markets.
+
+#### Key Metrics
+
+| Metric | Value |
+|---|---|
+| Stock Price | ~$5.73 |
+| Market Cap | ~$4.4B |
+| P/E (Trailing) | N/A (pre-revenue/unprofitable) |
+| Q1 2026 Revenue | $1.6M (up from $0.3M in Q4 2025) |
+| FAA Status | First eVTOL to clear Phase 3 of 4 (Type Certification) |
+| Launch Target | Initial US operations H2 2026 |
+| Sector | Aerospace & Defense / Advanced Air Mobility |
+| HQ | San Jose, California |
+
+#### Q1 2026 & Certification Progress
+
+Archer posted Q1 2026 revenue of $1.6M (up from $0.3M in Q4 2025) and highlighted that it became the **first eVTOL manufacturer to clear Phase 3 of the FAA's 4-phase type certification** process. It is preparing for potential early Midnight operations with partners in Florida, Texas, and New York as soon as H2 2026, alongside a UAE launch program. The stock has drawn attention from ARK Invest buying and building defense/certification catalysts, though a still-pending full transition flight keeps focus on remaining certification milestones.
+
+#### Investment Thesis
+
+ACHR is a high-risk, pre-commercial bet on urban air mobility becoming real, with certification progress as the key value driver and a deep partner/investor base (Stellantis, United Airlines, defense tie-ins). Key risks: certification timing and the unfinished transition-flight milestone, heavy cash burn and dilution, manufacturing scale-up, and the unproven economics of the air-taxi market.
+
+#### Comparable Companies
+
+| Company | Ticker | Focus |
+|---|---|---|
+| Joby Aviation | JOBY | Competing US eVTOL air taxi (further along certification) |
+| Vertical Aerospace | EVTL | UK-based eVTOL developer |
+| EHang | EH | Chinese autonomous eVTOL, already operating |
+| Lilium | Private/insolv. | German eVTOL (restructured) |
+
+---
+
+### 28. Joby Aviation (NYSE: JOBY) — Public Stock
+
+Joby is Archer's principal US rival in the eVTOL air-taxi race and is generally viewed as the furthest along toward commercial service. Backed by Toyota and partnered with Delta Air Lines, Joby is vertically integrated (it builds its own aircraft and powertrain) and has expanded into adjacent mobility via its acquisition of **Blade Air Mobility's** passenger business.
+
+#### Key Metrics
+
+| Metric | Value |
+|---|---|
+| Stock Price | ~$11 (verify latest; ~$9.70–$11.50 range early June 2026) |
+| Market Cap | ~$11B (verify latest) |
+| P/E (Trailing) | N/A (pre-commercial/unprofitable) |
+| Q1 2026 Revenue | $24M (beat ~$20.4M estimate; largely Blade) |
+| FAA Status | Completed Stage 4; passed Stage 5 review |
+| Launch Target | Late 2026 (with Delta Air Lines), under White House eVTOL pilot program |
+| 52-Week Range | ~$7.70 – ~$20.95 |
+| Sector | Aerospace & Defense / Advanced Air Mobility |
+| HQ | Santa Cruz, California |
+
+#### Q1 2026 & Certification Progress
+
+Joby reported Q1 2026 revenue of $24M, beating ~$20.4M estimates (largely from the Blade acquisition), and reaffirmed plans to begin commercial air-taxi operations in **late 2026** under the White House-backed eVTOL Integration Pilot Program, partnered with Delta. It highlighted completion of FAA certification **Stage 4** and a successful **Stage 5** review — milestones toward authorizing the first commercial eVTOL passenger service in US history. The company also flew an eVTOL demonstration in New York. Cash burn and final certification remain the key watch items; Morgan Stanley trimmed its price target in early June.
+
+#### Investment Thesis
+
+JOBY is the front-runner in US eVTOL certification, with strong strategic backers (Toyota, Delta) and a vertically integrated model. As with Archer, the value driver is reaching certified commercial service and then scaling profitably. Key risks: final certification timing, heavy cash burn and dilution, manufacturing ramp, and unproven unit economics for air taxis.
+
+---
+
+### 29. Tema Space Innovators ETF (NYSE Arca: NASA) — Public ETF (Active)
+
+The Tema Space Innovators ETF (ticker `NASA`) is an actively managed fund giving investors single-ticker exposure to the emerging space economy — launch, propulsion, satellites, and space infrastructure — across both public equities and a limited sleeve of high-conviction pre-IPO names. Launched March 30, 2026, it became one of the fastest-growing ETF launches on record, crossing $1B in AUM in 37 trading days and topping $2.6B by end of May 2026, riding intense retail interest in a potential SpaceX IPO.
+
+#### Key Facts
+
+| Item | Detail |
+|---|---|
+| Ticker | NASA |
+| Exchange | NYSE Arca |
+| Price | ~$33.33 |
+| Structure | Actively managed equity ETF |
+| Expense Ratio | 0.75% (75 bps) |
+| AUM | >$2.6B (end of May 2026) |
+| Holdings | ~20–40 companies (mostly public + SpaceX via SPV) |
+| Launched | March 30, 2026 |
+
+#### What It Holds
+
+The fund's top holding is **Rocket Lab (RKLB)** at just over 10%, with **SpaceX** second at ~6.9% held through a special-purpose vehicle. As of June 5, 2026, NASA held ~1.35M SpaceX common-share equivalents valued at ~$171.5M — implying a SpaceX valuation of roughly $1.51 trillion. The rest of the portfolio spans publicly listed launch, satellite, and space-infrastructure names (many of which appear individually in this section: RKLB, RDW, LUNR, ASTS, etc.).
+
+#### Investor-Lens Considerations
+
+- **SpaceX-access wrapper:** A large part of NASA's appeal — and its asset gathering — is the rare retail-accessible SpaceX exposure via the SPV sleeve, ahead of any SpaceX IPO.
+- **Concentration & valuation marks:** The SpaceX SPV is marked at a ~$1.5T implied valuation; private-mark methodology and IPO outcomes drive NAV risk.
+- **Active management & fee:** 75 bps is rich vs. passive index ETFs; the thesis depends on the manager's selection across a volatile, pre-profit sector.
+- **Theme volatility:** Holdings are high-beta space names with binary catalysts (launches, certifications, contract awards); expect significant drawdowns.
 
 ---
 
@@ -616,7 +840,7 @@ In January 2026, Castelion broke ground on Project Ranger, a 1,000-acre manufact
 
 ---
 
-### 22. BOT — RoboStrategy Inc (NASDAQ: BOT)
+### 30. BOT — RoboStrategy Inc (NASDAQ: BOT)
 
 **Overview.** RoboStrategy Inc. (Nasdaq: BOT) listed on May 11, 2026. It's the first publicly traded closed-end fund designed to give retail and institutional investors access to private, pre-IPO, and public robotics and physical AI companies in a single stock. Think of it as a listed VC vehicle for the humanoid/physical AI wave.
 
@@ -626,7 +850,7 @@ In January 2026, Castelion broke ground on Project Ranger, a 1,000-acre manufact
 
 ---
 
-### 23. Harmonic Drive Systems (TSE: 6324) — Japan
+### 31. Harmonic Drive Systems (TSE: 6324) — Japan
 
 **Note on ticker.** The correct TSE ticker is **6324**, not 6342. Trades in Tokyo; OTC ADR ticker is HSYDF.
 
@@ -642,7 +866,7 @@ In January 2026, Castelion broke ground on Project Ranger, a 1,000-acre manufact
 
 ---
 
-### 24. Dell Technologies — Trump Endorsement
+### 32. Dell Technologies — Trump Endorsement
 
 **The Call.** On May 8, 2026, during a White House Mother's Day event, President Trump publicly urged Americans to "go out and buy a Dell computer" in a show of support for domestic tech manufacturing. The endorsement was accompanied by a Truth Social post and immediately sent shares surging — DELL hit an all-time record of $263.99 intraday (+14.6%), ultimately closing up ~12%. It was Dell's best weekly performance in over two years, with the stock gaining ~24% on the week.
 
@@ -658,13 +882,13 @@ In January 2026, Castelion broke ground on Project Ranger, a 1,000-acre manufact
 
 ---
 
-### 25. Situational Awareness Fund (LP)
+### 33. Situational Awareness Fund (LP)
 
 Founded by Leopold Aschenbrenner — ex-OpenAI Superalignment researcher, age 23 — and seeded by Nat Friedman, Daniel Gross, and Patrick & John Collison (Stripe founders). Started at ~$225M AUM; grew to ~$5.5B in U.S. equity exposure by Feb 2026 13F. The thesis is AGI-infrastructure: bet on the physical bottlenecks (power, compute capacity) rather than the model builders. Portfolio is concentrated (~24–30 positions) and heavy in power plays and Bitcoin miners pivoting to AI hosting — Bloom Energy (largest holding), Coherent, Tower Semi, SanDisk, Core Scientific, Riot Platforms, IREN, BitDeer, Hut 8, Applied Digital. Worth tracking 13F filings for positioning signals on the AI infrastructure theme.
 
 ---
 
-### 26. Fundrise — Private Platform (Real Estate + Innovation Fund)
+### 34. Fundrise — Private Platform (Real Estate + Innovation Fund)
 
 Fundrise is the largest direct-to-consumer private-alternatives platform in the US, founded in 2010 by brothers Ben and Dan Miller and headquartered in Washington, DC. The platform pioneered the "eREIT" wrapper to give non-accredited retail investors institutional-style access to private real estate, and has more recently expanded into private tech via the **Fundrise Innovation Fund** and into private credit via the **Fundrise Income Fund**. As of 2025–2026, total AUM has grown to roughly $3–4B across ~500K+ retail investors, with entry minimums as low as $10. Fundrise itself is **private — not publicly traded** — though it has periodically signaled interest in eventually going public.
 
@@ -689,7 +913,7 @@ Fundrise is the largest direct-to-consumer private-alternatives platform in the 
 
 #### Why This Matters
 
-Fundrise sits at the intersection of two retail-access trends: (1) **democratization of private real estate**, where Fundrise was first-mover and remains category leader vs. Cadre, RealtyMogul, and Yieldstreet; and (2) **democratization of late-stage venture**, where the Innovation Fund competes with ARK Venture (ARKVX), Linqto, EquityZen, and now the Robinhood Ventures product (see §27 below). Unlike most accredited-only platforms, Fundrise is open to **any retail investor at any income level**, which is the key structural differentiator.
+Fundrise sits at the intersection of two retail-access trends: (1) **democratization of private real estate**, where Fundrise was first-mover and remains category leader vs. Cadre, RealtyMogul, and Yieldstreet; and (2) **democratization of late-stage venture**, where the Innovation Fund competes with ARK Venture (ARKVX), Linqto, EquityZen, and now the Robinhood Ventures product (see §35 below). Unlike most accredited-only platforms, Fundrise is open to **any retail investor at any income level**, which is the key structural differentiator.
 
 #### Comparable Platforms
 
@@ -704,7 +928,7 @@ Fundrise sits at the intersection of two retail-access trends: (1) **democratiza
 
 ---
 
-### 27. Robinhood Venture Fund — Private-Market Access Product
+### 35. Robinhood Venture Fund — Private-Market Access Product
 
 Robinhood Markets (HOOD) has aggressively pushed into private-market and alternative-asset access for retail investors as a strategic complement to its public-market brokerage. "Robinhood Venture Fund" most plausibly refers to one of three related initiatives Robinhood has been building out:
 
@@ -742,126 +966,11 @@ The exact structure and accessibility of "Robinhood Venture Fund" matters a lot 
 
 ---
 
-### 28. Moonvest ETF (MNVT) — Public ETF (Active, Creator-Led)
-
-The Moonvest ETF (`MNVT`, listed on Nasdaq) is a newly-launched **actively managed, creator-led equity ETF** run by Alex G ([@AlexMoonvest](https://x.com/AlexMoonvest)) and co-founder Venkat ([@venkat4754](https://x.com/venkat4754)). It is the institutionalization of Alex G's personal investing strategy — multi-industry, multi-geography, multi-style — packaged into an ETF wrapper for US investors. The vehicle is high-risk / higher-potential-reward by the manager's own description, with a contrarian "fallen-but-fixable" stock-picking thesis at its core.
-
-#### Strategy
-
-The fund targets stocks with **asymmetric risk-reward profiles trading significantly below their 52-week highs**. The manager's stated edge is deep fundamental analysis to **distinguish temporary setbacks from structural headwinds** — i.e. catch the dislocations where the market has lumped a recoverable name in with the truly broken ones. In practice this is a contrarian / deep-value / "buy the drawdown" approach, applied across sectors and geographies rather than confined to a single thematic.
-
-#### Why Launch as an ETF
-
-The manager cited three reasons in the launch announcement:
-
-1. **Simplicity** — direct, single-ticker access for investors who already align with the manager's style.
-2. **Tax efficiency** — ETF in-kind redemption mechanism reduces capital-gains drag vs. trading in a taxable personal account.
-3. **Transparency** — holdings and trades published with a **1-day lag**, plus daily returns. This is more transparent than typical quarterly 13F disclosure.
-
-The manager has also publicly committed to investing a significant portion of personal portfolio into the fund (manager skin-in-the-game).
-
-#### Key Facts
-
-| Item | Detail |
-|---|---|
-| Ticker | MNVT |
-| Exchange | Nasdaq |
-| Structure | Actively managed equity ETF |
-| Strategy | Contrarian / asymmetric upside, names well below 52-week highs |
-| Disclosure | Holdings and trades on T+1 lag |
-| Managers | Alex G (@AlexMoonvest), Venkat (@venkat4754) |
-| Listed | 2026 (recent) |
-| Distribution channel | Creator-driven via X and RedNote (Xiaohongshu) audience |
-
-#### What This Fits Among (Creator-Led / Active Style ETFs)
-
-| Ticker | Name | Style |
-|---|---|---|
-| ARKK / ARKQ / ARKW | ARK Innovation suite | Cathie Wood, high-conviction disruptive innovation |
-| AVUV | Avantis US Small Cap Value | Systematic small-cap value |
-| RPV | Invesco S&P 500 Pure Value | Rules-based deep value tilt |
-| FALN | iShares Fallen Angels HY Bond | Fallen-angel concept, but in credit not equity |
-| TWLV | Roundhill MAGS / similar manager-led actives | Active concentrated equity |
-
-#### Investor-Lens Considerations
-
-- **Creator-led product risk**: returns are tied to the manager's continued engagement and judgment. Key-person risk is real for single-manager active funds; succession is rarely defined.
-- **Audience overlap with strategy**: RedNote distribution suggests a sizable Chinese-speaking retail following — flows can be momentum-y around the manager's social-media activity, which can amplify NAV/AUM volatility.
-- **Drawdown-buying strategies have well-known failure modes**: catching falling knives in true structural declines (e.g. melting-ice-cube businesses, fraud, regulatory cliff). The "temporary setback vs. structural headwind" call is exactly where active managers earn or lose their fees.
-- **Compare honestly to a passive value tilt**: the right benchmark is not the S&P 500 — it's RPV, IUSV, or AVUV. Beating large-cap passive doesn't validate the strategy; beating a value benchmark net of fees does.
-
----
-
-### 29. Connie & Kelly — Pluscios Management
-
-#### Identification
-
-"Connie & Kelly" refers to **Constance (Connie) Teska** and **Kelly Chesney**, co-founders of **Pluscios Management LLC**, a boutique hedge fund-of-funds investment management firm based in **Evanston, Illinois**. The firm is **WBENC-certified** (Women's Business Enterprise National Council), making it a women-owned investment firm — a notable distinction in the hedge fund industry.
-
-#### Background
-
-Both founders previously worked at **JPMorgan**, where Connie served as President of JPMorgan Capital Management, the bank's hedge fund investment group managing both proprietary and client capital. She was a founding member of that group and ran it for nine years. Kelly also worked in JPMorgan's capital markets and alternatives functions. They left JPMorgan together in **2006** to found Pluscios.
-
-Connie brings 30+ years of capital markets and alternative investing experience (including prior work as a lawyer structuring derivatives and fund vehicles). Kelly brings 25+ years in similar disciplines, serving as the firm's COO.
-
-#### Strategy & AUM
-
-Pluscios is a **hedge fund-of-funds** manager with a differentiated angle: rather than a traditional diversified FOF, the firm focuses on finding **niche, opportunistic, idiosyncratic managers** — often diversity-led and emerging managers — who offer differentiated return streams. Services include:
-
-- Custom diversity-focused allocations
-- Manager due diligence
-- Diversified hedge fund-of-funds portfolios
-- Advisory/consulting
-
-Approximately **80% of the client base is institutional**. The most recent publicly available AUM figure (from 2017 SEC filings) was approximately **$216 million across 4 private funds**; current figures are not publicly disclosed. The firm is boutique-scale.
-
-#### Notes on Limited Public Profile
-
-Pluscios is a smaller, niche firm with limited media coverage. There are no notable recent press releases, 13F filings reflecting large public equity positions, or widely-reported flagship positions. The firm's edge is in manager selection and FOF construction rather than direct public market investing.
-
----
-
-## Crypto & Derivatives
-
----
-
-### 30. SpaceX USDT Perpetual Swap Contract
-
-#### What It Is
-
-A SpaceX USDT perpetual swap (also called a perpetual futures contract) is a crypto derivatives product that allows traders to gain synthetic price exposure to SpaceX — a private company with no public shares — without expiration date. These contracts track a reference price linked to SpaceX's secondary-market valuation (derived from private share tender offers and secondary trading platforms) and are settled in USDT (Tether). They are **not equity**: holders receive no shareholder rights, dividends, or ownership stake.
-
-#### Which Exchanges Offer It
-
-As of May 2026, multiple crypto exchanges have launched or announced SpaceX USDT perpetual futures:
-
-- **OKX** — launched perpetual futures for SpaceX (alongside OpenAI and Anthropic) as of ~May 6, 2026, framing it as part of a "pre-IPO frenzy" of private company derivatives
-- **MEXC** — lists SPACEX_USDT perpetual futures (ticker: `SPACEXUSDT`)
-- **BTCC** — launched SPACEXUSDT perpetual futures with up to **50x leverage**, listed in its tokenized stocks section
-- **Hotcoin** — announced SPACEXUSDT perpetual futures pre-market trading
-
-#### How It Works / Margin & Funding Mechanics
-
-- **No expiration:** Unlike traditional futures, perpetual contracts have no delivery date and can be held indefinitely
-- **Funding rate mechanism:** Periodic payments (typically every 8 hours) flow between long and short holders to keep the contract price anchored near the reference/spot price. When longs are dominant (contract trades at premium), longs pay shorts; when shorts dominate, the reverse occurs
-- **Collateral/margin:** Traders post USDT as margin; leverage up to 50x is available on some platforms (BTCC), meaning a 2% adverse move can trigger liquidation at max leverage
-- **Reference price:** Derived from secondary-market SpaceX share trades and tender offer valuations — not a live public market price. A December 2025 tender offer valued SpaceX at ~**$800 billion**; some IPO speculation has floated valuations as high as **$1.75 trillion**
-
-#### Risks & Notable Developments
-
-- **Illiquid reference price:** SpaceX is private, so the underlying valuation anchor is thin and episodic, making pricing highly speculative
-- **No regulatory clarity:** These products exist in a grey zone in many jurisdictions
-- **IPO speculation:** Much of the contract's appeal is tied to bets on a SpaceX IPO — if an IPO is delayed or cancelled, the contract may lose catalysts
-- **Counterparty risk:** These are exchange-native derivatives with no central clearing in most cases
-- The trend of crypto exchanges packaging well-known private tech companies (SpaceX, OpenAI, Anthropic) into perpetual futures is accelerating as of early-to-mid 2026
-
----
-
 ## Unknown / Pending Verification
 
 ---
 
-### 31. VCX — Ticker Verification Needed
+### 36. VCX — Ticker Verification Needed
 
 The ticker `VCX` does not map cleanly to a high-profile name as of April 2026. A handful of possibilities exist and the right fit depends on context:
 
@@ -883,7 +992,7 @@ Once any one of those is confirmed, this section can be filled out with the same
 
 ---
 
-### 32. Queued for Research
+### 37. Queued for Research
 
 The following names have been flagged for follow-up research — bare tickers/names only at this stage, no write-up yet:
 
@@ -909,4 +1018,4 @@ jbl stock
 
 ---
 
-***Disclaimer:** This report is for informational purposes only and does not constitute investment advice. Data sourced from public filings, news reports, and financial databases. Sources: April 14, 2026 · May 7, 2026 · May 8, 2026 · May 14, 2026. Verify all figures before making investment decisions.*
+***Disclaimer:** This report is for informational purposes only and does not constitute investment advice. Data sourced from public filings, news reports, and financial databases. Sources: April 14, 2026 · May 7, 2026 · May 8, 2026 · May 14, 2026 · June 8, 2026. Verify all figures before making investment decisions.*
