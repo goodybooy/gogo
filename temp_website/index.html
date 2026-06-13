@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Trading Co. — Connecting Markets Worldwide</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- AOS: Animate On Scroll (CDN) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+</head>
+<body>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header">
+    <nav class="nav">
+      <!-- Round logo placeholder (upper-left) -->
+      <a href="#home" class="logo" aria-label="Home">
+        <span class="logo-text">GT</span>
+      </a>
+
+      <!-- Nav links (right) -->
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Our Products</a></li>
+        <li><a href="#industry">Industrial Partners</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Mobile hamburger -->
+      <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+    </nav>
+  </header>
+
+  <!-- ============ HERO (full-screen photo bg) ============ -->
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content" data-aos="fade-up">
+      <h1>Connecting Markets Worldwide</h1>
+      <p>A global trading partner across commodities, industry, and logistics.</p>
+      <a href="#products" class="btn">Explore Our Products</a>
+    </div>
+  </section>
+
+  <!-- ============ SECTION 2 (centered 2/3 width) ============ -->
+  <section id="products" class="section section-products">
+    <div class="container container-wide">
+      <div data-aos="fade-up">
+        <h2>Our Products</h2>
+        <p class="lead">Supplying commodities— across metals, energy, chemicals, agricultural inputs, and building materials — connecting factories, commerce platforms, and infrastructure projects with reliable supply to customers across the energy, metal, chemical, agricultural, and construction.</p>
+      </div>
+
+      <div class="products">
+
+        <!-- Petrochemical -->
+        <article class="product" data-aos="fade-up">
+          <div class="carousel" data-interval="4500">
+            <div class="slides">
+              <div class="slide active" style="background-image:url('assets/petro-1.jpg')"></div>
+              <div class="slide" style="background-image:url('assets/petro-2.jpg')"></div>
+              <div class="slide" style="background-image:url('assets/petro-3.jpg')"></div>
+              <div class="slide" style="background-image:url('assets/petro-4.jpg')"></div>
+            </div>
+            <button class="car-btn car-prev" aria-label="Previous">&#8249;</button>
+            <button class="car-btn car-next" aria-label="Next">&#8250;</button>
+            <div class="dots"></div>
+          </div>
+          <div class="product-info">
+            <h3>Petrochemical</h3>
+            <p>Petroleum coke, sulfur, bitumen, and urea across the energy and chemical supply chains. Petroleum-coke import is our flagship business, anchored by long-term partnerships with leading U.S. petroleum product producers.</p>
+          </div>
+        </article>
+
+        <!-- Building Materials -->
+        <article class="product product-reverse" data-aos="fade-up">
+          <div class="carousel" data-interval="4000">
+            <div class="slides">
+              <div class="slide active" style="background-image:url('assets/building-1.png')"></div>
+              <div class="slide" style="background-image:url('assets/building-2.jpg')"></div>
+              <div class="slide" style="background-image:url('assets/building-3.jpg')"></div>
+              <div class="slide" style="background-image:url('assets/building-4.jpg')"></div>
+              <div class="slide" style="background-image:url('assets/building-5.jpg')"></div>
+            </div>
+            <button class="car-btn car-prev" aria-label="Previous">&#8249;</button>
+            <button class="car-btn car-next" aria-label="Next">&#8250;</button>
+            <div class="dots"></div>
+          </div>
+          <div class="product-info">
+            <h3>Building Materials</h3>
+            <p>Material supply for landmark infrastructure, industrial parks, and transportation projects — from college campuses and industrial parks to urban roadworks and expressway construction.</p>
+          </div>
+        </article>
+
+        <!-- Agricultural -->
+        <article class="product" data-aos="fade-up">
+          <div class="carousel">
+            <div class="slides">
+              <div class="slide active car-placeholder"><span>Agricultural photo</span></div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h3>Agricultural</h3>
+            <p>Agricultural inputs including urea and related raw materials, delivered with stable bulk supply, warehousing, and on-demand distribution.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SECTION 3: INDUSTRY (centered 2/3 width) ============ -->
+  <section id="industry" class="section alt">
+    <div class="container container-wide">
+      <div data-aos="fade-up">
+        <h2>Industrial Partners</h2>
+      </div>
+
+      <div class="projects" data-aos="fade-up">
+        <p class="projects-intro">We sponsor and supplied infrastructure, industrial-park, and transportation projects, including:</p>
+        <div class="project-grid">
+          <div class="project-card">
+            <span class="project-tag">University Construction</span>
+            <h4>Binzhou Medical University Industry-Education Innovation &amp; Training Center</h4>
+          </div>
+          <div class="project-card">
+            <span class="project-tag">University Construction</span>
+            <h4>Shandong City Service Vocational College (Phase II)</h4>
+          </div>
+          <div class="project-card">
+            <span class="project-tag">Transportation Construction</span>
+            <h4>Tashan North Road (Shanhai Rd–Guanhai Rd) Construction</h4>
+          </div>
+          <div class="project-card">
+            <span class="project-tag">Transportation Construction</span>
+            <h4>Qixia–Laizhou Highway, Section 1A</h4>
+          </div>
+          <div class="project-card">
+            <span class="project-tag">Industrial Complex Project</span>
+            <h4>Zhongjia Yingrui Industrial Park, Laishan District</h4>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Full-width industry photo banner -->
+    <div class="carousel industry-banner" data-interval="5000" data-aos="fade-up">
+      <div class="slides">
+        <div class="slide active" style="background-image:url('assets/industry-1.jpg')"></div>
+        <div class="slide" style="background-image:url('assets/industry-2.jpg')"></div>
+        <div class="slide" style="background-image:url('assets/industry-3.jpg')"></div>
+        <div class="slide" style="background-image:url('assets/industry-4.jpg')"></div>
+      </div>
+      <button class="car-btn car-prev" aria-label="Previous">&#8249;</button>
+      <button class="car-btn car-next" aria-label="Next">&#8250;</button>
+      <div class="dots"></div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer id="contact" class="site-footer">
+    <div class="footer-inner">
+      <a href="#home" class="logo logo-footer" aria-label="Home">
+        <span class="logo-text">GT</span>
+      </a>
+      <a href="#contact" class="footer-contact">Contact Us</a>
+      <p class="copyright">&copy; 2026 Global Trading Co. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- AOS init -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
