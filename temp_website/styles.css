@@ -10,7 +10,7 @@
   --bg-alt: #FFFFFF;        /* alternate section bg */
   --border: #E5E1D6;        /* border gray */
   --text: #4B5563;          /* text gray */
-  --heading: #181b3e;       /* heading text (dark navy) */
+  --heading: #201843;       /* heading text (dark blue) */
   --muted: #6b7280;
   --nav-h: 76px;
 }
@@ -81,23 +81,26 @@ body {
   list-style: none;
 }
 
-/* Language switch */
-.lang-switch {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 0.92rem;
-  font-weight: 600;
-}
-.lang-switch a {
-  color: rgba(255,255,255,0.7);
+/* Language switch button */
+.lang-btn {
+  display: inline-block;
+  border: 1.5px solid rgba(255,255,255,0.65);
+  color: #fff;
   text-decoration: none;
+  padding: 6px 18px;
+  border-radius: 22px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
   text-shadow: 0 1px 3px rgba(0,0,0,0.4);
-  transition: color 0.2s ease;
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
 }
-.lang-switch a:hover { color: #fff; }
-.lang-switch a.active { color: var(--accent); }
-.lang-sep { color: rgba(255,255,255,0.5); }
+.lang-btn:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+  text-shadow: none;
+}
 .nav-links a {
   color: #fff;
   text-decoration: none;
