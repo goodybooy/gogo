@@ -30,3 +30,4 @@ FIRST TRUST CAPITAL SOLUTIONS — Private Assets Fund (FTPAX)
 https://mp.weixin.qq.com/s/vsSc7FHG7Db3fxgkL8gWQg?scene=334
 https://mp.weixin.qq.com/s/dBv2V5sImpXXRb7xiR_HYQ?scene=334
 https://mp.weixin.qq.com/s/Rzokorh5DxLXF6i6VUXCPQ?scene=334
+https://www.reddit.com/r/quant/comments/1qo57pt/what_are_your_thoughts_on_pimco/
