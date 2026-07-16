@@ -27,3 +27,6 @@ FIRST TRUST CAPITAL SOLUTIONS — Private Assets Fund (FTPAX)
 - This is the most direct "deal source" product — likely the Forge/HIIVE listings
 - Product page: https://www.firsttrustcapital.com/ftpax-product-page/
 - Investor guide: https://www.firsttrustcapital.com/wp-content/uploads/2026/01/First-Trust-Private-Assets-Fund-Investor-Guide.pdf
+https://mp.weixin.qq.com/s/vsSc7FHG7Db3fxgkL8gWQg?scene=334
+https://mp.weixin.qq.com/s/dBv2V5sImpXXRb7xiR_HYQ?scene=334
+https://mp.weixin.qq.com/s/Rzokorh5DxLXF6i6VUXCPQ?scene=334
