@@ -1,14 +1,18 @@
 D1 Capital SpaceX
-
+https://abhinavkeshri.substack.com/p/building-optimal-systematic-portfolios?utm_source=notes-share-action&r=82bz6b
 
 ## Web Browse Fetch — 2026-07-19
+
 - Alex Moon (@AlexMoonvest): 07-17 22:03 UTC — 若 Kimi K3 编程能力真的接近 Fable，考虑换用 Kimi code（之前已记录，重发提醒） — https://x.com/AlexMoonvest/status/2078239303852016052
 - Serenity (@aleabitoreddit): 07-18 04:39 UTC — $SKHY（SK Hynix ADR）相对韩股25%+溢价，7/29起ADR与本地股可互相转换，预期压缩溢价（之前已记录，重发提醒） — https://x.com/aleabitoreddit/status/2078338950150959558
 - （Julian Petroulas、Benjamin Hedge 本次均超过3天无更新，未包含在本次邮件中。）
+
 ---
+
 AI 财富地图：英伟达生态 Top20 股票
 
 芯片 & 制造
+
 1. $NVDA – NVIDIA（英伟达） – AI 计算的"标准货"
 2. $TSM – TSMC（台积电） – 代工厂，制造高端 AI 芯片
 3. $ASML – ASML（阿斯麦） – EUV 光刻机独家供应商
