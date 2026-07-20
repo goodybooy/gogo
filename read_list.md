@@ -1,10 +1,14 @@
 D1 Capital SpaceX
 https://abhinavkeshri.substack.com/p/building-optimal-systematic-portfolios?utm_source=notes-share-action&r=82bz6b
 
-## Web Browse Fetch — 2026-07-19
+Trevor McKinney — KMM
+https://trevormckinney.com/work/kmm
 
+## Web Browse Fetch — 2026-07-20
+
+- Serenity (@aleabitoreddit): 07-19 18:46 UTC — 吐槽AI资本支出（capex）持续升温，认为若头部前沿模型仍处于算力/产能不足状态，涨势或仍有空间，无具体标的 — https://x.com/aleabitoreddit/status/2078914447180263438
+- Serenity (@aleabitoreddit): 07-20 06:22 UTC — 电子供应链瓶颈周期梳理（ABF基板/HDI板/多层板/CCL覆铜板/MLCC等多品类供应商），含 $TTMI/$VSH — https://x.com/aleabitoreddit/status/2079089592385610023
 - Alex Moon (@AlexMoonvest): 07-17 22:03 UTC — 若 Kimi K3 编程能力真的接近 Fable，考虑换用 Kimi code（之前已记录，重发提醒） — https://x.com/AlexMoonvest/status/2078239303852016052
-- Serenity (@aleabitoreddit): 07-18 04:39 UTC — $SKHY（SK Hynix ADR）相对韩股25%+溢价，7/29起ADR与本地股可互相转换，预期压缩溢价（之前已记录，重发提醒） — https://x.com/aleabitoreddit/status/2078338950150959558
 - （Julian Petroulas、Benjamin Hedge 本次均超过3天无更新，未包含在本次邮件中。）
 
 ---
