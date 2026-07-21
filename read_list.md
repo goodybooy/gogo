@@ -4,12 +4,14 @@ https://mp.weixin.qq.com/s/pUXthDaPy2s-p4dRIfCVBg?scene=334
 
 https://mp.weixin.qq.com/s/jLxydh_nHpyKuHXSjXv18w
 
-## Web Browse Fetch — 2026-07-20
+## Web Browse Fetch — 2026-07-21
 
-- Serenity (@aleabitoreddit): 07-19 18:46 UTC — 吐槽AI资本支出（capex）持续升温，认为若头部前沿模型仍处于算力/产能不足状态，涨势或仍有空间，无具体标的 — https://x.com/aleabitoreddit/status/2078914447180263438
-- Serenity (@aleabitoreddit): 07-20 06:22 UTC — 电子供应链瓶颈周期梳理（ABF基板/HDI板/多层板/CCL覆铜板/MLCC等多品类供应商），含 $TTMI/$VSH — https://x.com/aleabitoreddit/status/2079089592385610023
-- Alex Moon (@AlexMoonvest): 07-17 22:03 UTC — 若 Kimi K3 编程能力真的接近 Fable，考虑换用 Kimi code（之前已记录，重发提醒） — https://x.com/AlexMoonvest/status/2078239303852016052
-- （Julian Petroulas、Benjamin Hedge 本次均超过3天无更新，未包含在本次邮件中。）
+- Serenity (@aleabitoreddit): 07-21 09:14 UTC — $AMD 旧金山活动定于7/22-23举行，Jefferies预计AMD将披露scale-up CPO路线图+MI500进展，若确认走CPO路线对相关CPO生态标的为主题性利好 — https://x.com/aleabitoreddit/status/2079495178793201678
+- Serenity (@aleabitoreddit): 07-21 08:13 UTC — Kioxia+17.18%、三星+6.15%，光学网络$SIVE/$LITE/$AAOI回升4%+，Neocloud $NBIS至$IREN盘前涨4%+，$INTC/$AMD/$MRVL涨4%+，暗讽Jim Cramer前日看空言论被反弹打脸 — https://x.com/aleabitoreddit/status/2079479755481776221
+- Serenity (@aleabitoreddit): 07-20 21:38 UTC — $NBIS盘后上涨：$NVDA经SEC文件披露持有Nebius 9.3%受益所有权（源于此前既有仓位，非全新消息，但仍视为利好） — https://x.com/aleabitoreddit/status/2079319999915925938
+- Serenity (@aleabitoreddit): 07-20 19:36 UTC — 数学/AI研究话题感想（Smale数学问题列表#16），无具体标的 — https://x.com/aleabitoreddit/status/2079289335351062693
+- Serenity (@aleabitoreddit): 07-20 17:18 UTC — $IREN大涨+19.69%（上调ARR目标至$4B+，新增Microsoft/Nvidia/Perplexity/Figure客户）；$HUT+10.45%；$CIFR+16.76%；$CLSK+13.7%；$WYFI+9.18%；$NBIS与$CRWV反应相对滞后 — https://x.com/aleabitoreddit/status/2079254669793316962
+- （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均超过3天无更新，未包含在本次邮件中。）
 
 ---
 
