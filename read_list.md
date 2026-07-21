@@ -1,8 +1,6 @@
-D1 Capital SpaceX
-https://abhinavkeshri.substack.com/p/building-optimal-systematic-portfolios?utm_source=notes-share-action&r=82bz6b
+https://mp.weixin.qq.com/s/pUXthDaPy2s-p4dRIfCVBg?scene=334
 
-Trevor McKinney — KMM
-https://trevormckinney.com/work/kmm
+https://mp.weixin.qq.com/s/jLxydh_nHpyKuHXSjXv18w
 
 ## Web Browse Fetch — 2026-07-20
 
@@ -40,10 +38,9 @@ AI 财富地图：英伟达生态 Top20 股票
 17. $NVTS – Navitas Semiconductor（纳维塔） – AI 机架电源半导体
 
 控制 & AI 应用层
+
 18. $NBIS – Nbisoft – 让计算像水电一样随用随取
-19. $PLTR – Palantir（帕兰提尔） – 把 AI 模型变成实际决策
-20. $TSLA – Tesla（特斯拉） – 大量消耗计算的实体 AI 应用（自动驾驶）
-【今天我邀请了叽叽歪歪的平行世界，来跟大家分享他们一家三口开着小米SU7环游世界的故事！-哔哩哔哩】 https://b23.tv/ZvH26If
-【一个40+中年人追梦的故事！-哔哩哔哩】 https://b23.tv/M4vuW72
-【千万别做真实的旅行长视频博主！-哔哩哔哩】 https://b23.tv/tHhk75T
-【831天 35个国家 环球自驾两年多 我们花了多少钱？ 全程旅行费用大公开！-哔哩哔哩】 https://b23.tv/nBHtS0D
+    19. $PLTR – Palantir（帕兰提尔） – 把 AI 模型变成实际决策
+    20. $TSLA – Tesla（特斯拉） – 大量消耗计算的实体 AI 应用（自动驾驶）
+
+
