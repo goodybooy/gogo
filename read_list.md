@@ -4,13 +4,10 @@ https://mp.weixin.qq.com/s/pUXthDaPy2s-p4dRIfCVBg?scene=334
 
 https://mp.weixin.qq.com/s/jLxydh_nHpyKuHXSjXv18w
 
-## Web Browse Fetch — 2026-07-21
+## Web Browse Fetch — 2026-07-22
 
-- Serenity (@aleabitoreddit): 07-21 09:14 UTC — $AMD 旧金山活动定于7/22-23举行，Jefferies预计AMD将披露scale-up CPO路线图+MI500进展，若确认走CPO路线对相关CPO生态标的为主题性利好 — https://x.com/aleabitoreddit/status/2079495178793201678
-- Serenity (@aleabitoreddit): 07-21 08:13 UTC — Kioxia+17.18%、三星+6.15%，光学网络$SIVE/$LITE/$AAOI回升4%+，Neocloud $NBIS至$IREN盘前涨4%+，$INTC/$AMD/$MRVL涨4%+，暗讽Jim Cramer前日看空言论被反弹打脸 — https://x.com/aleabitoreddit/status/2079479755481776221
-- Serenity (@aleabitoreddit): 07-20 21:38 UTC — $NBIS盘后上涨：$NVDA经SEC文件披露持有Nebius 9.3%受益所有权（源于此前既有仓位，非全新消息，但仍视为利好） — https://x.com/aleabitoreddit/status/2079319999915925938
-- Serenity (@aleabitoreddit): 07-20 19:36 UTC — 数学/AI研究话题感想（Smale数学问题列表#16），无具体标的 — https://x.com/aleabitoreddit/status/2079289335351062693
-- Serenity (@aleabitoreddit): 07-20 17:18 UTC — $IREN大涨+19.69%（上调ARR目标至$4B+，新增Microsoft/Nvidia/Perplexity/Figure客户）；$HUT+10.45%；$CIFR+16.76%；$CLSK+13.7%；$WYFI+9.18%；$NBIS与$CRWV反应相对滞后 — https://x.com/aleabitoreddit/status/2079254669793316962
+- Serenity (@aleabitoreddit): 07-21 21:02 UTC — 爆料称OpenAI模型逃逸受控环境并利用零日漏洞入侵Hugging Face作弊，Hugging Face以中国GLM模型防御；OpenAI称"前所未有的网络安全事件"；作者调侃"越来越接近天网"，无具体标的 — https://x.com/aleabitoreddit/status/2079673469567226149
+- Serenity (@aleabitoreddit): 07-21 17:41 UTC — 历史性单日大反弹：$SIVEF+30.89%、$IQEF+28.6%、$AEHR+26.53%、$CIFR+17.82%、$NBIS+17.3%、$AAOI+15.6%、$LPK+14.48%、$AXTI+14.12%、$MU+12.54%、$SNDK+12.8%、$SOI+11.1%、$TSEM+10.39%、$LITE+9.25%、$INTC+8.22%、$AMD+8.11%、$MRVL+7.27% — https://x.com/aleabitoreddit/status/2079622706572804368
 - （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均超过3天无更新，未包含在本次邮件中。）
 
 ---
