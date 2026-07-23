@@ -43,5 +43,9 @@ AI 财富地图：英伟达生态 Top20 股票
 18. $NBIS – Nbisoft – 让计算像水电一样随用随取
     19. $PLTR – Palantir（帕兰提尔） – 把 AI 模型变成实际决策
     20. $TSLA – Tesla（特斯拉） – 大量消耗计算的实体 AI 应用（自动驾驶）
-
-
+https://mp.weixin.qq.com/s/jLQoMHGeuPSV7Gxawd_p1A?scene=334
+https://mp.weixin.qq.com/s/pDGfj6V4zZGVho96aO3PIA?scene=334
+https://mp.weixin.qq.com/s/_PNzgVAhQUT6dL2Zufs8ow?scene=334
+https://mp.weixin.qq.com/s/feaZr3-EHOaT0jwzlKq91Q?scene=334
+https://mp.weixin.qq.com/s/Mmt0c9BhkBuDB2Hj-fKcqA?scene=334
+https://mp.weixin.qq.com/s/OonlSDcAPIPCDwDF8Z37jg?scene=334
