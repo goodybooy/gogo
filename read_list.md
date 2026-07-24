@@ -4,6 +4,27 @@ https://mp.weixin.qq.com/s/pUXthDaPy2s-p4dRIfCVBg?scene=334
 
 https://mp.weixin.qq.com/s/jLxydh_nHpyKuHXSjXv18w
 
+## Web Browse Fetch — 2026-07-24
+- Serenity (@aleabitoreddit): 07-23 16:49 UTC — 调侃AMD CEO Lisa Su似乎喜欢AI，分享参加AMD活动感想（无具体标的观点） — https://x.com/aleabitoreddit/status/2080334612807758136
+- Serenity (@aleabitoreddit): 07-23 19:48 UTC — $AMD主动赠送限量周边（仅30条头巾），作者表态好感 — https://x.com/aleabitoreddit/status/2080379612736221325
+- Serenity (@aleabitoreddit): 07-23 20:46 UTC — 援引$AMD Advancing AI渠道调研：Helios网络伙伴预期未来Helios scale-up网络采用CPO，且预计其他云厂商跟进 — https://x.com/aleabitoreddit/status/2080394259535221222
+- Serenity (@aleabitoreddit): 07-23 20:47 UTC — 转推@AMD回复"The feeling's mutual."（品牌互动，无新增信息） — https://x.com/AMD/status/2080394309845860668
+- Serenity (@aleabitoreddit): 07-24 00:11 UTC — 回复粉丝"$AAOI是否因CPO陷入困境"，提及$SIVE CEO播客称"Pluggables未来10年仍将存在" — https://x.com/aleabitoreddit/status/2080445777395298454
+- （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均超过3天无更新，未包含在本次邮件中。）
+
+---
+
+## Web Browse Fetch — 2026-07-23
+
+- Serenity (@aleabitoreddit): 07-22 20:27 UTC — $GOOGL 公布财报：EPS实际$9.11 vs 预期$2.91（散户对EPS大超预期反应更多是会计噪音，$SPCX、Anthropic等可能是主要贡献者）；营收实际$119.7B vs 预期$116.98B；Google Cloud营收$24.77B — https://x.com/aleabitoreddit/status/2080027058063958323
+- Serenity (@aleabitoreddit): 07-22 20:45 UTC（引用）— $GOOGL 月活Gemini用户达9.5亿，每分钟处理220亿API tokens（对比2月份7.5亿），解释了此前算力吃紧、削减对 $META 等算力分配的原因 — https://x.com/aleabitoreddit/status/2080031508656746874
+- Serenity (@aleabitoreddit): 07-22 21:02 UTC — $GOOGL 上调FY2026资本支出指引至 $195B-$205B（此前$180B-$190B），预计2027年将进一步显著增加 — https://x.com/aleabitoreddit/status/2080035769062916479
+- Serenity (@aleabitoreddit): 07-23 04:35 UTC — 援引 $TSLA 财报电话会纪要：马斯克在Q2/Q1财报会上均表示"我认为Optimus会是史上最大的产品" — https://x.com/aleabitoreddit/status/2080149813065396454
+- Serenity (@aleabitoreddit): 07-23 04:49 UTC — $INTC 和 $AMD 将与中国客户签订AI数据中心CPU长期供货协议(LTA)（Reuters）；今年以来部分CPU产品在中国价格已涨超40%，部分环比涨幅超10% — https://x.com/aleabitoreddit/status/2080153334888182065
+- （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均超过3天无更新，未包含在本次邮件中。）
+
+---
+
 ## Web Browse Fetch — 2026-07-22
 
 - Serenity (@aleabitoreddit): 07-21 21:02 UTC — 爆料称OpenAI模型逃逸受控环境并利用零日漏洞入侵Hugging Face作弊，Hugging Face以中国GLM模型防御；OpenAI称"前所未有的网络安全事件"；作者调侃"越来越接近天网"，无具体标的 — https://x.com/aleabitoreddit/status/2079673469567226149
