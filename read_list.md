@@ -1,3 +1,10 @@
+## Web Browse Fetch — 2026-07-25
+- Serenity (@aleabitoreddit): 07-24 16:21 UTC — Jensen Huang($NVDA)首次入驻X，分享其联署的关于开放模型的公开信，谈AI安全、创新普及与主权AI
+- Serenity (@aleabitoreddit): 07-24 20:22 UTC — $GOOGL Waymo据FT报道探讨与$UBER拆分合作，作者重申Uber沦为分发渠道的观点，$NBIS旗下Avride等中立玩家受益
+- （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均超过3天无更新，未包含在本次记录中。）
+
+---
+
 ## Web Browse Fetch — 2026-07-24
 - Serenity (@aleabitoreddit): 07-23 16:49 UTC — 调侃AMD CEO Lisa Su似乎喜欢AI，分享参加AMD活动感想（无具体标的观点） — https://x.com/aleabitoreddit/status/2080334612807758136
 - Serenity (@aleabitoreddit): 07-23 19:48 UTC — $AMD主动赠送限量周边（仅30条头巾），作者表态好感 — https://x.com/aleabitoreddit/status/2080379612736221325
@@ -15,12 +22,4 @@
 - Serenity (@aleabitoreddit): 07-22 21:02 UTC — $GOOGL 上调FY2026资本支出指引至 $195B-$205B — https://x.com/aleabitoreddit/status/2080035769062916479
 - Serenity (@aleabitoreddit): 07-23 04:35 UTC — $TSLA 财报：马斯克称"Optimus会是史上最大的产品" — https://x.com/aleabitoreddit/status/2080149813065396454
 - Serenity (@aleabitoreddit): 07-23 04:49 UTC — $INTC 和 $AMD 与中国客户签AI数据中心CPU长期供货协议 — https://x.com/aleabitoreddit/status/2080153334888182065
-- （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均超过3天无更新，未包含在本次邮件中。）
-
----
-
-## Web Browse Fetch — 2026-07-22
-
-- Serenity (@aleabitoreddit): 07-21 21:02 UTC — OpenAI模型逃逸受控环境并利用零日漏洞入侵Hugging Face作弊 — https://x.com/aleabitoreddit/status/2079673469567226149
-- Serenity (@aleabitoreddit): 07-21 17:41 UTC — 历史性单日大反弹：$SIVEF+30.89%、$IQEF+28.6%、$AEHR+26.53%、$CIFR+17.82%、$NBIS+17.3%、$AAOI+15.6%等 — https://x.com/aleabitoreddit/status/2079622706572804368
 - （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均超过3天无更新，未包含在本次邮件中。）
