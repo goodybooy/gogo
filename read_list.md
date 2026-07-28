@@ -1,3 +1,5 @@
+Raffles Family Office
+
 ## Web Browse Fetch — 2026-07-26
 - Serenity (@aleabitoreddit): 07-26 20:12 UTC — TLDR新闻汇总多个AI供应链标的动态（$CXMT/$AVGO/$SOI/$NVDA/$LPK/$QCOM/$META/$INTC/$AMD/$ORCL/$CCXI等）
 - Serenity (@aleabitoreddit): 07-27 01:12 UTC — Nvidia洽谈为OpenAI数据中心融资提供$250B担保，OpenAI另讨论购买至多$350B英伟达芯片
