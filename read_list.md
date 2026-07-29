@@ -1,12 +1,4 @@
-(https://www.reddit.com/r/FinancialCareers/comments/16m2xqs/rokos_capital_management_quant_maths_test/)
-
-[OA-and-Interviews/Application experiences/2023-24/Rokos Capital Management/2024 Quant Graduate Programme.md at main · Leader-board/OA-and-Interviews · GitHub](https://github.com/Leader-board/OA-and-Interviews/blob/main/Application%20experiences/2023-24/Rokos%20Capital%20Management/2024%20Quant%20Graduate%20Programme.md)
-
-(https://www.reddit.com/r/quant/comments/1jqz0tz/is_qube_rt_qrt_on_track_to_becoming_the_top_firm/)
-
-=======
->>>>>>> Stashed changes
-## Web Browse Fetch — 2026-07-26
+ Web Browse Fetch — 2026-07-26
 
 - Serenity (@aleabitoreddit): 07-26 20:12 UTC — TLDR新闻汇总多个AI供应链标的动态（$CXMT/$AVGO/$SOI/$NVDA/$LPK/$QCOM/$META/$INTC/$AMD/$ORCL/$CCXI等）
 - Serenity (@aleabitoreddit): 07-27 01:12 UTC — Nvidia洽谈为OpenAI数据中心融资提供$250B担保，OpenAI另讨论购买至多$350B英伟达芯片
