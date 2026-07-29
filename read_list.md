@@ -4,6 +4,8 @@
 
 (https://www.reddit.com/r/quant/comments/1jqz0tz/is_qube_rt_qrt_on_track_to_becoming_the_top_firm/)
 
+=======
+>>>>>>> Stashed changes
 ## Web Browse Fetch — 2026-07-26
 
 - Serenity (@aleabitoreddit): 07-26 20:12 UTC — TLDR新闻汇总多个AI供应链标的动态（$CXMT/$AVGO/$SOI/$NVDA/$LPK/$QCOM/$META/$INTC/$AMD/$ORCL/$CCXI等）
