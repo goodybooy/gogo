@@ -1,3 +1,13 @@
+[The next quant revolution: Shaking up the corporate bond market | Financial Post](https://financialpost.com/fp-finance/the-next-quant-revolution-shaking-up-the-corporate-bond-market)
+
+[Blackstone Announces Agreement to Acquire DCI, a Pioneer in Technology-driven, Quantitative Credit Investing - Blackstone](https://www.blackstone.com/news/press/blackstone-announces-agreement-to-acquire-dci-a-pioneer-in-technology-driven-quantitative-credit-investing/)
+
+https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Careers/job/Blackstone-Credit---Insurance---Infrastructure-and-Asset-Based-Credit--Quant-Senior-Associate_44082
+
+(https://www.reddit.com/r/FinancialCareers/comments/1jkdmpt/has_anyone_interviewed_for_the_blackstone_credit/
+
+
+
 ## Web Browse Fetch — 2026-07-29
 
 - Serenity (@aleabitoreddit): 07-28 18:45 UTC — FCC据路透社报道将禁止进口中国人形/四足机器人，$CCXI（Agility Robotics）等美国厂商受益
@@ -20,3 +30,5 @@
 - Serenity (@aleabitoreddit): 07-24 16:21 UTC — Jensen Huang($NVDA)首次入驻X，分享其联署的关于开放模型的公开信，谈AI安全、创新普及与主权AI
 - Serenity (@aleabitoreddit): 07-24 20:22 UTC — $GOOGL Waymo据FT报道探讨与$UBER拆分合作，作者重申Uber沦为分发渠道的观点，$NBIS旗下Avride等中立玩家受益
 - （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均超过3天无更新，未包含在本次记录中。）
+
+
