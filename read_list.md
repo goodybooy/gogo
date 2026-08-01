@@ -8,6 +8,17 @@ https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Careers/job/Blackstone
 
 
 
+## Web Browse Fetch — 2026-08-01
+
+- Serenity (@aleabitoreddit): 07-31 10:10 UTC — 本周TLDR：媒体称hyperscaler建设过剩抛售算力，但$GOOGL/$MSFT/$META/$AMZN实际显示需求远超产能
+- Serenity (@aleabitoreddit): 07-31 16:18 UTC — $RDDT财报超预期（营收/EPS/净利润均超预期，Q3指引上调），但股价仍跌22.6%
+- Serenity (@aleabitoreddit): 07-31 19:16 UTC — $AMZN/$META/$GOOGL/$MSFT 2026年合计资本支出指引上调至约$720-745B
+- Serenity (@aleabitoreddit): 07-31 22:52 UTC — 批评媒体对Leopold Aschenbrenner基金（$SNDK到$BE多年论述）的负面报道过度
+- Serenity (@aleabitoreddit): 08-01 06:24 UTC — $LITE CEO警告InP激光器供应缺口比内存更严峻，Lumentum产能缺口30%以上
+- （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均超过3天无更新，未包含在本次记录中。）
+
+---
+
 ## Web Browse Fetch — 2026-07-31
 
 - Serenity (@aleabitoreddit): 07-31 07:14 UTC — 财报TLDR：Amazon上调2026资本支出至$220B（此前$200B），部分因内存成本上涨
@@ -27,10 +38,4 @@ https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Careers/job/Blackstone
 - （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均超过3天无更新，未包含在本次记录中。）
 
 ---
-
-## Web Browse Fetch — 2026-07-29
-
-- Serenity (@aleabitoreddit): 07-28 18:45 UTC — FCC据路透社报道将禁止进口中国人形/四足机器人，$CCXI（Agility Robotics）等美国厂商受益
-- Serenity (@aleabitoreddit): 07-28 22:25 UTC — 认为当前是短期极端去杠杆导致超跌，$BE/$TER财报强劲，$GOOGL上调资本支出指引，对$SIVE/$AAOI等光学互联标的保持满仓信心
-- （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均超过3天无更新，未包含在本次记录中。）
 https://mp.weixin.qq.com/s/88fqp_fbqYKWFfageTDFDA
