@@ -1,6 +1,4 @@
-[The next quant revolution: Shaking up the corporate bond market | Financial Post](https://financialpost.com/fp-finance/the-next-quant-revolution-shaking-up-the-corporate-bond-market)
 
-[Blackstone Announces Agreement to Acquire DCI, a Pioneer in Technology-driven, Quantitative Credit Investing - Blackstone](https://www.blackstone.com/news/press/blackstone-announces-agreement-to-acquire-dci-a-pioneer-in-technology-driven-quantitative-credit-investing/)
 
 https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Careers/job/Blackstone-Credit---Insurance---Infrastructure-and-Asset-Based-Credit--Quant-Senior-Associate_44082
 
@@ -38,4 +36,5 @@ https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Careers/job/Blackstone
 - （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均超过3天无更新，未包含在本次记录中。）
 
 ---
+
 https://mp.weixin.qq.com/s/88fqp_fbqYKWFfageTDFDA
