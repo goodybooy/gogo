@@ -1,10 +1,16 @@
 https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Careers/job/Blackstone-Credit---Insurance---Infrastructure-and-Asset-Based-Credit--Quant-Senior-Associate_44082
 
-(https://www.reddit.com/r/FinancialCareers/comments/1jkdmpt/has_anyone_interviewed_for_the_blackstone_credit/
 
-https://leather-shades-instrumental-physically.trycloudflare.com
+
+https://comparative-commitment-centres-angels.trycloudflare.com
 
 QlCcQ5cUpItnCcpPYbgOIz9KcW3J5zNGDxVkrQolwJc
+
+https://hear-verification-elements-detailed.trycloudflare.com
+
+qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ
+
+
 
 ## Web Browse Fetch — 2026-08-02
 
