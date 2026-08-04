@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page { size: A4; margin: 16mm 14mm; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", Arial, sans-serif; color: #1f2430; font-size: 12px; line-height: 1.5; margin: 0; }
+  h1 { font-size: 22px; margin: 0 0 2px; }
+  .sub { color: #6b7280; font-size: 12px; margin: 0 0 4px; }
+  .meta { color: #6b7280; font-size: 11px; margin: 0 0 16px; }
+  .rule { height: 3px; background: linear-gradient(90deg,#2563eb,#22d3ee); border-radius: 2px; margin: 6px 0 16px; }
+  table.summary { width: 100%; border-collapse: collapse; margin-bottom: 22px; font-size: 11.5px; }
+  table.summary th, table.summary td { border: 1px solid #e5e7eb; padding: 7px 9px; text-align: left; vertical-align: top; }
+  table.summary th { background: #f3f4f6; font-weight: 600; }
+  .chip { display: inline-block; padding: 2px 9px; border-radius: 20px; font-size: 10px; font-weight: 700; letter-spacing: .3px; }
+  .high { background: #fdecec; color: #a32d2d; }
+  .med  { background: #fbeee0; color: #92600b; }
+  .issue { border: 1px solid #e5e7eb; border-radius: 10px; padding: 14px 16px; margin-bottom: 14px; page-break-inside: avoid; }
+  .issue h2 { font-size: 14px; margin: 0 0 8px; display: flex; align-items: center; gap: 10px; }
+  .issue h2 .n { background: #1f2430; color: #fff; width: 22px; height: 22px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 12px; flex: none; }
+  .kv { margin: 6px 0; }
+  .kv b { display: inline-block; min-width: 96px; color: #374151; }
+  .mono { font-family: "Consolas","Courier New",monospace; font-size: 10.5px; background: #f6f7f9; border: 1px solid #eceef1; border-radius: 5px; padding: 2px 5px; }
+  ol.steps { margin: 4px 0 4px 18px; padding: 0; }
+  ol.steps li { margin: 2px 0; }
+  .ea { display: flex; gap: 10px; margin-top: 6px; }
+  .ea > div { flex: 1; border-radius: 6px; padding: 7px 9px; font-size: 11px; }
+  .exp { background: #eaf6ee; border: 1px solid #cfe9d8; }
+  .act { background: #fdecec; border: 1px solid #f3cfcf; }
+  .fix { margin-top: 6px; background: #eef2fb; border: 1px solid #d6e0f5; border-radius: 6px; padding: 7px 9px; font-size: 11px; }
+  .appendix { margin-top: 8px; border-top: 1px solid #e5e7eb; padding-top: 12px; }
+  .appendix h2 { font-size: 13px; margin: 0 0 6px; }
+  .appendix li { margin: 3px 0; }
+  .foot { margin-top: 18px; color: #9aa0aa; font-size: 10px; border-top: 1px solid #eee; padding-top: 8px; }
+</style>
+</head>
+<body>
+
+  <h1>Unico — Event Tab QA Report</h1>
+  <div class="sub">Top 5 issues found in the Merchant Backend (商家后台 · <span class="mono">vendor-admin-front</span>)</div>
+  <div class="meta">Environment: local dev · <span class="mono">http://localhost:3000</span> · branch <span class="mono">develop</span> · test backend (<span class="mono">coolAdminTest</span>) &nbsp;|&nbsp; Date: 2026-07-21 &nbsp;|&nbsp; Area: Event Tab</div>
+  <div class="rule"></div>
+
+  <table class="summary">
+    <tr><th style="width:26px">#</th><th>Issue</th><th style="width:70px">Severity</th><th style="width:150px">Where</th></tr>
+    <tr><td>1</td><td>Firebase messaging init throws a runtime TypeError on every Event page load</td><td><span class="chip high">HIGH</span></td><td>All Event pages</td></tr>
+    <tr><td>2</td><td>Order refund status contradicts itself (Refund In Progress vs Refunded)</td><td><span class="chip high">HIGH</span></td><td>Order List → detail</td></tr>
+    <tr><td>3</td><td>Attendee name shows a status string ("Awaiting Payment") instead of a name</td><td><span class="chip med">MEDIUM</span></td><td>Order detail → Registrations</td></tr>
+    <tr><td>4</td><td>Edit Event form does not preload the event's existing cover image</td><td><span class="chip med">MEDIUM</span></td><td>Event Planning → Edit</td></tr>
+    <tr><td>5</td><td>Internal developer text is visible in the production UI</td><td><span class="chip med">MEDIUM</span></td><td>Edit Event form</td></tr>
+  </table>
+
+  <!-- 1 -->
+  <div class="issue">
+    <h2><span class="n">1</span> Firebase messaging init throws a runtime TypeError on every Event page load <span class="chip high">HIGH</span></h2>
+    <div class="kv"><b>Location</b> <span class="mono">src/services/firebase-messaging.js:46</span>, called from <span class="mono">src/app/application-layout.jsx:270</span> (<span class="mono">initializeFirebaseMessaging</span>)</div>
+    <div class="kv"><b>Description</b> On load, <span class="mono">onMessage(messaging, …)</span> is called while <span class="mono">messaging</span> is <span class="mono">null</span> (Firebase messaging unsupported / permission not granted in this context). This throws and surfaces as the red "1 Issue" Next.js dev overlay on the page.</div>
+    <div class="kv"><b>Error</b> <span class="mono">Runtime TypeError: Cannot set properties of null (setting 'onMessageHandler')</span></div>
+    <b>Steps to reproduce</b>
+    <ol class="steps">
+      <li>Open any Event page, e.g. <span class="mono">http://localhost:3000/events/1017</span></li>
+      <li>Observe the red "1 Issue" badge (bottom-left); click it to view the stack trace.</li>
+    </ol>
+    <div class="ea">
+      <div class="exp"><b>Expected:</b> Page loads with no runtime error; messaging init no-ops when unsupported.</div>
+      <div class="act"><b>Actual:</b> TypeError thrown from firebase-messaging init on every load.</div>
+    </div>
+    <div class="fix"><b>Suggested fix:</b> Guard before subscribing — <span class="mono">if (messaging) { onMessage(messaging, …) }</span> — and/or await <span class="mono">isSupported()</span> before initializing.</div>
+  </div>
+
+  <!-- 2 -->
+  <div class="issue">
+    <h2><span class="n">2</span> Order refund status contradicts itself <span class="chip high">HIGH</span></h2>
+    <div class="kv"><b>Location</b> Order List → order detail (example order <span class="mono">#273345</span>)</div>
+    <div class="kv"><b>Description</b> The order header and the Order Timeline show <b>"Refund In Progress"</b> (timeline marks it as <i>Current</i>), while the Refund Information block on the same page shows Status <b>"Refunded"</b>. The two states contradict each other, so staff cannot tell whether the refund is complete.</div>
+    <b>Steps to reproduce</b>
+    <ol class="steps">
+      <li>Event Tab → <b>Order List</b> (<span class="mono">/events/orders</span>).</li>
+      <li>Open a "Refund In Progress" order (e.g. #273345) via <b>⋯ → View</b>.</li>
+      <li>Compare the header/timeline status with the "Refund Information → Status" field.</li>
+    </ol>
+    <div class="ea">
+      <div class="exp"><b>Expected:</b> A single, consistent refund status across header, timeline, and Refund Information.</div>
+      <div class="act"><b>Actual:</b> Header/timeline = "Refund In Progress"; Refund Information = "Refunded".</div>
+    </div>
+    <div class="fix"><b>Suggested fix:</b> Derive all three from one source of truth for refund state; reconcile the order status once the reversal is confirmed.</div>
+  </div>
+
+  <!-- 3 -->
+  <div class="issue">
+    <h2><span class="n">3</span> Attendee name shows a status string instead of a name <span class="chip med">MEDIUM</span></h2>
+    <div class="kv"><b>Location</b> Order detail → Registrations table</div>
+    <div class="kv"><b>Description</b> In the Registrations table, the attendee <b>Name</b> column displays <b>"Awaiting Payment"</b> — a status value leaking into the name field — while the same row shows Payment = <b>"Paid"</b> and Status = <b>"Registered"</b>. The name is wrong and the values are internally inconsistent.</div>
+    <b>Steps to reproduce</b>
+    <ol class="steps">
+      <li>Open an order detail (e.g. <span class="mono">/events/orders/273345</span>).</li>
+      <li>Scroll to the <b>Registrations</b> section and read the Name column.</li>
+    </ol>
+    <div class="ea">
+      <div class="exp"><b>Expected:</b> Real attendee name; Name and Payment fields consistent.</div>
+      <div class="act"><b>Actual:</b> Name = "Awaiting Payment" while Payment = "Paid".</div>
+    </div>
+    <div class="fix"><b>Suggested fix:</b> Populate Name from the attendee record; fix the fallback that substitutes a payment status into the name field.</div>
+  </div>
+
+  <!-- 4 -->
+  <div class="issue">
+    <h2><span class="n">4</span> Edit Event form does not preload the existing cover image <span class="chip med">MEDIUM</span></h2>
+    <div class="kv"><b>Location</b> Event Planning → ⋯ → Edit (<span class="mono">/events/planning/{id}</span>)</div>
+    <div class="kv"><b>Description</b> An event that already has a cover image (visible on its detail page) opens the Edit form with an <b>empty</b> "Upload a file or drag and drop" dropzone. The current image is not shown, risking accidental loss of the image on save and giving no indication one exists.</div>
+    <b>Steps to reproduce</b>
+    <ol class="steps">
+      <li>Open an event that has a cover image (e.g. "New Testing Event").</li>
+      <li>Click <b>Edit Event</b> (or ⋯ → Edit on the planning list).</li>
+      <li>Observe the Cover Image field shows an empty upload area, not the current image.</li>
+    </ol>
+    <div class="ea">
+      <div class="exp"><b>Expected:</b> Existing cover image (and other saved media/values) preloaded in the edit form.</div>
+      <div class="act"><b>Actual:</b> Cover Image dropzone is empty despite an image existing.</div>
+    </div>
+    <div class="fix"><b>Suggested fix:</b> Hydrate the form with the event's current cover image URL and show a thumbnail with replace/remove.</div>
+  </div>
+
+  <!-- 5 -->
+  <div class="issue">
+    <h2><span class="n">5</span> Internal developer text visible in the production UI <span class="chip med">MEDIUM</span></h2>
+    <div class="kv"><b>Location</b> Edit Event form → "Basic Information" section</div>
+    <div class="kv"><b>Description</b> The Basic Information section displays the helper line <b>"Map these fields to the add-event API payload."</b> — an internal developer note that should not be shown to merchants.</div>
+    <b>Steps to reproduce</b>
+    <ol class="steps">
+      <li>Open the Edit Event form (<span class="mono">/events/planning/{id}</span>).</li>
+      <li>Read the subtitle under the "Basic Information" heading.</li>
+    </ol>
+    <div class="ea">
+      <div class="exp"><b>Expected:</b> Merchant-facing help text (or none).</div>
+      <div class="act"><b>Actual:</b> "Map these fields to the add-event API payload." shown to end users.</div>
+    </div>
+    <div class="fix"><b>Suggested fix:</b> Replace with merchant-friendly copy or remove the developer note.</div>
+  </div>
+
+  <div class="appendix">
+    <h2>Also observed (lower priority)</h2>
+    <ul>
+      <li><b>Settings contradiction:</b> "Mandatory Order Note" toggle is ON, but the placeholder text reads "Leave a message for the merchant <b>(optional)</b>". (Event Settings)</li>
+      <li><b>Refund Policy vs data:</b> Event Settings → Refund Policy = "No Refunds", yet the Order List is full of Refund In Progress / Refunded orders — no explanation shown.</li>
+      <li><b>Next.js 15 async APIs:</b> <span class="mono">/events/planning/[id]</span> reads <span class="mono">params.id</span>, <span class="mono">searchParams.editScope</span>, <span class="mono">searchParams.seriesId</span> synchronously (Next warns they should be awaited; will break on a future upgrade).</li>
+      <li><b>Modals don't close on Escape</b> (e.g. Check-in Link) — Close button only.</li>
+      <li><b>Missing fields:</b> Order detail "Ticket Type: Not provided"; refund "Apply Time: Not provided".</li>
+      <li><b>Customer shown as internal code</b> ("UC_m_2960") instead of a real name in Order List/detail.</li>
+      <li><b>Intermittent self-navigation:</b> event detail briefly switched from <span class="mono">/events/1017</span> to <span class="mono">/events/18</span> once (not reproducible on direct navigation).</li>
+      <li><b>Layout overflow when zoomed:</b> header action buttons and the Revenue card clip off the right edge with no horizontal scroll.</li>
+    </ul>
+  </div>
+
+  <div class="foot">
+    Generated from a manual click-through of the Event Tab using a logged-in session. Screenshots available on request. Mutating actions (Process Refund, Save, live QR scan) were intentionally not triggered. "Scan QR Code" and "Create New Event" were not fully exercised (camera / record-creation).
+  </div>
+
+</body>
+</html>
