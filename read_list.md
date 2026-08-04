@@ -2,10 +2,22 @@
 
 
 
+## Web Browse Fetch — 2026-08-04
+
+- Alex Moon (@AlexMoonvest): 08-04 05:17 UTC — 开源 LLM 是更广泛 AI 牛市的关键
+- Serenity (@aleabitoreddit): 08-03 21:16 UTC — 熊又回去冬眠了（看多情绪短帖）
+- Serenity (@aleabitoreddit): 08-03 23:35 UTC — 讽刺 Citadel：几天前呼吁加息引发恐慌后趁机抄底被清算的AI资产，结果未加息、称牛市完好无损
+- Serenity (@aleabitoreddit): 08-04 02:34 UTC — SK Hynix/$MU/Samsung 售罄2027 DRAM/HBM，$SNDK/Micron NAND亦售罄，客户仅获60-70%分配，2027进入最严重内存短缺
+- （Julian Petroulas、Benjamin Hedge 本次均超过3天无更新，未包含在本次记录中。）
+
+---
+
 ## Web Browse Fetch — 2026-08-02
 
 - Serenity (@aleabitoreddit): 08-02 03:42 UTC — Trump宣布美国已取消对伊朗的攻击，双方同意达成开放霍尔木兹海峡并终止核计划的协议框架
 - （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均超过3天无更新，未包含在本次记录中。）
+
+---
 
 ---
 
@@ -19,13 +31,6 @@
 - （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均超过3天无更新，未包含在本次记录中。）
 
 ---
-
-## Web Browse Fetch — 2026-07-31
-
-- Serenity (@aleabitoreddit): 07-31 07:14 UTC — 财报TLDR：Amazon上调2026资本支出至$220B（此前$200B），部分因内存成本上涨
-- Serenity (@aleabitoreddit): 07-31 08:25 UTC — 援引$XFAB财报电话会："在CPO方面正取得进展"，验证其代工增长论点
-- Serenity (@aleabitoreddit): 07-31 08:57 UTC — $POET光学插入器措辞由"readiness"升级为"production"，搭配$SIVE激光器
-- （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均超过3天无更新，未包含在本次记录中。）
 
 ---
 
