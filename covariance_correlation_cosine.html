@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Covariance vs Correlation vs Cosine</title>
+<style>
+  @page { size: A4; margin: 16mm 14mm; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", Arial, sans-serif; color: #1f2430; font-size: 12px; line-height: 1.55;
+         margin: 0; padding: 22px 20px 40px; max-width: 940px; }
+  h1 { font-size: 22px; margin: 0 0 2px; }
+  .sub { color: #6b7280; font-size: 12px; margin: 0 0 4px; }
+  .rule { height: 3px; background: linear-gradient(90deg,#2563eb,#22d3ee); border-radius: 2px; margin: 6px 0 18px; }
+
+  h2 { font-size: 15px; margin: 0 0 10px; display: flex; align-items: center; gap: 10px; }
+  h2 .n { background: #1f2430; color: #fff; width: 22px; height: 22px; border-radius: 50%;
+          display: inline-flex; align-items: center; justify-content: center; font-size: 12px; flex: none; }
+  .card { border: 1px solid #e5e7eb; border-radius: 10px; padding: 14px 16px; margin-bottom: 16px;
+          page-break-inside: avoid; }
+
+  table { width: 100%; border-collapse: collapse; margin: 4px 0 2px; font-size: 11.5px; }
+  th, td { border: 1px solid #e5e7eb; padding: 7px 9px; text-align: left; vertical-align: top; }
+  th { background: #f3f4f6; font-weight: 600; }
+  td.uc { width: 42%; font-weight: 600; color: #1f2430; }
+
+  .mono { font-family: "Consolas","Courier New",monospace; font-size: 10.5px; background: #f6f7f9;
+          border: 1px solid #eceef1; border-radius: 5px; padding: 2px 5px; }
+  pre { font-family: "Consolas","Courier New",monospace; font-size: 11px; background: #f6f7f9;
+        border: 1px solid #eceef1; border-radius: 8px; padding: 12px 14px; overflow-x: auto; line-height: 1.6; }
+
+  .chip { display: inline-block; padding: 2px 9px; border-radius: 20px; font-size: 10px;
+          font-weight: 700; letter-spacing: .3px; }
+  .cov  { background: #eef2fb; color: #24467f; }
+  .corr { background: #eaf6ee; color: #256b3d; }
+  .cos  { background: #fbeee0; color: #92600b; }
+
+  .rulebox { margin-top: 8px; background: #eef2fb; border: 1px solid #d6e0f5; border-radius: 6px;
+             padding: 8px 10px; font-size: 11.5px; }
+  .rulebox b { color: #24467f; }
+
+  ol.q { margin: 4px 0 0 18px; padding: 0; }
+  ol.q li { margin: 7px 0; }
+  ul.sub2 { margin: 4px 0 0 16px; padding: 0; }
+  ul.sub2 li { margin: 2px 0; list-style: none; }
+
+  .mistakes li { margin: 7px 0; }
+  .mistakes b { color: #a32d2d; }
+
+  .note { background: #f9fafb; border-left: 3px solid #22d3ee; padding: 9px 12px; margin: 10px 0 0;
+          font-size: 11.5px; border-radius: 0 6px 6px 0; }
+  .foot { margin-top: 22px; color: #9aa0aa; font-size: 10px; border-top: 1px solid #eee; padding-top: 8px; }
+</style>
+</head>
+<body>
+
+  <h1>Covariance vs Correlation vs Cosine</h1>
+  <div class="sub">Which similarity measure to reach for, and why they are not interchangeable</div>
+  <div class="rule"></div>
+
+  <!-- ---------------- decision rule ---------------- -->
+  <div class="card">
+    <h2><span class="n">?</span> The decision rule</h2>
+    <p style="margin:0 0 4px">Ask two questions, in order:</p>
+    <ol class="q">
+      <li>
+        <b>Do I need the answer in units</b> (dollars, vol, risk)? &rarr; <span class="chip cov">COVARIANCE</span><br>
+        It is the only one that preserves magnitude, and it is what enters every risk formula.
+      </li>
+      <li>
+        <b>Are the vector entries repeated observations of the same quantity, or different features of one object?</b>
+        <ul class="sub2">
+          <li>Observations over time &rarr; <span class="chip corr">CORRELATION</span> &nbsp;(centering is meaningful)</li>
+          <li>Features of an object &rarr; <span class="chip cos">COSINE</span> &nbsp;(no meaningful mean along that axis)</li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+
+  <!-- ---------------- covariance ---------------- -->
+  <div class="card">
+    <h2><span class="n">1</span> Covariance &mdash; when magnitude matters</h2>
+    <table>
+      <tr><th>Use case</th><th>Why</th></tr>
+      <tr><td class="uc">Portfolio variance <span class="mono">w'&Sigma;w</span></td>
+          <td>Correlation alone cannot give you portfolio vol.</td></tr>
+      <tr><td class="uc">Risk decomposition (MCR / TCR)</td>
+          <td><span class="mono">(&Sigma;x)&#7522;</span> is in return units &mdash; needed for risk budgeting.</td></tr>
+      <tr><td class="uc">Optimal hedge ratio <span class="mono">&beta; = Cov(y,x)/Var(x)</span></td>
+          <td>This is a <em>quantity</em> of the hedge instrument, not a similarity.</td></tr>
+      <tr><td class="uc">Kalman filters, GLS, Mahalanobis distance</td>
+          <td>The math requires the actual covariance operator.</td></tr>
+      <tr><td class="uc">Optimizer inputs (mean&ndash;variance, risk parity)</td>
+          <td><span class="mono">&Sigma;</span> is the native input.</td></tr>
+    </table>
+    <div class="rulebox"><b>Rule:</b> if the output is a position size or a risk number, you need covariance.</div>
+  </div>
+
+  <!-- ---------------- correlation ---------------- -->
+  <div class="card">
+    <h2><span class="n">2</span> Correlation &mdash; when comparing across different-scaled series</h2>
+    <table>
+      <tr><th>Use case</th><th>Why</th></tr>
+      <tr><td class="uc">Strategy diversification screening</td>
+          <td>Comparing a 5%-vol carry book to a 20%-vol trend book &mdash; units must be removed.</td></tr>
+      <tr><td class="uc">Factor correlation / redundancy checks</td>
+          <td>Is my new signal already spanned? VIF and orthogonalization live here.</td></tr>
+      <tr><td class="uc">PCA on returns</td>
+          <td>Correlation-PCA when scales differ wildly; covariance-PCA when they are comparable.</td></tr>
+      <tr><td class="uc">Regime analysis</td>
+          <td>&ldquo;Did equity&ndash;bond correlation flip in 2022?&rdquo; &mdash; a unitless, comparable-over-time quantity.</td></tr>
+      <tr><td class="uc">Pairs / RV candidate screening</td>
+          <td>First-pass filter before running cointegration.</td></tr>
+      <tr><td class="uc">Reporting to a PM or risk committee</td>
+          <td>&ldquo;0.7 correlated&rdquo; is interpretable; &ldquo;covariance of 0.00013&rdquo; is not.</td></tr>
+    </table>
+    <div class="rulebox"><b>Rule:</b> default for anything involving time series of returns. This is 90% of your work.</div>
+  </div>
+
+  <!-- ---------------- cosine ---------------- -->
+  <div class="card">
+    <h2><span class="n">3</span> Cosine &mdash; when entries are features, not observations</h2>
+    <table>
+      <tr><th>Use case</th><th>Why</th></tr>
+      <tr><td class="uc">Book similarity / crowding &mdash; <span class="mono">cos(w_A, w_B)</span> on position vectors</td>
+          <td>Entries are instruments (features); scale invariance is desirable &mdash; half the gross is the same strategy.</td></tr>
+      <tr><td class="uc">PM overlap in a multi-strat</td>
+          <td>Are two pods running the same trade?</td></tr>
+      <tr><td class="uc">Sector / country exposure similarity</td>
+          <td>Comparing allocation shapes.</td></tr>
+      <tr><td class="uc">Text / NLP work (earnings calls, Fed statements, news)</td>
+          <td>Sparse non-negative counts; centering destroys sparsity.</td></tr>
+      <tr><td class="uc">Embedding retrieval</td>
+          <td>Models are trained with cosine objectives.</td></tr>
+    </table>
+    <div class="rulebox"><b>Rule:</b> the vector describes one object across many attributes, not one variable across many time points.</div>
+  </div>
+
+  <!-- ---------------- disambiguator ---------------- -->
+  <div class="card">
+    <h2><span class="n">4</span> The quick disambiguator</h2>
+    <p style="margin:0 0 8px">Same two strategies, three different questions:</p>
+<pre>Cov(r_A, r_B)   &rarr;  "how much risk do they add to each other in my book?"     [dollars]
+Corr(r_A, r_B)  &rarr;  "do their P&amp;Ls move together?"                            [unitless]
+cos(w_A, w_B)   &rarr;  "are they holding the same positions?"                     [structure]</pre>
+    <div class="note">
+      These genuinely differ. Two books can hold near-identical positions
+      (<span class="mono">cos = 0.95</span>) but have uncorrelated returns
+      (<span class="mono">r = 0.1</span>) if one is trading them at different tenors or with
+      different timing. Conversely two books with zero position overlap
+      (<span class="mono">cos = 0</span>) can be highly correlated
+      (<span class="mono">r = 0.8</span>) through a common macro driver.
+      <b>Crowding risk and correlation risk are different risks</b>, and you need both measures to see them.
+    </div>
+  </div>
+
+  <!-- ---------------- mistakes ---------------- -->
+  <div class="card">
+    <h2><span class="n">!</span> Common mistakes</h2>
+    <ul class="mistakes">
+      <li><b>Cosine on uncentered returns</b> &mdash; the sample mean inflates it toward 1; distortion scales with the Sharpe of your window (fine daily, bad annually).</li>
+      <li><b>Mixing cosine and correlation in one matrix</b> &mdash; different null values; downstream clustering / PCA becomes garbage.</li>
+      <li><b>Correlation into an optimizer without re-scaling by vols</b> &mdash; silently equal-weights risk.</li>
+      <li><b>Covariance-PCA on mixed-scale data</b> &mdash; the highest-vol asset dominates PC1 mechanically; use correlation-PCA unless the scales are genuinely comparable.</li>
+      <li><b>Reading correlation as dependence</b> &mdash; <span class="mono">r = 0</span> is <em>linear</em> independence only; tail dependence survives it, which is precisely what kills you in crises.</li>
+    </ul>
+  </div>
+
+  <div class="foot">Reference note &middot; covariance / correlation / cosine selection</div>
+
+</body>
+</html>
