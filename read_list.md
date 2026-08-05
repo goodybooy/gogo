@@ -1,6 +1,14 @@
 
 
 
+## Web Browse Fetch — 2026-08-05
+
+- Serenity (@aleabitoreddit): 08-05 00:16 UTC — $RKLB 获美国太空军 $397M 合同，建造 Flatellite 卫星并由 Neutron 火箭发射
+- Serenity (@aleabitoreddit): 08-04 11:09 UTC — 特朗普政府起草禁令拟禁中国光模块/DC器件，利好西方供应链 $AAOI/$SIVE/$LITE/Coherent，打击 Innolight/Eoptolink
+- Serenity (@aleabitoreddit): 08-04 12:11 UTC — Bessent 称周二三或达成开放霍尔木兹海峡协议，市场或喜闻
+- （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均无新内容，未包含在本次记录中。）
+
+---
 
 ## Web Browse Fetch — 2026-08-04
 
@@ -15,19 +23,6 @@
 ## Web Browse Fetch — 2026-08-02
 
 - Serenity (@aleabitoreddit): 08-02 03:42 UTC — Trump宣布美国已取消对伊朗的攻击，双方同意达成开放霍尔木兹海峡并终止核计划的协议框架
-- （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均超过3天无更新，未包含在本次记录中。）
-
----
-
----
-
-## Web Browse Fetch — 2026-08-01
-
-- Serenity (@aleabitoreddit): 07-31 10:10 UTC — 本周TLDR：媒体称hyperscaler建设过剩抛售算力，但$GOOGL/$MSFT/$META/$AMZN实际显示需求远超产能
-- Serenity (@aleabitoreddit): 07-31 16:18 UTC — $RDDT财报超预期（营收/EPS/净利润均超预期，Q3指引上调），但股价仍跌22.6%
-- Serenity (@aleabitoreddit): 07-31 19:16 UTC — $AMZN/$META/$GOOGL/$MSFT 2026年合计资本支出指引上调至约$720-745B
-- Serenity (@aleabitoreddit): 07-31 22:52 UTC — 批评媒体对Leopold Aschenbrenner基金（$SNDK到$BE多年论述）的负面报道过度
-- Serenity (@aleabitoreddit): 08-01 06:24 UTC — $LITE CEO警告InP激光器供应缺口比内存更严峻，Lumentum产能缺口30%以上
 - （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均超过3天无更新，未包含在本次记录中。）
 
 ---
