@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Convergence Trades — Half-Life, Carry, and the Error-Correction Model</title>
+<style>
+  :root{
+    --bg:#fbfaf8;
+    --panel:#ffffff;
+    --ink:#1c1d20;
+    --ink-soft:#55585f;
+    --ink-faint:#84888f;
+    --rule:#e3e0da;
+    --rule-soft:#efece7;
+    --accent:#8a5a2b;
+    --accent-soft:#f3ece2;
+    --warn:#9a3d2f;
+    --warn-soft:#f8ebe7;
+    --good:#3f6b4a;
+    --good-soft:#eaf1eb;
+    --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --bg:#16171a;
+      --panel:#1d1f23;
+      --ink:#e8e6e1;
+      --ink-soft:#a9adb4;
+      --ink-faint:#7d818a;
+      --rule:#33363c;
+      --rule-soft:#26282d;
+      --accent:#c99a63;
+      --accent-soft:#2a241c;
+      --warn:#d98a76;
+      --warn-soft:#2e211d;
+      --good:#8fbd9c;
+      --good-soft:#1e2721;
+    }
+  }
+
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:790px;margin:0 auto;padding:56px 24px 96px}
+
+  header{border-bottom:2px solid var(--ink);padding-bottom:22px;margin-bottom:40px}
+  .eyebrow{
+    font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--accent);font-weight:600;margin-bottom:12px;
+  }
+  h1{font-size:31px;line-height:1.2;margin:0 0 12px;letter-spacing:-.015em;font-weight:600}
+  .standfirst{color:var(--ink-soft);font-size:16px;margin:0;max-width:60ch}
+  .meta{margin-top:18px;font-size:12.5px;color:var(--ink-faint);font-family:var(--mono)}
+
+  h2{
+    font-size:13px;letter-spacing:.13em;text-transform:uppercase;font-weight:700;
+    color:var(--accent);margin:56px 0 8px;padding-bottom:8px;border-bottom:1px solid var(--rule);
+  }
+  h3{font-size:19px;margin:36px 0 10px;font-weight:600;letter-spacing:-.01em}
+  h4{font-size:15px;margin:26px 0 6px;font-weight:650;color:var(--ink)}
+  p{margin:0 0 15px}
+  a{color:var(--accent)}
+
+  strong{font-weight:650}
+  em{font-style:italic}
+
+  ul,ol{margin:0 0 16px;padding-left:22px}
+  li{margin-bottom:7px}
+  li::marker{color:var(--ink-faint)}
+
+  code{
+    font-family:var(--mono);font-size:.87em;
+    background:var(--rule-soft);padding:1px 5px;border-radius:3px;
+  }
+
+  /* ---------- math ---------- */
+  .eq{
+    margin:22px 0;padding:18px 20px;
+    background:var(--panel);border:1px solid var(--rule);border-radius:6px;
+    text-align:center;overflow-x:auto;
+    font-family:Georgia,"Times New Roman",serif;font-size:18px;line-height:2.1;
+  }
+  .eq.tight{line-height:1.6}
+  .eq .sep{display:inline-block;width:34px}
+  var,.v{font-family:Georgia,"Times New Roman",serif;font-style:italic}
+  sub,sup{font-size:.68em;font-style:normal}
+
+  .frac{display:inline-block;vertical-align:-0.55em;text-align:center;margin:0 .2em}
+  .frac>span{display:block;padding:0 .4em}
+  .frac .num{border-bottom:1.2px solid currentColor;padding-bottom:2px}
+  .frac .den{padding-top:2px}
+
+  .brace{display:inline-block;text-align:center;vertical-align:top;margin:0 .1em}
+  .brace .b-eq{display:block;white-space:nowrap}
+  .brace .b-lab{
+    display:block;margin-top:5px;padding-top:5px;border-top:1px solid var(--accent);
+    font:600 10.5px/1.35 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    letter-spacing:.06em;text-transform:uppercase;color:var(--accent);font-style:normal;
+  }
+
+  /* ---------- tables ---------- */
+  .tbl-wrap{overflow-x:auto;margin:22px 0}
+  table{border-collapse:collapse;width:100%;font-size:14.5px}
+  th{
+    text-align:left;font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--ink-faint);font-weight:600;
+    padding:0 14px 8px 0;border-bottom:1.5px solid var(--rule);white-space:nowrap;
+  }
+  td{padding:9px 14px 9px 0;border-bottom:1px solid var(--rule-soft);vertical-align:top}
+  tr:last-child td{border-bottom:none}
+  td.num{font-family:var(--mono);font-size:13.5px;white-space:nowrap}
+  .verdict{font-weight:600;white-space:nowrap}
+  .v-good{color:var(--good)}
+  .v-mid{color:var(--accent)}
+  .v-bad{color:var(--warn)}
+  tr.spotlight td{background:var(--warn-soft)}
+
+  /* ---------- callouts ---------- */
+  .note{
+    margin:24px 0;padding:16px 20px;border-left:3px solid var(--accent);
+    background:var(--accent-soft);border-radius:0 5px 5px 0;
+  }
+  .note.warn{border-left-color:var(--warn);background:var(--warn-soft)}
+  .note.key{border-left-color:var(--good);background:var(--good-soft)}
+  .note p:last-child{margin-bottom:0}
+  .note .lab{
+    display:block;font:700 10.5px/1 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    letter-spacing:.13em;text-transform:uppercase;margin-bottom:9px;color:var(--accent);
+  }
+  .note.warn .lab{color:var(--warn)}
+  .note.key .lab{color:var(--good)}
+
+  .verdict-box{
+    margin:28px 0;padding:22px 24px;background:var(--panel);
+    border:1px solid var(--rule);border-top:3px solid var(--ink);border-radius:0 0 6px 6px;
+  }
+  .verdict-box h4{margin-top:0}
+  .verdict-box ol{margin-bottom:0}
+
+  .pull{
+    margin:26px 0;padding:4px 0 4px 20px;border-left:2px solid var(--rule);
+    font-size:17px;line-height:1.55;color:var(--ink-soft);font-style:italic;
+  }
+
+  hr{border:none;border-top:1px solid var(--rule);margin:52px 0}
+
+  footer{
+    margin-top:64px;padding-top:20px;border-top:1px solid var(--rule);
+    font-size:12.5px;color:var(--ink-faint);
+  }
+  footer p{margin:0 0 6px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="eyebrow">Fixed Income · Statistical Arbitrage</div>
+  <h1>Convergence Trades: Half-Life, Carry, and the Error-Correction Model</h1>
+  <p class="standfirst">Two connected questions — what carry a 180-day mean-reversion trade must earn to justify its capital, and why the cointegrating <span class="v">β</span> is the thing that makes the spread tradeable at all.</p>
+  <div class="meta">Notes · 2026-08-05</div>
+</header>
+
+<h2>Part I — What carry does a 180-day half-life demand?</h2>
+
+<h3>The question as asked was underspecified</h3>
+
+<p>Asked as written, there is no unique number. "Minimum carry" depends on three inputs the question doesn't supply: the current dislocation size, the spread volatility, and your return hurdle. What follows is the framework that produces an answer, then a defensible one.</p>
+
+<h3>The actual trade-off</h3>
+
+<p>You aren't really asking "what carry do I need." You're asking <em>does convergence beat the cost of waiting?</em> The condition is:</p>
+
+<div class="eq">
+  <span class="brace">
+    <span class="b-eq"><var>E</var>[convergence gain over horizon]</span>
+    <span class="b-lab">Signal</span>
+  </span>
+  <span style="display:inline-block;padding:0 14px;vertical-align:top">&gt;</span>
+  <span class="brace">
+    <span class="b-eq">carry cost &times; horizon</span>
+    <span class="b-lab">Bleed</span>
+  </span>
+</div>
+
+<p>Expected convergence at horizon <var>h</var>, from the Ornstein–Uhlenbeck dynamics:</p>
+
+<div class="eq">
+  <var>E</var>[gain] = <var>D</var><sub>0</sub>(1 &minus; <var>e</var><sup>&minus;<var>θh</var></sup>),
+  <span class="sep"></span>
+  <var>θ</var> = <span class="frac"><span class="num">ln 2</span><span class="den"><var>t</var><sub>1/2</sub></span></span>
+</div>
+
+<p>With <var>t</var><sub>1/2</sub> = 180 days: <var>θ</var> = 0.693 / 180 = 0.00385 per day, or <var>θ</var> &asymp; 1.4 per year. At <var>h</var> = 1 year you capture 1 &minus; <var>e</var><sup>&minus;1.4</sup> = <strong>75%</strong> of the initial dislocation <var>D</var><sub>0</sub>.</p>
+
+<h4>Break-even carry</h4>
+
+<div class="eq">
+  <var>c</var>* = <span class="frac"><span class="num"><var>D</var><sub>0</sub>(1 &minus; <var>e</var><sup>&minus;<var>θh</var></sup>)</span><span class="den"><var>h</var></span></span>
+  <span class="sep"></span>
+  <span style="font-size:15px">at <var>h</var> = 1 yr: &nbsp;<var>c</var>* = 0.75 &times; <var>D</var><sub>0</sub> per year</span>
+</div>
+
+<h3>Plugging in realistic numbers</h3>
+
+<p>Say the spread is dislocated <var>D</var><sub>0</sub> = 20 bp — a typical entry signal, roughly 1.5–2<var>σ</var> on a cross-country swap spread.</p>
+
+<div class="eq tight">
+  <var>c</var>* = 0.75 &times; 20 bp = <strong>15 bp / year</strong>
+</div>
+
+<p>So carry cost must stay under roughly 15 bp/yr just to <em>break even</em>. Anything above that and the position bleeds faster than it converges.</p>
+
+<div class="note warn">
+  <span class="lab">But break-even isn't the bar</span>
+  <p>Demand a Sharpe of 0.5+ on the trade. With spread vol <var>σ</var> &asymp; 25 bp/yr (typical for USD–EUR 10y) and expected 1yr P&amp;L of 15 bp &minus; <var>c</var>:</p>
+  <div class="eq tight" style="background:transparent;border:none;padding:10px 0 4px;margin:0">
+    SR = <span class="frac"><span class="num">15 &minus; <var>c</var></span><span class="den">25</span></span>
+    &nbsp;&ge; 0.5
+    <span class="sep"></span>&rArr;<span class="sep"></span>
+    <var>c</var> &le; <strong>2.5 bp/yr</strong>
+  </div>
+</div>
+
+<p>That is brutal, and it's the real answer: <strong>at a 180-day half-life you need the position to be nearly carry-neutral.</strong> In practice you want it positively carried — the trade should pay you to wait.</p>
+
+<h3>Why 180 days sits on the wrong side of the line</h3>
+
+<div class="tbl-wrap">
+<table>
+  <thead>
+    <tr>
+      <th><var>t</var><sub>1/2</sub></th>
+      <th><var>θ</var> (annualized)</th>
+      <th>1yr capture</th>
+      <th>Verdict</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td class="num">10 d</td><td class="num">25.3</td><td class="num">100%</td><td class="verdict v-good">Excellent — but likely arbitraged</td></tr>
+    <tr><td class="num">30 d</td><td class="num">8.4</td><td class="num">99.98%</td><td class="verdict v-good">Strong stat-arb signal</td></tr>
+    <tr><td class="num">90 d</td><td class="num">2.8</td><td class="num">94%</td><td class="verdict v-mid">Workable</td></tr>
+    <tr class="spotlight"><td class="num">180 d</td><td class="num">1.4</td><td class="num">75%</td><td class="verdict v-bad">Marginal</td></tr>
+    <tr><td class="num">365 d</td><td class="num">0.69</td><td class="num">50%</td><td class="verdict v-bad">Not tradeable as convergence</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h4>The deeper problem is statistical, not arithmetic</h4>
+
+<p>With a 180-day half-life you observe roughly <var>T</var>/180 independent convergence episodes. Over five years of daily data that is about <strong>seven effective observations</strong>. Your <var>θ̂</var> carries enormous standard error, your ADF was borderline by construction, and you cannot distinguish <var>t</var><sub>1/2</sub> = 180 from <var>t</var><sub>1/2</sub> = &infin; with any confidence.</p>
+
+<p class="pull">You're betting real capital on a parameter you haven't actually measured.</p>
+
+<p>And the horizon itself exposes you to exactly what breaks these trades: over six to twelve months, central bank paths diverge and the "equilibrium" you are reverting to relocates.</p>
+
+<div class="verdict-box">
+  <h4>The verdict</h4>
+  <p>Don't put it on as a pure convergence trade. At <var>t</var><sub>1/2</sub> = 180 days, either:</p>
+  <ol>
+    <li><strong>Require positive carry</strong> — then the spread is optionality, not the thesis. You get paid to wait and convergence is upside.</li>
+    <li><strong>Size it as a small satellite</strong> with a hard time stop (exit at one half-life regardless) and demand a wider entry — 2.5<var>σ</var>+ rather than 1.5<var>σ</var>.</li>
+    <li><strong>Find a faster leg.</strong> The same trade in 2y instead of 10y, or a butterfly that strips out the common global factor, usually reverts faster because it isolates a more local dislocation.</li>
+  </ol>
+</div>
+
+<div class="note key">
+  <span class="lab">Rule worth memorizing</span>
+  <p>Your half-life should sit well inside your funding-certainty horizon. If you can't guarantee holding for two to three half-lives through a drawdown, the reversion never gets a chance to pay you.</p>
+</div>
+
+<hr>
+
+<h2>Part II — Cointegration, <span class="v">β</span>, and error correction</h2>
+
+<h3>Case A, restated</h3>
+
+<p>Both <var>y</var><sub><var>t</var></sub> and <var>x</var><sub><var>t</var></sub> are <var>I</var>(1), but <var>y</var><sub><var>t</var></sub> &minus; <var>βx</var><sub><var>t</var></sub> is <var>I</var>(0). There is a genuine long-run equilibrium; deviations are temporary and revert. The level relationship is real, and differencing destroys the information you care about — you've thrown away the error-correction term.</p>
+
+<h3>The refinement: you don't have to choose</h3>
+
+<p>The instinct is right — take <span class="v">Δy</span> against <span class="v">Δx</span> and the error-correction term is gone; use <var>y</var> &minus; <var>βx</var> and it's preserved. But the correct model uses <em>both</em>, and that is exactly what an ECM is.</p>
+
+<div class="eq">
+  <span class="brace"><span class="b-eq">&Delta;<var>y</var><sub><var>t</var></sub> = <var>α</var> +</span><span class="b-lab" style="border-color:transparent;color:transparent">.</span></span>
+  <span class="brace">
+    <span class="b-eq"><var>λ</var>(<var>y</var><sub><var>t</var>&minus;1</sub> &minus; <var>βx</var><sub><var>t</var>&minus;1</sub>)</span>
+    <span class="b-lab">Long run — the spread</span>
+  </span>
+  <span class="brace"><span class="b-eq">&nbsp;+&nbsp;</span><span class="b-lab" style="border-color:transparent;color:transparent">.</span></span>
+  <span class="brace">
+    <span class="b-eq">&Sigma;<sub><var>i</var></sub> <var>φ</var><sub><var>i</var></sub> &Delta;<var>x</var><sub><var>t</var>&minus;<var>i</var></sub></span>
+    <span class="b-lab">Short run — the changes</span>
+  </span>
+  <span class="brace"><span class="b-eq">&nbsp;+ <var>ε</var><sub><var>t</var></sub></span><span class="b-lab" style="border-color:transparent;color:transparent">.</span></span>
+</div>
+
+<div class="tbl-wrap">
+<table>
+  <thead>
+    <tr><th>Specification</th><th>What you get</th><th>What you lose</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Differences only</strong><br><span style="color:var(--ink-faint)">(<var>φ</var> terms)</span></td>
+      <td>Short-run co-movement</td>
+      <td>The equilibrium. Statistically valid, economically blind.</td>
+    </tr>
+    <tr>
+      <td><strong>Spread only</strong><br><span style="color:var(--ink-faint)">(<var>λ</var> term)</span></td>
+      <td>The reversion signal</td>
+      <td>Contemporaneous shocks</td>
+    </tr>
+    <tr>
+      <td><strong>Both</strong><br><span style="color:var(--ink-faint)">(full ECM)</span></td>
+      <td>The complete picture</td>
+      <td>Nothing — the only specification both valid and informative</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p>Every term in the ECM is stationary, so standard <var>t</var>-statistics and standard errors are valid again. That's the technical payoff: no spurious-regression problem, no unit-root critical-value tables.</p>
+
+<h3>Why <span class="v">β</span> is doing something special</h3>
+
+<p>Calling <var>β</var> "the connection" is right, but it's worth being precise about why it is not an ordinary regression coefficient.</p>
+
+<h4>Super-consistency</h4>
+
+<p>When <var>y</var> and <var>x</var> are cointegrated, <var>β̂</var> from OLS converges at rate <var>T</var>, not &radic;<var>T</var>. In a normal regression, doubling your sample cuts the standard error by &radic;2; here it cuts it by 2.</p>
+
+<p>The intuition: OLS minimizes residual variance, and there is exactly <em>one</em> <var>β</var> that makes the residual <var>I</var>(0) — every other value leaves an <var>I</var>(1) residual whose variance grows in <var>T</var>. So the objective function has an enormously sharp minimum. The estimator is dragged to the true value fast, and it stays consistent even under endogeneity or omitted dynamics.</p>
+
+<h4><span class="v">β</span> is the only value that works</h4>
+
+<p>This is the deep point. Cointegration says a <em>specific</em> linear combination is stationary — not any combination. Get <var>β</var> wrong by 10% and your "spread" is still <var>I</var>(1) and still non-tradeable.</p>
+
+<div class="note warn">
+  <span class="lab">Practical consequence</span>
+  <p>Hedge-ratio estimation is the whole ballgame in pairs trading. Using a naive 1:1 or DV01-matched ratio when the true <var>β</var> &ne; 1 silently destroys the trade.</p>
+</div>
+
+<div class="note">
+  <span class="lab">Caveat on inference</span>
+  <p>Super-consistency means the <em>point estimate</em> is reliable, but the OLS standard error on <var>β̂</var> is not — its distribution is non-standard. Use FM-OLS (Phillips–Hansen), DOLS (Stock–Watson), or Johansen if you need inference on <var>β</var> itself.</p>
+</div>
+
+<h3>The Granger Representation Theorem</h3>
+
+<p>This is the formal statement of the intuition above, and it's the thing to be able to cite:</p>
+
+<div class="eq tight">
+  <var>y</var><sub><var>t</var></sub>, <var>x</var><sub><var>t</var></sub> are cointegrated
+  <span class="sep"></span>&hArr;<span class="sep"></span>
+  an error-correction representation exists
+</div>
+
+<p>The equivalence runs both ways, which is stronger than it looks. Cointegration <em>guarantees</em> at least one variable error-corrects — the system cannot drift apart indefinitely without something pulling it back. And the existence of an ECM implies cointegration.</p>
+
+<h4>Reading <span class="v">λ</span></h4>
+
+<p>Same interpretation as the <var>γ</var> in an ADF regression — it's the same spring constant.</p>
+
+<div class="tbl-wrap">
+<table>
+  <thead><tr><th><var>λ</var></th><th>Meaning</th></tr></thead>
+  <tbody>
+    <tr><td class="num"><var>λ</var> &lt; 0</td><td><strong>Required.</strong> <var>y</var> falls when the spread is too wide.</td></tr>
+    <tr><td class="num"><var>λ</var> = 0</td><td>No error correction — no cointegration.</td></tr>
+    <tr><td class="num"><var>λ</var> = &minus;0.05</td><td>5% of the gap closes per day; <var>t</var><sub>1/2</sub> = 13.5 days.</td></tr>
+    <tr><td class="num"><var>λ</var> &lt; &minus;1</td><td>Overshooting, oscillatory correction.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p>Note that testing <var>λ</var> = 0 in the ECM is <em>itself</em> a cointegration test (the Banerjee/ECM test), and it often has better power than the two-step Engle–Granger procedure.</p>
+
+<h3>The trading payoff</h3>
+
+<p>For the USD/EUR swap case, run the ECM in both directions:</p>
+
+<div class="eq tight">
+  &Delta;<var>y</var><sub><var>t</var></sub> = <var>λ</var><sub><var>y</var></sub>(spread<sub><var>t</var>&minus;1</sub>) + &hellip;
+  <span class="sep"></span>
+  &Delta;<var>x</var><sub><var>t</var></sub> = <var>λ</var><sub><var>x</var></sub>(spread<sub><var>t</var>&minus;1</sub>) + &hellip;
+</div>
+
+<p>Which <var>λ</var> is significant tells you which leg does the adjusting — that is, where price discovery lives, and which leg to trade.</p>
+
+<div class="tbl-wrap">
+<table>
+  <thead><tr><th>Pattern</th><th>Interpretation</th></tr></thead>
+  <tbody>
+    <tr>
+      <td class="num"><var>λ</var><sub><var>y</var></sub> sig., <var>λ</var><sub><var>x</var></sub> &asymp; 0</td>
+      <td><var>x</var> is the anchor and <var>y</var> corrects toward it. Trade <var>y</var>; <var>x</var> is weakly exogenous.</td>
+    </tr>
+    <tr>
+      <td class="num">Both significant</td>
+      <td>Both adjust — trade the spread as a package.</td>
+    </tr>
+    <tr>
+      <td class="num">Neither significant</td>
+      <td>You don't have cointegration, whatever the ADF said.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p>This is the Hasbrouck / Gonzalo–Granger price-discovery framework, and it's genuinely useful — for cross-listed assets or cash-versus-futures it identifies which venue leads.</p>
+
+<div class="note key">
+  <span class="lab">The signal, in one term</span>
+  <p><var>λ</var> &times; spread<sub><var>t</var>&minus;1</sub> is your expected next-period P&amp;L. Position size &prop; that quantity, capped by spread volatility. That is the entire stat-arb signal.</p>
+</div>
+
+<footer>
+  <p>Working notes — 2026-08-05.</p>
+  <p>Numbers are illustrative (<var>D</var><sub>0</sub> = 20 bp, <var>σ</var> = 25 bp/yr, USD–EUR 10y). Re-derive with live inputs before sizing anything.</p>
+</footer>
+
+</div>
+</body>
+</html>
