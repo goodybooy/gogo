@@ -1,6 +1,16 @@
 
 
 
+## Web Browse Fetch — 2026-08-06
+
+- Serenity (@aleabitoreddit): 08-06 01:23 UTC — $VIAV 反驳CPO延迟称"全是胡扯"，已有CPO测试订单、本季度录得营收12月加速，1.6T明年与800G打平
+- Serenity (@aleabitoreddit): 08-06 04:12 UTC — $AEVA 成为CPO/NPO光源玩家，因签JDA盘后+18.26%，对$SIVE等上游供应商正面
+- Serenity (@aleabitoreddit): 08-06 07:13 UTC — 随想帖，正文订阅墙锁定，无ticker
+- Serenity (@aleabitoreddit): 08-06 09:56 UTC — 调侃没人会念 $AAOI（Applied Optoelectronics）名字的玩笑帖
+- （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均无新内容，未包含在本次记录中。）
+
+---
+
 ## Web Browse Fetch — 2026-08-05
 
 - Serenity (@aleabitoreddit): 08-05 00:16 UTC — $RKLB 获美国太空军 $397M 合同，建造 Flatellite 卫星并由 Neutron 火箭发射
@@ -17,13 +27,6 @@
 - Serenity (@aleabitoreddit): 08-03 23:35 UTC — 讽刺 Citadel：几天前呼吁加息引发恐慌后趁机抄底被清算的AI资产，结果未加息、称牛市完好无损
 - Serenity (@aleabitoreddit): 08-04 02:34 UTC — SK Hynix/$MU/Samsung 售罄2027 DRAM/HBM，$SNDK/Micron NAND亦售罄，客户仅获60-70%分配，2027进入最严重内存短缺
 - （Julian Petroulas、Benjamin Hedge 本次均超过3天无更新，未包含在本次记录中。）
-
----
-
-## Web Browse Fetch — 2026-08-02
-
-- Serenity (@aleabitoreddit): 08-02 03:42 UTC — Trump宣布美国已取消对伊朗的攻击，双方同意达成开放霍尔木兹海峡并终止核计划的协议框架
-- （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均超过3天无更新，未包含在本次记录中。）
 
 ---
 
