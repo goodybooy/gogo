@@ -1,0 +1,379 @@
+<meta charset="utf-8">
+<title>Unico PopApp Client — Customer-Flow QA (eventtest01)</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#16181d; --muted:#5b6270; --line:#e3e6ec;
+    --card:#f7f8fa; --hi:#b4004e; --hi-bg:#fdeef4;
+    --med:#8a5a00; --med-bg:#fff6e5; --low:#33566e; --low-bg:#eef4f8;
+    --ok:#1c6b47; --ok-bg:#e9f5ef; --code:#f0f2f5;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --bg:#111318; --fg:#e8eaee; --muted:#a0a7b4; --line:#2a2e37;
+      --card:#181b21; --hi:#ff7aa8; --hi-bg:#33111f;
+      --med:#e8b866; --med-bg:#2e2415; --low:#8fc0dc; --low-bg:#16242e;
+      --ok:#7bd0a6; --ok-bg:#14261d; --code:#1d2027;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#111318; --fg:#e8eaee; --muted:#a0a7b4; --line:#2a2e37;
+    --card:#181b21; --hi:#ff7aa8; --hi-bg:#33111f;
+    --med:#e8b866; --med-bg:#2e2415; --low:#8fc0dc; --low-bg:#16242e;
+    --ok:#7bd0a6; --ok-bg:#14261d; --code:#1d2027;
+  }
+  :root[data-theme="light"]{
+    --bg:#ffffff; --fg:#16181d; --muted:#5b6270; --line:#e3e6ec;
+    --card:#f7f8fa; --hi:#b4004e; --hi-bg:#fdeef4;
+    --med:#8a5a00; --med-bg:#fff6e5; --low:#33566e; --low-bg:#eef4f8;
+    --ok:#1c6b47; --ok-bg:#e9f5ef; --code:#f0f2f5;
+  }
+  body{
+    background:var(--bg); color:var(--fg); margin:0;
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:940px;margin:0 auto;padding:48px 24px 96px}
+  header{border-bottom:2px solid var(--fg);padding-bottom:22px;margin-bottom:34px}
+  h1{font-size:30px;line-height:1.25;margin:0 0 10px;letter-spacing:-.02em}
+  .sub{color:var(--muted);font-size:15px;margin:0}
+  .meta{
+    display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+    gap:14px;margin:26px 0 6px;
+  }
+  .meta div{background:var(--card);border:1px solid var(--line);border-radius:9px;padding:11px 14px}
+  .meta dt{font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin:0 0 3px}
+  .meta dd{margin:0;font-size:14px;font-weight:600;word-break:break-word}
+  h2{font-size:21px;margin:44px 0 6px;letter-spacing:-.01em}
+  h2 + .lede{color:var(--muted);margin:0 0 20px;font-size:15px}
+  .issue{border:1px solid var(--line);border-radius:11px;margin:18px 0;overflow:hidden;background:var(--card)}
+  .issue > .head{display:flex;gap:12px;align-items:flex-start;padding:16px 18px}
+  .sev{
+    flex:none;font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;
+    padding:4px 9px;border-radius:5px;margin-top:2px;white-space:nowrap;
+  }
+  .sev.high{color:var(--hi);background:var(--hi-bg)}
+  .sev.med{color:var(--med);background:var(--med-bg)}
+  .sev.low{color:var(--low);background:var(--low-bg)}
+  .issue h3{margin:0 0 5px;font-size:17px;line-height:1.35}
+  .issue .body{padding:0 18px 18px 18px}
+  .issue p{margin:9px 0}
+  .label{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700}
+  code,.mono{
+    font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px;
+    background:var(--code);padding:1.5px 5px;border-radius:4px;word-break:break-word;
+  }
+  pre{background:var(--code);padding:13px 15px;border-radius:8px;overflow-x:auto;font-size:13px;margin:10px 0;
+      font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;line-height:1.5}
+  figure{margin:16px 0 4px}
+  figure img{
+    display:block;width:100%;height:auto;max-width:100%;
+    border:1px solid var(--line);border-radius:8px;background:#fff;
+  }
+  figcaption{color:var(--muted);font-size:13px;margin-top:7px;font-style:italic}
+  .tablewrap{overflow-x:auto;margin:14px 0}
+  table{border-collapse:collapse;width:100%;font-size:14.5px;min-width:460px}
+  th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700}
+  .note{border-left:3px solid var(--line);padding:2px 0 2px 15px;color:var(--muted);margin:16px 0}
+  .ok{color:var(--ok);font-weight:600}
+  ul{padding-left:20px} li{margin:5px 0}
+  footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:13.5px}
+</style>
+
+<div class="wrap">
+<header>
+  <h1>PopApp Client — Customer-Flow QA</h1>
+  <p class="sub">Buyer-side walkthrough of the <strong>eventtest01</strong> store, from landing on the storefront through placing a real ticket order.</p>
+</header>
+
+<div class="meta">
+  <div><dt>Date</dt><dd>5 August 2026</dd></div>
+  <div><dt>Store</dt><dd>eventtest01 — storeId 264</dd></div>
+  <div><dt>Repo / branch</dt><dd>popapp-mall @ hxe2e_add</dd></div>
+  <div><dt>Build</dt><dd>HBuilderX 5.15 → Run → H5</dd></div>
+  <div><dt>Perspective</dt><dd>Guest customer (UC_m_6976)</dd></div>
+  <div><dt>Test order placed</dt><dd>#274049 · pass 4898 · $10</dd></div>
+</div>
+
+<h2>Summary</h2>
+<p class="lede">A guest customer <em>can</em> complete a purchase, but only by guessing. Four defects combine into a checkout that silently refuses to submit and never says why.</p>
+
+<p>I reserved a ticket for <code>EVENT_STARTING_SOON</code> ($10, package T1) and paid via <em>Pay in Person</em>. The order was created successfully (<code>POST /app/event/app/order/event/create</code> → 200, order <strong>#274049</strong>), the ticket was issued with a valid QR pass, and stock decremented correctly from 9 to 8 spots. Everything around that happy path, however, has problems.</p>
+
+<p>The most serious cluster is on the checkout screen: <strong>Place Order fails silently</strong>. There is no toast, no inline error, and no field highlighting — and no network request is even attempted. I hit this twice and had to diagnose it from the DOM. The two hidden causes are a required consent checkbox that <strong>silently resets itself</strong> and an "Order Note" field that is <strong>enforced as required while being labelled optional</strong>. A real customer would very likely abandon here.</p>
+
+<div class="tablewrap">
+<table>
+  <thead><tr><th>#</th><th>Issue</th><th>Severity</th></tr></thead>
+  <tbody>
+    <tr><td>1</td><td>Place Order fails silently with no feedback</td><td><span class="sev high">High</span></td></tr>
+    <tr><td>2</td><td>Required consent checkbox resets itself</td><td><span class="sev high">High</span></td></tr>
+    <tr><td>3</td><td>Order Note required but labelled "optional"</td><td><span class="sev high">High</span></td></tr>
+    <tr><td>4</td><td>Pay-in-Person hangs on "verifying your payment" forever</td><td><span class="sev high">High</span></td></tr>
+    <tr><td>5</td><td>Legal agreement labelled <code>Group 1000004246.png</code></td><td><span class="sev high">High</span></td></tr>
+    <tr><td>6</td><td>Agreement label is a link — cannot be ticked by clicking it</td><td><span class="sev med">Medium</span></td></tr>
+    <tr><td>7</td><td>Uncaught <code>TypeError</code> on every page load</td><td><span class="sev med">Medium</span></td></tr>
+    <tr><td>8</td><td>Attendee name pre-filled with internal code <code>UC_m_xxxx</code></td><td><span class="sev med">Medium</span></td></tr>
+    <tr><td>9</td><td>One order shows three different statuses</td><td><span class="sev med">Medium</span></td></tr>
+    <tr><td>10</td><td>Service fee silently disappears by payment method</td><td><span class="sev med">Medium</span></td></tr>
+    <tr><td>11</td><td>Store name renders literally as "name"</td><td><span class="sev low">Low</span></td></tr>
+    <tr><td>12</td><td>Reserve Tickets is a silent no-op with no package selected</td><td><span class="sev low">Low</span></td></tr>
+    <tr><td>13</td><td>Guest modal "Continue" drops the intended action</td><td><span class="sev low">Low</span></td></tr>
+    <tr><td>14</td><td>Categories page renders a broken empty layout</td><td><span class="sev low">Low</span></td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>The storefront</h2>
+<p class="lede">For context — this is what a customer sees on arrival.</p>
+<figure>
+  <img src="unico-popapp-qa-2026-08-05/01-storefront-home.jpg" alt="EVENTTEST01 storefront showing an event calendar with upcoming events">
+  <figcaption>eventtest01 home — a custom "Event Calendar" page listing upcoming events with Reserve buttons.</figcaption>
+</figure>
+<figure>
+  <img src="unico-popapp-qa-2026-08-05/02-event-packages.jpg" alt="Event detail page showing package T1 at $10 with a Reserve Tickets button">
+  <figcaption>Event detail — package <code>T1</code>, $10, "8 shared spots left". Note the placeholder data throughout (venue "123", contact phone/email "123").</figcaption>
+</figure>
+
+<h2>High severity</h2>
+<p class="lede">These block or mislead a paying customer.</p>
+
+<div class="issue">
+  <div class="head">
+    <span class="sev high">High</span>
+    <div><h3>1 &middot; "Place Order" fails silently with no feedback whatsoever</h3></div>
+  </div>
+  <div class="body">
+    <p><span class="label">What happens</span></p>
+    <p>Pressing <strong>Place Order</strong> with any validation problem does nothing visible. No toast, no inline error message, no red field outlines, no scroll-to-error on the second attempt. The button remains fully styled as enabled. Confirmed via the network panel that <strong>no request is sent at all</strong> — the submit is rejected client-side and swallowed.</p>
+    <p><span class="label">Why it matters</span></p>
+    <p>This is the failure that makes issues 2 and 3 dangerous. Individually they'd be minor annoyances; combined with zero feedback, the customer is left tapping a dead button with no path forward. Expected behaviour: block submission <em>and</em> say which field is wrong.</p>
+    <p><span class="label">Repro</span></p>
+    <pre>1. Reserve a ticket → checkout
+2. Leave the consent checkbox unticked (or the Order Note empty)
+3. Tap "Place Order"
+→ nothing happens; no message; no network call</pre>
+  </div>
+</div>
+
+<div class="issue">
+  <div class="head">
+    <span class="sev high">High</span>
+    <div><h3>2 &middot; The required consent checkbox silently resets itself</h3></div>
+  </div>
+  <div class="body">
+    <p><span class="label">What happens</span></p>
+    <p>I ticked the required agreement, then filled in the Order Note. The act of filling the note <strong>cleared the tick</strong>, with no indication. Pressing Place Order then failed silently (issue 1).</p>
+    <p><span class="label">Why it matters</span></p>
+    <p>This creates an unwinnable loop: the customer fixes one field, unknowingly loses their consent, submits, gets nothing, and has no way to work out what changed. It is almost certainly the root cause of the "Place Order does nothing" reports.</p>
+    <p><span class="label">Repro</span></p>
+    <pre>1. On checkout, tick the required agreement checkbox
+2. Type anything into the Order Note field
+3. Scroll back up
+→ the agreement checkbox is unticked again</pre>
+  </div>
+</div>
+
+<div class="issue">
+  <div class="head">
+    <span class="sev high">High</span>
+    <div><h3>3 &middot; Order Note is enforced as required but labelled "optional" — twice</h3></div>
+  </div>
+  <div class="body">
+    <p><span class="label">What happens</span></p>
+    <p>The field header reads <code>Order Note *</code> with a red required asterisk, while the sub-label says <em>"Optional note to merchant"</em> and the placeholder says <em>"Leave a message for the merchant (optional)"</em>. Submission is genuinely blocked until it is filled.</p>
+    <p><span class="label">Why it matters</span></p>
+    <p>The UI actively tells the customer they may skip a field that will then block their purchase — and, thanks to issue 1, without explaining itself. This is the customer-side confirmation of the "Mandatory Order Note vs (optional) placeholder" item already logged against the merchant dashboard.</p>
+    <figure>
+      <img src="unico-popapp-qa-2026-08-05/04-terms-and-ordernote.jpg" alt="Checkout showing the agreement checkbox labelled Group 1000004246.png and the Order Note marked required but described as optional">
+      <figcaption>Two defects in one frame: the consent checkbox labelled <code>Group 1000004246.png</code> (issue 5) and <code>Order Note *</code> described as "Optional note to merchant" (issue 3).</figcaption>
+    </figure>
+  </div>
+</div>
+
+<div class="issue">
+  <div class="head">
+    <span class="sev high">High</span>
+    <div><h3>4 &middot; Pay-in-Person orders hang on "verifying your payment" forever</h3></div>
+  </div>
+  <div class="body">
+    <p><span class="label">What happens</span></p>
+    <p>After ordering with <strong>Pay in Person</strong> ("Pay at check-in"), the confirmation screen shows a <code>PAYMENT PROCESSING</code> badge and the text <em>"We're verifying your payment. You'll be redirected to your tickets once it's confirmed."</em></p>
+    <p>There is no payment to verify — the customer is paying at the venue. Worse, <code>order/event/info?id=274049</code> is called <strong>exactly once</strong>, with no polling and no socket subscription, so the promised redirect can never fire. Re-loading the page later shows the identical stuck state.</p>
+    <p><span class="label">Why it matters</span></p>
+    <p>The customer is told their payment is being verified when nothing is pending, and is promised a redirect that will never arrive. Both the copy and the state machine are wrong for offline payment methods.</p>
+    <figure>
+      <img src="unico-popapp-qa-2026-08-05/05-confirmation-stuck.jpg" alt="Order confirmation stuck showing PAYMENT PROCESSING and a promise to redirect that never happens">
+      <figcaption>Order #274049, paid in person — permanently stuck on "PAYMENT PROCESSING".</figcaption>
+    </figure>
+  </div>
+</div>
+
+<div class="issue">
+  <div class="head">
+    <span class="sev high">High</span>
+    <div><h3>5 &middot; The legal agreement is labelled with a raw image filename</h3></div>
+  </div>
+  <div class="body">
+    <p><span class="label">What happens</span></p>
+    <p>The required consent checkbox — the one gating the purchase — is labelled <code>Group 1000004246.png</code>. The merchant's terms were uploaded as an image (a 5560&times;4248 PNG on S3) and the label falls back to the file's name.</p>
+    <p><span class="label">Why it matters</span></p>
+    <p>Customers are being asked to formally agree to something identified only by a filename. Beyond looking broken, consent to an unnamed document is difficult to defend. The label should render the terms' title, with the document behind a "view" affordance. Storing terms as a single enormous image is also worth revisiting — it is unreadable on a phone, unsearchable, and inaccessible to screen readers.</p>
+  </div>
+</div>
+
+<h2>Medium severity</h2>
+<p class="lede">Degraded experience or wrong information, but not blocking.</p>
+
+<div class="issue">
+  <div class="head">
+    <span class="sev med">Medium</span>
+    <div><h3>6 &middot; The agreement label is a link, so it cannot be ticked by tapping it</h3></div>
+  </div>
+  <div class="body">
+    <p>Clicking anywhere on the agreement text opens the terms image in a new tab instead of toggling the checkbox. Only the ~14&nbsp;px square itself works — a hostile target on a phone, and the opposite of the near-universal convention that a checkbox label toggles its box.</p>
+  </div>
+</div>
+
+<div class="issue">
+  <div class="head">
+    <span class="sev med">Medium</span>
+    <div><h3>7 &middot; Uncaught TypeError thrown on every single page load</h3></div>
+  </div>
+  <div class="body">
+    <p>Every page load raises an uncaught exception during app bootstrap:</p>
+    <pre>TypeError: service.request is not a function
+    at createEps (cool/bootstrap/eps.ts:86)
+    at bootstrap (cool/bootstrap/index.ts:7)
+    at createApp (main.js:16)</pre>
+    <p>The app recovers and renders, but an exception on the bootstrap path is fragile and buries genuine errors in the console. This is the buyer-side counterpart to the Firebase messaging exception already logged against the merchant dashboard.</p>
+  </div>
+</div>
+
+<div class="issue">
+  <div class="head">
+    <span class="sev med">Medium</span>
+    <div><h3>8 &middot; Attendee name pre-filled with the internal guest code</h3></div>
+  </div>
+  <div class="body">
+    <p>On a fresh guest session the "Full name" field on the ticket-holder form arrives pre-filled with the internal account code — <code>UC_m_6976</code>. Left untouched, the ticket is issued in that name and the merchant receives it as the attendee.</p>
+    <p>The repo's own <code>e2e/README.md</code> already documents this fallback ("游客账号自带 nickName（UC_m_xxxx），姓名链路会兜底到它"), so it is known internally — but it reaches the customer. The field should start empty with a placeholder.</p>
+    <figure>
+      <img src="unico-popapp-qa-2026-08-05/03-checkout-ticket-holders.jpg" alt="Checkout ticket holders section with name, email and phone fields">
+      <figcaption>Ticket-holder form. On a first-time guest, "Full name" arrives containing <code>UC_m_6976</code>.</figcaption>
+    </figure>
+  </div>
+</div>
+
+<div class="issue">
+  <div class="head">
+    <span class="sev med">Medium</span>
+    <div><h3>9 &middot; The same order reports three different statuses</h3></div>
+  </div>
+  <div class="body">
+    <p>Order #274049, unchanged, described three different ways depending on where you look:</p>
+    <div class="tablewrap">
+    <table>
+      <thead><tr><th>Screen</th><th>Status shown</th></tr></thead>
+      <tbody>
+        <tr><td>Order confirmation</td><td><code>PAYMENT PROCESSING</code> / "verifying your payment"</td></tr>
+        <tr><td>Event pass</td><td><code>Pending Payment</code> / <code>PENDING PASS</code></td></tr>
+        <tr><td>Order list</td><td><code>Pending Confirmation</code></td></tr>
+      </tbody>
+    </table>
+    </div>
+    <p>Same defect class as the refund-status contradiction already logged on the merchant side: no single source of truth for order state.</p>
+    <figure>
+      <img src="unico-popapp-qa-2026-08-05/06-ticket-pass.jpg" alt="Event pass showing Pending Payment status with QR code">
+      <figcaption>The issued pass — "Pending Payment". Note the header renders as "NAME" (issue 11).</figcaption>
+    </figure>
+    <figure>
+      <img src="unico-popapp-qa-2026-08-05/07-order-list.jpg" alt="Order list showing order 274049 as Pending Confirmation">
+      <figcaption>The same order in the list — "Pending Confirmation".</figcaption>
+    </figure>
+  </div>
+</div>
+
+<div class="issue">
+  <div class="head">
+    <span class="sev med">Medium</span>
+    <div><h3>10 &middot; The service fee silently appears and disappears with payment method</h3></div>
+  </div>
+  <div class="body">
+    <p>With <em>Online Payment</em> selected the total is <strong>$10.40</strong> (ticket $10.00 + service fee $0.40). Switching to <em>Pay in Person</em> drops the total to <strong>$10.00</strong> and removes the "Service fee" line entirely, with no explanation.</p>
+    <p>Charging a processing fee only on card payments is reasonable; changing the price as a silent side effect of a radio button is not. It also means the sticky footer total can differ from the fee breakdown until the customer scrolls down to find it.</p>
+  </div>
+</div>
+
+<h2>Low severity</h2>
+<p class="lede">Polish, placeholder data, and dead-end interactions.</p>
+
+<div class="issue">
+  <div class="head">
+    <span class="sev low">Low</span>
+    <div><h3>11 &middot; Store name renders literally as "name"</h3></div>
+  </div>
+  <div class="body">
+    <p>The store's name field contains the literal string <code>name</code>, so the browser tab title and the event pass header both display "NAME" rather than "EVENTTEST01". Likely test-data hygiene rather than a code defect — but the pass header is customer-facing, so a fallback for an empty or placeholder store name would be worth having.</p>
+  </div>
+</div>
+
+<div class="issue">
+  <div class="head">
+    <span class="sev low">Low</span>
+    <div><h3>12 &middot; "Reserve Tickets" is a silent no-op when no package is selected</h3></div>
+  </div>
+  <div class="body">
+    <p>On the event detail page the primary CTA renders fully enabled (solid, high-contrast) but does nothing until a package is ticked. The only cue is small grey "SELECT A PACKAGE" text beside it. The button should be visually disabled, or should say what is missing.</p>
+  </div>
+</div>
+
+<div class="issue">
+  <div class="head">
+    <span class="sev low">Low</span>
+    <div><h3>13 &middot; Guest modal's "Continue" throws away the action you asked for</h3></div>
+  </div>
+  <div class="body">
+    <p>Tapping <strong>Wallet</strong> as a guest raises "You are currently browsing as a guest… sign in for the full experience" with <em>Continue</em> / <em>Sign In Now</em>. Choosing <strong>Continue</strong> dismisses the modal and leaves you on Profile — Wallet never opens. The intent is dropped, so "Continue" reads as "cancel".</p>
+  </div>
+</div>
+
+<div class="issue">
+  <div class="head">
+    <span class="sev low">Low</span>
+    <div><h3>14 &middot; Categories page renders a broken empty layout</h3></div>
+  </div>
+  <div class="body">
+    <p>The Categories tab renders an empty left sidebar column plus a content column with its own stray scrollbar, and no empty state. For a store with no categories it should show the standard "No data available" treatment used elsewhere.</p>
+  </div>
+</div>
+
+<h2>What worked</h2>
+<p class="lede">Worth recording, so a re-test can tell regressions from known issues.</p>
+<ul>
+  <li><span class="ok">Order creation</span> — <code>POST /app/event/app/order/event/create</code> returned 200 and produced order #274049.</li>
+  <li><span class="ok">Ticket issuance</span> — a valid QR pass was generated (check-in ID 4898) with the correct guest name, pass type, date and check-in time.</li>
+  <li><span class="ok">Inventory</span> — available spots decremented correctly from 9 to 8 after purchase.</li>
+  <li><span class="ok">Guest session</span> — visitor token issued automatically; no forced sign-up before browsing or checkout.</li>
+  <li><span class="ok">Fee disclosure</span> — the $0.40 service fee <em>is</em> itemised under "Price details" before payment.</li>
+  <li><span class="ok">Tickets archive</span> — renders correctly with valid/used/all filters and a sensible empty state.</li>
+</ul>
+
+<h2>Suggested priority</h2>
+<ol>
+  <li><strong>Give Place Order a voice.</strong> Fixing issue 1 alone converts three silent blockers into ordinary, recoverable form errors. Highest value per unit of effort.</li>
+  <li><strong>Stop the consent checkbox resetting</strong> (issue 2) — this is the actual blocker behind abandoned checkouts.</li>
+  <li><strong>Make Order Note's label match its behaviour</strong> (issue 3) — one-line fix, either direction.</li>
+  <li><strong>Branch the confirmation screen on payment method</strong> (issue 4), and add polling or a socket update for the paths that genuinely are pending.</li>
+  <li><strong>Render a real title for the terms agreement</strong> (issues 5 & 6) and make the label toggle the box.</li>
+</ol>
+
+<div class="note">
+  <p><strong>Scope and method.</strong> Tested against the <em>test</em> backend (<code>api.unico-app.com/coolAdminTest</code>) via the H5 build served by HBuilderX, browsing as an unauthenticated guest. One real order was placed on the test store to exercise the full path; it can be cancelled or left as a fixture. Not covered: the Zelle/Venmo and Finix card payment paths (no card details were entered), refund and cancellation flows, coupon redemption, points, and any non-H5 target (iOS, Android, mini-program).</p>
+</div>
+
+<footer>
+  Unico PopApp Client — customer-flow QA · eventtest01 (storeId 264) · 5 August 2026<br>
+  popapp-mall @ <code>hxe2e_add</code> · built with HBuilderX 5.15 → Run → H5 · reference order #274049
+</footer>
+</div>
