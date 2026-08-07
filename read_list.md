@@ -1,4 +1,11 @@
+HUB A (yours + Friend A)
+URL: https://www.google.com/url?q=https://belongs-customise-coordination-boutique.trycloudflare.com&source=gmail&ust=1786193454054000&sa=E
+Token: QlCcQ5cUpItnCcpPYbgOIz9KcW3J5zNGDxVkrQolwJc
+Workspace roots: G:\uni, L:\ClaudeFolder, L:\LFolder, C:\Users\Good PC, E:\Github Go
 
+HUB B (Friend B)
+URL: https://www.google.com/url?q=https://revenues-eat-clerk-action.trycloudflare.com&source=gmail&ust=1786193454054000&sa=E
+Token: qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ
 
 
 ## Web Browse Fetch — 2026-08-06
