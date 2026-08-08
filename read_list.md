@@ -1,9 +1,8 @@
-HUB A (yours + Friend A)
+Hub A — Friend A
 URL: https://objects-lighter-viewers-personal.trycloudflare.com
 Token: QlCcQ5cUpItnCcpPYbgOIz9KcW3J5zNGDxVkrQolwJc
-Workspace roots: G:\uni, L:\ClaudeFolder, L:\LFolder, C:\Users\Good PC, E:\Github Go
 
-HUB B (Friend B)
+Hub B — Friend B
 URL: https://auckland-announcements-cotton-species.trycloudflare.com
 Token: qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ
 
