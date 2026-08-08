@@ -6,7 +6,6 @@ Hub B — Friend B
 URL: https://auckland-announcements-cotton-species.trycloudflare.com
 Token: qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ
 
-
 ## Web Browse Fetch — 2026-08-07
 
 - Serenity (@aleabitoreddit): 08-07 08:50 UTC — 称赞 Rosenblatt 对光模块板块渠道调研靠谱，$AAOI/$LITE/$SIVE 等"激光派对"已在预期时间窗口附近回暖
@@ -33,14 +32,6 @@ Token: qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ
 - Serenity (@aleabitoreddit): 08-04 12:11 UTC — Bessent 称周二三或达成开放霍尔木兹海峡协议，市场或喜闻
 - （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均无新内容，未包含在本次记录中。）
 
----
 
----
 
-https://mp.weixin.qq.com/s/88fqp_fbqYKWFfageTDFDA
 
-revenues-eat-clerk-action.trycloudflare.com&source=gmail&ust=1786193454054000&sa=E
-qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ
-
-belongs-customise-coordination-boutique.trycloudflare.com&source=gmail&ust=1786193454054000&sa=E
-QlCcQ5cUpItnCcpPYbgOIz9KcW3J5zNGDxVkrQolwJc
