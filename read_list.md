@@ -8,6 +8,15 @@ URL: https://www.google.com/url?q=https://revenues-eat-clerk-action.trycloudflar
 Token: qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ
 
 
+## Web Browse Fetch — 2026-08-07
+
+- Serenity (@aleabitoreddit): 08-07 08:50 UTC — 称赞 Rosenblatt 对光模块板块渠道调研靠谱，$AAOI/$LITE/$SIVE 等"激光派对"已在预期时间窗口附近回暖
+- Serenity (@aleabitoreddit): 08-07 12:55 UTC — 补充 $AAOI 财报要点：DSP/TIA 瓶颈利好 $MXL/$SMTC/$MTSI，指引 Q4 营收超 $500M
+- Serenity (@aleabitoreddit): 08-07 20:21 UTC — 白宫加码关键矿产：$WWR 获 $25M（石墨）、$SRL(ASX) 获 $400M（钪）、$FEAM 获 $8M（硼）、$HREE 获 $4.8M（磁体稀土）
+- （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均无新内容，未包含在本次记录中。）
+
+---
+
 ## Web Browse Fetch — 2026-08-06
 
 - Serenity (@aleabitoreddit): 08-06 01:23 UTC — $VIAV 反驳CPO延迟称"全是胡扯"，已有CPO测试订单、本季度录得营收12月加速，1.6T明年与800G打平
@@ -24,16 +33,6 @@ Token: qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ
 - Serenity (@aleabitoreddit): 08-04 11:09 UTC — 特朗普政府起草禁令拟禁中国光模块/DC器件，利好西方供应链 $AAOI/$SIVE/$LITE/Coherent，打击 Innolight/Eoptolink
 - Serenity (@aleabitoreddit): 08-04 12:11 UTC — Bessent 称周二三或达成开放霍尔木兹海峡协议，市场或喜闻
 - （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均无新内容，未包含在本次记录中。）
-
----
-
-## Web Browse Fetch — 2026-08-04
-
-- Alex Moon (@AlexMoonvest): 08-04 05:17 UTC — 开源 LLM 是更广泛 AI 牛市的关键
-- Serenity (@aleabitoreddit): 08-03 21:16 UTC — 熊又回去冬眠了（看多情绪短帖）
-- Serenity (@aleabitoreddit): 08-03 23:35 UTC — 讽刺 Citadel：几天前呼吁加息引发恐慌后趁机抄底被清算的AI资产，结果未加息、称牛市完好无损
-- Serenity (@aleabitoreddit): 08-04 02:34 UTC — SK Hynix/$MU/Samsung 售罄2027 DRAM/HBM，$SNDK/Micron NAND亦售罄，客户仅获60-70%分配，2027进入最严重内存短缺
-- （Julian Petroulas、Benjamin Hedge 本次均超过3天无更新，未包含在本次记录中。）
 
 ---
 
