@@ -6,6 +6,13 @@ Hub B — Friend B
 URL: https://auckland-announcements-cotton-species.trycloudflare.com
 Token: qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ
 
+## Saved Articles
+
+- **[Blackstone Credit Acquires DCI](https://thehedgefundjournal.com/blackstone-credit-acquires-dci/)** — The Hedge Fund Journal
+  Blackstone acquired DCI, a San Francisco quantitative credit manager with ~$7.5bn AUM across global IG, HY and EM corporate credit. DCI applied a fundamentals-driven, technology-led model (rooted in structural/Merton-style default risk) and folded into Blackstone Credit. Deal announced 30 Nov 2020, closed 18 Dec 2020. DCI's Market Neutral Credit Fund (UCITS) had won THFJ's `Corporate Credit — Market Neutral` best-performing fund award for 2019 and over 2/3/4/5/7-year periods.
+
+---
+
 ## Web Browse Fetch — 2026-08-07
 
 - Serenity (@aleabitoreddit): 08-07 08:50 UTC — 称赞 Rosenblatt 对光模块板块渠道调研靠谱，$AAOI/$LITE/$SIVE 等"激光派对"已在预期时间窗口附近回暖
