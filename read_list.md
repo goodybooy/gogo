@@ -11,6 +11,11 @@ Token: qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ
 - **[Blackstone Credit Acquires DCI](https://thehedgefundjournal.com/blackstone-credit-acquires-dci/)** — The Hedge Fund Journal
   Blackstone acquired DCI, a San Francisco quantitative credit manager with ~$7.5bn AUM across global IG, HY and EM corporate credit. DCI applied a fundamentals-driven, technology-led model (rooted in structural/Merton-style default risk) and folded into Blackstone Credit. Deal announced 30 Nov 2020, closed 18 Dec 2020. DCI's Market Neutral Credit Fund (UCITS) had won THFJ's `Corporate Credit — Market Neutral` best-performing fund award for 2019 and over 2/3/4/5/7-year periods.
 
+- https://mp.weixin.qq.com/s/XirvhleeE0lhePuQ4PdvFw
+- https://mp.weixin.qq.com/s/rcJUwJnN6i6gVejjvGXAbA
+- https://mp.weixin.qq.com/s/X-xikYAi6q9sXualL2XRpg
+- https://mp.weixin.qq.com/s/pUBvekoabaaAJ_yW7nkDOA
+
 ---
 
 ## Web Browse Fetch — 2026-08-07
