@@ -6,18 +6,49 @@ Hub B — Friend B
 URL: https://auckland-announcements-cotton-species.trycloudflare.com
 Token: qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ
 
-## Saved Articles
+https://thehedgefundjournal.com/blackstone-credit-acquires-dci/
 
-- **[Blackstone Credit Acquires DCI](https://thehedgefundjournal.com/blackstone-credit-acquires-dci/)** — The Hedge Fund Journal
-  Blackstone acquired DCI, a San Francisco quantitative credit manager with ~$7.5bn AUM across global IG, HY and EM corporate credit. DCI applied a fundamentals-driven, technology-led model (rooted in structural/Merton-style default risk) and folded into Blackstone Credit. Deal announced 30 Nov 2020, closed 18 Dec 2020. DCI's Market Neutral Credit Fund (UCITS) had won THFJ's `Corporate Credit — Market Neutral` best-performing fund award for 2019 and over 2/3/4/5/7-year periods.
 
-- https://mp.weixin.qq.com/s/XirvhleeE0lhePuQ4PdvFw
-- https://mp.weixin.qq.com/s/rcJUwJnN6i6gVejjvGXAbA
-- https://mp.weixin.qq.com/s/X-xikYAi6q9sXualL2XRpg
-- https://mp.weixin.qq.com/s/pUBvekoabaaAJ_yW7nkDOA
+
+no leakage of data, stored in date files instead of front load into dataframe
+
+check signal decay,  contemporaneous R2 vs signal R2
+
+survivorship (defaulted bonds removed form index)
+
+have a prior of why it works and what are the drivers before backtest
+
+
+
+
+
+## Grinold's Alpha Forecasting Formula
+
+$$s_i = \mathrm{IC} \times \sigma_i \times z_i$$
+
+where $z_i$ is your signal as a cross-sectional z-score, $\sigma_i$ is the asset's return volatility, and IC is the information coefficient — the correlation between your signal and subsequent realized returns.
+
+Every piece has a job: $z_i$ **gives the shape** (who's ranked where), $\sigma_i$ **gives the scale** (a high-vol currency moves more per unit of edge), **IC gives the confidence** (how much of that movement you can actually claim).
+
+### Worked example
+
+Suppose your IC is **0.03** (realistic for a decent FX signal; 0.05+ is strong, 0.10 is suspicious). BRL vol is 12% annualized, and BRL ranks 2nd of 20 → $z = 1.64$.
+
+$$s_{\mathrm{BRL}} = 0.03 \times 0.12 \times 1.64 = 0.0059$$
+
+**But careful — units.** That's the expected return over *one forecast horizon*, if IC was measured against that horizon's returns. If you computed IC against daily returns, this is a daily number: 0.59bp/day. Annualize:
+
+$$0.0059 \times 252 = 1.49 = \textbf{1.49\% per year per unit weight}$$
+
+### Notes
+
+Rank-based signals convert to a z-score by applying the inverse normal distribution to rank/percentile.
+
+$$\mathrm{IC}_t = \mathrm{Corr}\left(z_{i,t},\ r_{i,t+1}\right) \quad \text{across } i \text{ at each date } t$$
+
+Compare this with proportional stocks/APT.
 
 ---
-
 ## Web Browse Fetch — 2026-08-07
 
 - Serenity (@aleabitoreddit): 08-07 08:50 UTC — 称赞 Rosenblatt 对光模块板块渠道调研靠谱，$AAOI/$LITE/$SIVE 等"激光派对"已在预期时间窗口附近回暖
@@ -43,7 +74,5 @@ Token: qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ
 - Serenity (@aleabitoreddit): 08-04 11:09 UTC — 特朗普政府起草禁令拟禁中国光模块/DC器件，利好西方供应链 $AAOI/$SIVE/$LITE/Coherent，打击 Innolight/Eoptolink
 - Serenity (@aleabitoreddit): 08-04 12:11 UTC — Bessent 称周二三或达成开放霍尔木兹海峡协议，市场或喜闻
 - （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均无新内容，未包含在本次记录中。）
-
-
 
 
