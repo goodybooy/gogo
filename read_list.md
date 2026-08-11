@@ -20,35 +20,18 @@ have a prior of why it works and what are the drivers before backtest
 
 
 
+quintile, proportional to inverse-normal of signal, proportional to signal, equal risk contribution (cross asset), inverse vol
 
+quadratic optimization max alpha - vol - tcost (vol term is the quadratic one)
 
-## Grinold's Alpha Forecasting Formula
+MVO is one type of QP, but in reality no one use MVO for expected return, but rather replace with 
 
-$$s_i = \mathrm{IC} \times \sigma_i \times z_i$$
+alpha = IC x sigma x z and w* = 1/lambda*simga^-1 *alpha
 
-where $z_i$ is your signal as a cross-sectional z-score, $\sigma_i$ is the asset's return volatility, and IC is the information coefficient — the correlation between your signal and subsequent realized returns.
+alpha must be in return unit (oas(maybe yes maybe not) + carry + 0.5*cheapness(RC or to FVS)*sprd_dur *
 
-Every piece has a job: $z_i$ **gives the shape** (who's ranked where), $\sigma_i$ **gives the scale** (a high-vol currency moves more per unit of edge), **IC gives the confidence** (how much of that movement you can actually claim).
+adjustment: analyst recommendation, shift in cheapness if OW etc...
 
-### Worked example
-
-Suppose your IC is **0.03** (realistic for a decent FX signal; 0.05+ is strong, 0.10 is suspicious). BRL vol is 12% annualized, and BRL ranks 2nd of 20 → $z = 1.64$.
-
-$$s_{\mathrm{BRL}} = 0.03 \times 0.12 \times 1.64 = 0.0059$$
-
-**But careful — units.** That's the expected return over *one forecast horizon*, if IC was measured against that horizon's returns. If you computed IC against daily returns, this is a daily number: 0.59bp/day. Annualize:
-
-$$0.0059 \times 252 = 1.49 = \textbf{1.49\% per year per unit weight}$$
-
-### Notes
-
-Rank-based signals convert to a z-score by applying the inverse normal distribution to rank/percentile.
-
-$$\mathrm{IC}_t = \mathrm{Corr}\left(z_{i,t},\ r_{i,t+1}\right) \quad \text{across } i \text{ at each date } t$$
-
-Compare this with proportional stocks/APT.
-
----
 ## Web Browse Fetch — 2026-08-07
 
 - Serenity (@aleabitoreddit): 08-07 08:50 UTC — 称赞 Rosenblatt 对光模块板块渠道调研靠谱，$AAOI/$LITE/$SIVE 等"激光派对"已在预期时间窗口附近回暖

@@ -4,10 +4,8 @@ Personal working repo (notes, reading list, and the sector tracker).
 
 - **Repo**: https://github.com/goodybooy/gogo
 - **Branch**: `main`
-- **Owner**: HX (huanxiliu99@gmail.com)
-
-> [!NOTE]
-> Agent workflow and push instructions live in `CLAUDE.md` (local-only, gitignored). This README carries the git-hygiene rules that are worth keeping visible on GitHub.
+- [!NOTE]
+  Agent workflow and push instructions live in `CLAUDE.md` (local-only, gitignored). This README carries the git-hygiene rules that are worth keeping visible on GitHub.
 
 ## Avoiding git lock conflicts
 
