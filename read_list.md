@@ -11,6 +11,16 @@ https://thehedgefundjournal.com/blackstone-credit-acquires-dci/
 
 
 
+---
+
+## Web Browse Fetch — 2026-08-11
+
+- Serenity (@aleabitoreddit): 08-12 01:56 UTC — 披露 Situational Awareness（Leopold）持有 Taiyo Yuden(6976) 5.99%、均价约 ¥17,446（现价 ¥9,797），本人今日加仓表态支持（MLCC 瓶颈主题）
+- Serenity (@aleabitoreddit): 08-12 01:08 UTC — 调侃 $SMCI CEO 在财报 Q&A 上疯狂回避 2027 毛利率等关键问题
+- Serenity (@aleabitoreddit): 08-12 00:06 UTC — $LITE 财报要点：确认 CPO 规模化部署将于 2027 下半年启动、超高功率激光芯片需求爬坡
+- Serenity (@aleabitoreddit): 08-11 21:09 UTC — AI 主题财报炸裂 $CRWV/$SMCI/$LITE：Coreweave 积压订单超 $104B（Q3 另新增 $25B+），Neocloud 算力需求利好 Nebius、Iren
+- Serenity (@aleabitoreddit): 08-11 20:51 UTC — $SMCI 给出 FY2027 营收指引 $65–72B（远超预期 ~$52.4B、超共识 +$16.1B），新增订单超 $60B
+- （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均无新内容，未包含在本次记录中。）
 
 ---
 
@@ -29,13 +39,4 @@ https://thehedgefundjournal.com/blackstone-credit-acquires-dci/
 - Serenity (@aleabitoreddit): 08-06 04:12 UTC — $AEVA 成为CPO/NPO光源玩家，因签JDA盘后+18.26%，对$SIVE等上游供应商正面
 - Serenity (@aleabitoreddit): 08-06 07:13 UTC — 随想帖，正文订阅墙锁定，无ticker
 - Serenity (@aleabitoreddit): 08-06 09:56 UTC — 调侃没人会念 $AAOI（Applied Optoelectronics）名字的玩笑帖
-- （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均无新内容，未包含在本次记录中。）
-
----
-
-## Web Browse Fetch — 2026-08-05
-
-- Serenity (@aleabitoreddit): 08-05 00:16 UTC — $RKLB 获美国太空军 $397M 合同，建造 Flatellite 卫星并由 Neutron 火箭发射
-- Serenity (@aleabitoreddit): 08-04 11:09 UTC — 特朗普政府起草禁令拟禁中国光模块/DC器件，利好西方供应链 $AAOI/$SIVE/$LITE/Coherent，打击 Innolight/Eoptolink
-- Serenity (@aleabitoreddit): 08-04 12:11 UTC — Bessent 称周二三或达成开放霍尔木兹海峡协议，市场或喜闻
 - （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均无新内容，未包含在本次记录中。）
