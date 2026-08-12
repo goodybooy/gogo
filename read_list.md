@@ -13,6 +13,15 @@ https://thehedgefundjournal.com/blackstone-credit-acquires-dci/
 
 ---
 
+## Web Browse Fetch — 2026-08-12
+
+- Serenity (@aleabitoreddit): 08-12 07:54 UTC — 光模块财报观察：$SIVE 与 CW DFB 激光瓶颈；$LITE UHP CW 激光需求超预期、具备 ASP 提价能力、CPO 规模化出货仍锁定 2027 下半年
+- Serenity (@aleabitoreddit): 08-12 06:22 UTC — 盛赞 Leopold 的 Situational Awareness 买下 Taiyo Yuden 约 1/6 股份，感叹 MLCC 供应链主题正在兑现
+- Serenity (@aleabitoreddit): 08-12 04:36 UTC — Leopold 的 Situational Awareness 将 Taiyo Yuden(6976) 持股从 7/16 的 5.99% 增至 11.62%，认同其对 AI 供应链关键 MLCC 制造商的判断
+- （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均无新内容，未包含在本次记录中。）
+
+---
+
 ## Web Browse Fetch — 2026-08-11
 
 - Serenity (@aleabitoreddit): 08-12 01:56 UTC — 披露 Situational Awareness（Leopold）持有 Taiyo Yuden(6976) 5.99%、均价约 ¥17,446（现价 ¥9,797），本人今日加仓表态支持（MLCC 瓶颈主题）
@@ -29,14 +38,4 @@ https://thehedgefundjournal.com/blackstone-credit-acquires-dci/
 - Serenity (@aleabitoreddit): 08-07 08:50 UTC — 称赞 Rosenblatt 对光模块板块渠道调研靠谱，$AAOI/$LITE/$SIVE 等"激光派对"已在预期时间窗口附近回暖
 - Serenity (@aleabitoreddit): 08-07 12:55 UTC — 补充 $AAOI 财报要点：DSP/TIA 瓶颈利好 $MXL/$SMTC/$MTSI，指引 Q4 营收超 $500M
 - Serenity (@aleabitoreddit): 08-07 20:21 UTC — 白宫加码关键矿产：$WWR 获 $25M（石墨）、$SRL(ASX) 获 $400M（钪）、$FEAM 获 $8M（硼）、$HREE 获 $4.8M（磁体稀土）
-- （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均无新内容，未包含在本次记录中。）
-
----
-
-## Web Browse Fetch — 2026-08-06
-
-- Serenity (@aleabitoreddit): 08-06 01:23 UTC — $VIAV 反驳CPO延迟称"全是胡扯"，已有CPO测试订单、本季度录得营收12月加速，1.6T明年与800G打平
-- Serenity (@aleabitoreddit): 08-06 04:12 UTC — $AEVA 成为CPO/NPO光源玩家，因签JDA盘后+18.26%，对$SIVE等上游供应商正面
-- Serenity (@aleabitoreddit): 08-06 07:13 UTC — 随想帖，正文订阅墙锁定，无ticker
-- Serenity (@aleabitoreddit): 08-06 09:56 UTC — 调侃没人会念 $AAOI（Applied Optoelectronics）名字的玩笑帖
 - （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均无新内容，未包含在本次记录中。）
