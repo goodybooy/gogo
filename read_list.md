@@ -6,7 +6,20 @@ Hub B — Friend B
 URL: https://auckland-announcements-cotton-species.trycloudflare.com
 Token: qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ
 
-https://thehedgefundjournal.com/blackstone-credit-acquires-dci/
+https://mp.weixin.qq.com/s/eI3W58ZRJY8qmGFwRv_PKQ
+
+https://mp.weixin.qq.com/s/DUY-i_IjJOJrYXrPNoM24w
+
+https://mp.weixin.qq.com/s/11pK27GCaJfR54E_qEAnmw
+
+https://mp.weixin.qq.com/s/39H7hSMz9_LUPustl57iXw
+
+https://mp.weixin.qq.com/s/cB5VX4rvIhuhQWO_DRZkJg
+
+https://mp.weixin.qq.com/s/Ob0MJc14CdZA4Q4O9JptaQ
+
+https://finance.sina.cn/fund/sm/2026-05-21/detail-inhyrvzr8178414.d.html?vt=4
+
 
 
 
@@ -39,3 +52,5 @@ https://thehedgefundjournal.com/blackstone-credit-acquires-dci/
 - Serenity (@aleabitoreddit): 08-07 12:55 UTC — 补充 $AAOI 财报要点：DSP/TIA 瓶颈利好 $MXL/$SMTC/$MTSI，指引 Q4 营收超 $500M
 - Serenity (@aleabitoreddit): 08-07 20:21 UTC — 白宫加码关键矿产：$WWR 获 $25M（石墨）、$SRL(ASX) 获 $400M（钪）、$FEAM 获 $8M（硼）、$HREE 获 $4.8M（磁体稀土）
 - （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均无新内容，未包含在本次记录中。）
+
+
