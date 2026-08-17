@@ -6,23 +6,45 @@ Hub B — Friend B
 URL: https://auckland-announcements-cotton-species.trycloudflare.com
 Token: qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ
 
-https://mp.weixin.qq.com/s/eI3W58ZRJY8qmGFwRv_PKQ
-
-https://mp.weixin.qq.com/s/DUY-i_IjJOJrYXrPNoM24w
-
-https://mp.weixin.qq.com/s/11pK27GCaJfR54E_qEAnmw
-
-https://mp.weixin.qq.com/s/39H7hSMz9_LUPustl57iXw
-
-https://mp.weixin.qq.com/s/cB5VX4rvIhuhQWO_DRZkJg
-
-https://mp.weixin.qq.com/s/Ob0MJc14CdZA4Q4O9JptaQ
-
-https://finance.sina.cn/fund/sm/2026-05-21/detail-inhyrvzr8178414.d.html?vt=4
 
 
+https://mp.weixin.qq.com/s/_DDpZabBBb1R0EDBLqpbFw
+
+https://mp.weixin.qq.com/s/DajZKgt7xz5L-1HTMc2tRQ
+
+https://mp.weixin.qq.com/s/cS_xfsrhCrZIOy0QJ6x40Q
+
+https://mp.weixin.qq.com/s/G7PYifYqUMUzf7SfvQ3geg
+
+https://mp.weixin.qq.com/s/UQZrSmWhS_fuNGSKus8vpg
+
+https://mp.weixin.qq.com/s/dMvMrKJ4NefwHWJ9N8dx-g
 
 
+
+https://www.selbyjennings.com/en-us/job/quant-researcher-macro-fixed-income-relative-value-pr583747_1774003152
+
+
+
+[Reddit](https://www.reddit.com/r/quant/comments/vrdtb5/do_you_need_yet_another_structured_finance/)
+
+
+
+---
+
+## Web Browse Fetch — 2026-08-16
+
+- Serenity (@aleabitoreddit): 11:15 UTC — 认为 AI 投资比想象中简单，$NVDA 和黄仁勋已明示趋势，但市场每次都在真正兑现前忽视
+- Serenity (@aleabitoreddit): 08:07 UTC — 边吃拉面边随笔分享当前持仓与思路（原文较长/截断）
+- Serenity (@aleabitoreddit): 04:50 UTC — 分享 $SNDK 投资者日要点：2030 年前调整后毛利率约 80%、经营利润率约 75%、FCF 利润率约 50%，LTA 已锁定 2028 产出约 2/3，最低合约收入达 $93B
+- （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均无新内容，未包含在本次记录中。）
+
+---
+
+## Web Browse Fetch — 2026-08-15
+
+- Serenity (@aleabitoreddit): 08-15 05:40 UTC — 回应"归零"传闻，称经历 7 月 AI 板块崩盘后 YTD 收益仍有 +2,411.84%
+- （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均无新内容，未包含在本次记录中。）
 
 ---
 
@@ -35,26 +57,3 @@ https://finance.sina.cn/fund/sm/2026-05-21/detail-inhyrvzr8178414.d.html?vt=4
 - Serenity (@aleabitoreddit): 08-14 04:06 UTC — 三星电机推迟半导体玻璃基板投资，时间线再推迟约一个季度
 - Serenity (@aleabitoreddit): 08-13 11:43 UTC — Vantage Data Centers 探索约 $100B 估值 IPO，$ORCL 为其 Stargate 锚定租户
 - （Julian Petroulas、Benjamin Hedge 本次均无新内容，未包含在本次记录中。）
-
----
-
-## Web Browse Fetch — 2026-08-12
-
-- Serenity (@aleabitoreddit): 08-12 07:54 UTC — 光模块财报观察：$SIVE 与 CW DFB 激光瓶颈；$LITE UHP CW 激光需求超预期、具备 ASP 提价能力、CPO 规模化出货仍锁定 2027 下半年
-- Serenity (@aleabitoreddit): 08-12 06:22 UTC — 盛赞 Leopold 的 Situational Awareness 买下 Taiyo Yuden 约 1/6 股份，感叹 MLCC 供应链主题正在兑现
-- Serenity (@aleabitoreddit): 08-12 04:36 UTC — Leopold 的 Situational Awareness 将 Taiyo Yuden(6976) 持股从 7/16 的 5.99% 增至 11.62%，认同其对 AI 供应链关键 MLCC 制造商的判断
-- （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均无新内容，未包含在本次记录中。）
-
----
-
-## Web Browse Fetch — 2026-08-11
-
-- Serenity (@aleabitoreddit): 08-12 01:56 UTC — 披露 Situational Awareness（Leopold）持有 Taiyo Yuden(6976) 5.99%、均价约 ¥17,446（现价 ¥9,797），本人今日加仓表态支持（MLCC 瓶颈主题）
-- Serenity (@aleabitoreddit): 08-12 01:08 UTC — 调侃 $SMCI CEO 在财报 Q&A 上疯狂回避 2027 毛利率等关键问题
-- Serenity (@aleabitoreddit): 08-12 00:06 UTC — $LITE 财报要点：确认 CPO 规模化部署将于 2027 下半年启动、超高功率激光芯片需求爬坡
-- Serenity (@aleabitoreddit): 08-11 21:09 UTC — AI 主题财报炸裂 $CRWV/$SMCI/$LITE：Coreweave 积压订单超 $104B（Q3 另新增 $25B+），Neocloud 算力需求利好 Nebius、Iren
-- Serenity (@aleabitoreddit): 08-11 20:51 UTC — $SMCI 给出 FY2027 营收指引 $65–72B（远超预期 ~$52.4B、超共识 +$16.1B），新增订单超 $60B
-- （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均无新内容，未包含在本次记录中。）
-
-
-
