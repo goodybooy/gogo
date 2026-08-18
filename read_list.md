@@ -6,29 +6,32 @@ Hub B — Friend B
 URL: https://auckland-announcements-cotton-species.trycloudflare.com
 Token: qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ
 
+骰子止损，偶数拿3个筹码，奇数拿两个，当前筹码总量影响下一轮决策，随时判断继续还是stop
 
+https://www.xiaohongshu.com/explore/6a6aa4b70000000001000afd?app_platform=ios&app_version=9.41.2&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBfwQz3WsLuAjB_Q_H77TLm1aHCfOJXrAp6vj81MM_9Ec=&author_share=1&xhsshare=WeixinSession&shareRedId=N0g2MTc3Ozo3OEdHOjgwPDg7Ozc6Pjg8&apptime=1786398265&share_id=b5a4cdb646f64566b9a2b7fe07ab0848&wechatWid=e99e5524df7a5f7d5e8bf49aafa10a06&wechatOrigin=menu
 
-https://mp.weixin.qq.com/s/_DDpZabBBb1R0EDBLqpbFw
+https://mp.weixin.qq.com/s/FgQEN96-Nkv7-H-ubJqRLg
 
-https://mp.weixin.qq.com/s/DajZKgt7xz5L-1HTMc2tRQ
+https://mp.weixin.qq.com/s/kBHBI4hEkKkK3y6e7bhwiQ
 
-https://mp.weixin.qq.com/s/cS_xfsrhCrZIOy0QJ6x40Q
+https://mp.weixin.qq.com/s/8gqgfC-16IZZFRN2hmTGfg
 
-https://mp.weixin.qq.com/s/G7PYifYqUMUzf7SfvQ3geg
+https://mp.weixin.qq.com/s/UvgqidsdkxpvTbtYDxm_UQ
 
-https://mp.weixin.qq.com/s/UQZrSmWhS_fuNGSKus8vpg
+https://mp.weixin.qq.com/s/2P1wVu7HfB9RozJ-uY3xSQ
 
-https://mp.weixin.qq.com/s/dMvMrKJ4NefwHWJ9N8dx-g
+https://mp.weixin.qq.com/s/zEG2sRV_1p0auYzYOv7gPQ
 
+---
 
+## Web Browse Fetch — 2026-08-17
 
-https://www.selbyjennings.com/en-us/job/quant-researcher-macro-fixed-income-relative-value-pr583747_1774003152
-
-
-
-[Reddit](https://www.reddit.com/r/quant/comments/vrdtb5/do_you_need_yet_another_structured_finance/)
-
-
+- Serenity (@aleabitoreddit): 08:16 UTC — NAND 供需失衡，Phison CEO 称 2027 产能约束将比 2026 更严峻，利好 $SNDK/$SKHY/$MU/Kioxia
+- Serenity (@aleabitoreddit): 02:52 UTC — AI 服务器 MLCC 需求挤压消费/通用级产能，类比 $MU/三星/SK海力士 的 legacy DRAM 紧张
+- Serenity (@aleabitoreddit): 01:39 UTC — $AXTI 磷化铟(InP)出现史上最大涨价，供应严重短缺
+- Serenity (@aleabitoreddit): 00:34 UTC — Stripe 据传以约 $70 亿收购 OpenRouter，认为其护城河有限但握有用户与数据、动能
+- Serenity (@aleabitoreddit): 08-16 18:33 UTC — 认同马斯克"通用机器人应贴合人类世界"，预计 $TSLA Optimus 形态将收敛
+- （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均无新内容，未包含在本次记录中。）
 
 ---
 
@@ -45,15 +48,3 @@ https://www.selbyjennings.com/en-us/job/quant-researcher-macro-fixed-income-rela
 
 - Serenity (@aleabitoreddit): 08-15 05:40 UTC — 回应"归零"传闻，称经历 7 月 AI 板块崩盘后 YTD 收益仍有 +2,411.84%
 - （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均无新内容，未包含在本次记录中。）
-
----
-
-## Web Browse Fetch — 2026-08-14
-
-- Alex Moon (@AlexMoonvest): 05:12 UTC — 看多中国股票，称估值极度便宜、迟早会迎来一波剧烈上涨
-- Serenity (@aleabitoreddit): 08-15 02:46 UTC — 美国政府敦促 $AAPL 勿采购中国存储芯片，利好 $MU/$SKHY(SK海力士)/三星；调侃 CXMT/YMTC 也在涨价
-- Serenity (@aleabitoreddit): 08-14 11:29 UTC — 称 SK海力士/三星/$SNDK/$MU 的存储瓶颈从未改变
-- Serenity (@aleabitoreddit): 08-14 08:30 UTC — 特朗普签署强化美国无人机供应链公告，利好零部件商 $UMAC 及制造商 $ONDS/$RCAT（100% 关税）
-- Serenity (@aleabitoreddit): 08-14 04:06 UTC — 三星电机推迟半导体玻璃基板投资，时间线再推迟约一个季度
-- Serenity (@aleabitoreddit): 08-13 11:43 UTC — Vantage Data Centers 探索约 $100B 估值 IPO，$ORCL 为其 Stargate 锚定租户
-- （Julian Petroulas、Benjamin Hedge 本次均无新内容，未包含在本次记录中。）
