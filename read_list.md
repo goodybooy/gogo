@@ -8,19 +8,13 @@ Token: qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ
 
 骰子止损，偶数拿3个筹码，奇数拿两个，当前筹码总量影响下一轮决策，随时判断继续还是stop
 
-https://www.xiaohongshu.com/explore/6a6aa4b70000000001000afd?app_platform=ios&app_version=9.41.2&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBfwQz3WsLuAjB_Q_H77TLm1aHCfOJXrAp6vj81MM_9Ec=&author_share=1&xhsshare=WeixinSession&shareRedId=N0g2MTc3Ozo3OEdHOjgwPDg7Ozc6Pjg8&apptime=1786398265&share_id=b5a4cdb646f64566b9a2b7fe07ab0848&wechatWid=e99e5524df7a5f7d5e8bf49aafa10a06&wechatOrigin=menu
+https://mbd.baidu.com/newspage/data/landingsuper?rs=2854722790&ruk=gd1ZhBYzOSFC09WBfJVLxg&like_icon_type=2&isBdboxFrom=1&pageType=1&urlext=%257B%2522cuid%2522%253A%2522_8HIf_ue2tlpuH8og8-ji0in2ilPOBaR0uS8i0uPSalaiSt30u-1agtrHR0l9WRarbnmA%2522%257D&context=%7B%22nid%22%3A%22news_9512370254315065029%22,%22__INVOKE_TYPE_KEY__%22%3A%22__INVOKE_TYPE__%22,%22pushToVideo%22%3A%22newPush%22%7D
 
-https://mp.weixin.qq.com/s/FgQEN96-Nkv7-H-ubJqRLg
+https://mp.weixin.qq.com/s/FwEyFWZdH5OLeYe9wd605Q
 
-https://mp.weixin.qq.com/s/kBHBI4hEkKkK3y6e7bhwiQ
+https://mp.weixin.qq.com/s/5G6eEuSM08oty_S_1dGsDQ
 
-https://mp.weixin.qq.com/s/8gqgfC-16IZZFRN2hmTGfg
-
-https://mp.weixin.qq.com/s/UvgqidsdkxpvTbtYDxm_UQ
-
-https://mp.weixin.qq.com/s/2P1wVu7HfB9RozJ-uY3xSQ
-
-https://mp.weixin.qq.com/s/zEG2sRV_1p0auYzYOv7gPQ
+https://mp.weixin.qq.com/s/At3udfa7fcIHd8GvBfKnpg
 
 ---
 
