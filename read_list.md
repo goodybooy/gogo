@@ -8,15 +8,19 @@ Token: qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ
 
 骰子止损，偶数拿3个筹码，奇数拿两个，当前筹码总量影响下一轮决策，随时判断继续还是stop
 
-decay
+fxc slides
 
-t-cost/bond liquidity - slippage
+https://mp.weixin.qq.com/s/XpeRZ6A_FBL7rS3JcyJbAg
 
-transfer ratio
+https://mp.weixin.qq.com/s/LacKaiOC77SydgjsUI-p8w
 
-turnover constaint
+https://mp.weixin.qq.com/s/P2z0t020X1bQlWcDHWRNkw
 
-crowdness
+https://mp.weixin.qq.com/s/iwBhXEbqiWP02rZVTWfjiA
+
+https://mp.weixin.qq.com/s/0WgXhPRlyxNF7iXzvuq0_Q
+
+
 
 
 
