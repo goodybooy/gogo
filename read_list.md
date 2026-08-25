@@ -10,6 +10,8 @@ Token: qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ
 
 https://pitchbook.com/free-trial
 
+cb insights
+
 https://mp.weixin.qq.com/s/fTZu4c_72mOf8arEH8TspA
 
 https://mp.weixin.qq.com/s/Wbc_So-mGPbN8hEgDMH_Fg
@@ -19,7 +21,6 @@ https://mp.weixin.qq.com/s/6LVQSYZWZ-SDorck7BQjQw
 AP Fonden 3
 
 Decisive Capital Management
-
 
 ----------------------------------------
 
