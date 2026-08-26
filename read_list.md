@@ -8,19 +8,17 @@ Token: qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ
 
 
 
-https://pitchbook.com/free-trial
+systematic investing in credit
 
-cb insights
+https://mp.weixin.qq.com/s/U5UR3Q-UcrG41oqFQd_Iqw
 
-https://mp.weixin.qq.com/s/fTZu4c_72mOf8arEH8TspA
+https://mp.weixin.qq.com/s/2tkv_VhAhvi7-5PmWdZM9g
 
-https://mp.weixin.qq.com/s/Wbc_So-mGPbN8hEgDMH_Fg
+https://mp.weixin.qq.com/s/GHO-Q6ZC2xqX2YepoUTnvg
 
-https://mp.weixin.qq.com/s/6LVQSYZWZ-SDorck7BQjQw
+https://mp.weixin.qq.com/s/HE3PsvcAxzPwhXEoDlBj-Q
 
-AP Fonden 3
-
-Decisive Capital Management
+https://mp.weixin.qq.com/s/HxL3E8E7DmHAqk3mnj2dhQ?scene=334
 
 ----------------------------------------
 
