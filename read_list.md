@@ -22,6 +22,8 @@ https://www.pm-research.com/content/iijpormgmt/51/10/67
 
 https://www.gmo.com/globalassets/documents---manually-loaded/documents/product-primer/systematic-investment-grade-credit-strategy-_product-primer.pdf
 
+https://www.ssga.com/us/en/institutional/insights/case-systematic-investing-credit
+
 
 
 ----------------------------------------
