@@ -22,6 +22,8 @@ https://www.gmo.com/globalassets/documents---manually-loaded/documents/product-p
 
 https://www.ssga.com/us/en/institutional/insights/case-systematic-investing-credit
 
+https://mp.weixin.qq.com/s/IjWdI4hwSW18wV1Hpp6qRA
+
 
 
 ----------------------------------------
