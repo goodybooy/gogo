@@ -8,13 +8,11 @@ Token: qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ
 
 
 
-https://mp.weixin.qq.com/s/c6-vK2RbmOZHYTWV1b41Yw
+https://mp.weixin.qq.com/s/PtLxUB4ZYZBVwNdsT6GZig
 
-https://mp.weixin.qq.com/s/CqtRiCTetkp0vQIbS9zv3w
+https://mp.weixin.qq.com/s/IyKqG2sSndZ8U8zXvMClZg
 
-https://mp.weixin.qq.com/s/R2wbZ6UkWbiMyVSn1tzPFQ
-
-https://mp.weixin.qq.com/s/Rk_gej2O9wdBW6Pjg5nHkg
+https://mp.weixin.qq.com/s/T7kjRXnYkSD3Uowmj5LIGQ
 
 https://www.man.com/documents/download/ab938-e0637-12dc8-0a6e0/Man_Group_Insights_Systematic_Credit:_A_New_Frontier_English_15-01-2026.pdf
 
