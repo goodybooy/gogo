@@ -6,25 +6,21 @@ Hub B — Friend B
 URL: https://auckland-announcements-cotton-species.trycloudflare.com
 Token: qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ
 
+100人，每人100筹码，多轮比赛押注两支队伍，maximize payout
 
+hy vs ig difference
 
-https://mp.weixin.qq.com/s/PtLxUB4ZYZBVwNdsT6GZig
+bond default, duration will short (jump risk)
 
-https://mp.weixin.qq.com/s/IyKqG2sSndZ8U8zXvMClZg
+https://mp.weixin.qq.com/s/C_Vkt7jMKH2w6fISaFQ2Ow
 
-https://mp.weixin.qq.com/s/T7kjRXnYkSD3Uowmj5LIGQ
+https://mp.weixin.qq.com/s/D3fUbFCHk7SDyjExmEKCNg
 
-https://www.man.com/documents/download/ab938-e0637-12dc8-0a6e0/Man_Group_Insights_Systematic_Credit:_A_New_Frontier_English_15-01-2026.pdf
+https://mp.weixin.qq.com/s/Y_GNOHc4Ys_dMp9ewnkpsQ
 
-https://www.pm-research.com/content/iijpormgmt/51/10/67
+https://mp.weixin.qq.com/s/dhXaG6A6MFzOJnr82JPzPQ
 
-https://www.gmo.com/globalassets/documents---manually-loaded/documents/product-primer/systematic-investment-grade-credit-strategy-_product-primer.pdf
-
-https://www.ssga.com/us/en/institutional/insights/case-systematic-investing-credit
-
-https://mp.weixin.qq.com/s/IjWdI4hwSW18wV1Hpp6qRA
-
-
+https://mp.weixin.qq.com/s/AwQMLWtEBv5BLReWh5KAVw
 
 ----------------------------------------
 
