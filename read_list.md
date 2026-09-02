@@ -12,6 +12,8 @@ hy vs ig difference
 
 bond default, duration will short (jump risk)
 
+https://mp.weixin.qq.com/s/ShB831D7JVtBBzMR7UjCQQ
+
 
 
 **
