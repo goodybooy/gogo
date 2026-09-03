@@ -12,45 +12,13 @@ hy vs ig difference
 
 bond default, duration will short (jump risk)
 
-https://mp.weixin.qq.com/s/ShB831D7JVtBBzMR7UjCQQ
+https://cyprus-faq.com/en/north/news/57-sobesedovanii-radi-openai-aspirantka-raskryla-vsyu-iznanku-poiska-raboty-v-it/
+
+https://www.slideshare.net/slideshow/aqr-systematic-investing-in-credit-markets/69415310#6
+
+https://mp.weixin.qq.com/s/f3yeubM4Jvt3zN6PM8e3hg?scene=334
 
 
-
-**
-
-Graduated 3 years ago, in college I intern experience was in  geode capital and point 72 cubist both were in mid frequency stat arb alpha search for equities. After I graduated the master's program from uchicago, I joined Pimco, now just over 3 years, where I spent the first year or so in portfolio analytics, working on the portfolio analysis tools. such as tracking error decomposition, tail risk modeling and competitor anlaysis
-
-And for past two years began with credit desk on spread products, started with proprietary curve construction and leveaaged that to build the framework to systematize discretionary basis trades into relative value strategies, and also built build screeners to model fair value, rich cheap, highlight market dislocation to traders. 
-
-Also spent time research and enhance new and existing systematics strategies for example in cdx and fx, and more recently with credit research on extending various systematic bond fair value spread model from ig and hy into covoering non-dm quasi and corp bond space and research proj in signal and portfolio constuction
-
-
-
-Goal: more project ownership, end to end of from research to live portfolio including downstream trade execution full cycle. Enjoy credit space in systematic, quantitative fashion, with growing electronic trading, all to all, i believe there’s a lot to explore in the systematic credit
-
-
-
-many good relative value opportunities being overlooked due to people’s favor of macro call vs RV and given fund size, scalability is really dominating a lot of decision-making processes, like many systematic strategies, mostly focused on traditional signals like carry while there’s many other interesting things can be explored. 
-
-Q&A
-
-In your experience, what characteristics or traits you typically find successful for this role or for your team
-
-How does the researcher interact with pms and other team members
-
-Would the focus nowadays is still on the default probability model or also exploring alphas from smaller datasets sort of the alternative signals
-
-I try to be explicit about expected value rather than chasing the enthusiasm of exploring random new ideas. It could be giving a solid enhancement to the existing model for a uncovered case have huge impact than a new idea but not scalable, i’d say it’s end results driven. And it always depends case by case 
-
-If a PM has a different view, my first move is to figure out whether it's an empirical disagreement or a judgment one. Empirical ones are relatively straight forward, provide the relevant studies. Judgment calls usually on risk tolerance or how much to size something aren't mine to make, and I'd defer while making sure the evidence is on the table. The case where I'd push is if I think something is a real risk they haven't seen. I'd raise it clearly, with the analysis behind it — and then it's their call on their experience.
-
-AI streamlined automate lots of scheduled batch jobs, monitors, dashboard
-
-Unconstructed text into features (avoid look ahead, model are build afterwards)
-
-Code reivew, pipeline optimization
-
-**
 
 ----------------------------------------
 
