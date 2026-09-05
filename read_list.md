@@ -16,10 +16,6 @@ https://cyprus-faq.com/en/north/news/57-sobesedovanii-radi-openai-aspirantka-ras
 
 https://www.slideshare.net/slideshow/aqr-systematic-investing-in-credit-markets/69415310#6
 
-https://mp.weixin.qq.com/s/f3yeubM4Jvt3zN6PM8e3hg?scene=334
-
-https://mp.weixin.qq.com/s/C7DDXnnHVXzJjOcRj3sSlw
-
 
 
 ----------------------------------------
