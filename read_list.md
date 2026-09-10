@@ -28,6 +28,14 @@ merton model
 
 https://www.reddit.com/r/AI_Agents/comments/1vi1tlw/why_im_skeptical_about_discovery_loop_leading/
 
+https://mp.weixin.qq.com/s/AbY_z6WJsPmXtpM8-RPdMg?scene=334
+https://mp.weixin.qq.com/s/YW83j7nMuPOC-lJUYkkQ6g?scene=334
+
+https://mp.weixin.qq.com/s/rJN5U_cyv8BOxycfBZEiFQ?scene=334
+https://mp.weixin.qq.com/s/umvJI9mu3VJ9kuOar8EFzA?scene=334
+https://mp.weixin.qq.com/s/jcpF2yBF2S3RYd5tFVbTcw?scene=334
+https://mp.weixin.qq.com/s/OeEBC4kcU2kkeXktW_z0lA?scene=334
+
 
 
 ----------------------------------------
