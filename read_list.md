@@ -12,9 +12,21 @@ hy vs ig difference
 
 bond default, duration will short (jump risk)
 
-https://cyprus-faq.com/en/north/news/57-sobesedovanii-radi-openai-aspirantka-raskryla-vsyu-iznanku-poiska-raboty-v-it/
 
-https://www.slideshare.net/slideshow/aqr-systematic-investing-in-credit-markets/69415310#6
+
+regression assumption
+
+when will be biased (blue)
+
+regression vs isotonic
+
+
+
+value vs mean revert signal
+
+merton model
+
+https://www.reddit.com/r/AI_Agents/comments/1vi1tlw/why_im_skeptical_about_discovery_loop_leading/
 
 
 
