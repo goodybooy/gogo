@@ -1,10 +1,14 @@
 Hub A — Friend A
-URL: https://objects-lighter-viewers-personal.trycloudflare.com
-Token: QlCcQ5cUpItnCcpPYbgOIz9KcW3J5zNGDxVkrQolwJc
+
+
+* URL: `https://launch-regular-astronomy-staff.trycloudflare.com`
+* Token: `QlCcQ5cUpItnCcpPYbgOIz9KcW3J5zNGDxVkrQolwJc`
 
 Hub B — Friend B
-URL: https://auckland-announcements-cotton-species.trycloudflare.com
-Token: qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ
+
+
+* URL: `https://juice-arrivals-stops-walnut.trycloudflare.com`
+* Token: `qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ`
 
 100人，每人100筹码，多轮比赛押注两支队伍，maximize payout
 
@@ -26,15 +30,9 @@ value vs mean revert signal
 
 merton model
 
-https://www.reddit.com/r/AI_Agents/comments/1vi1tlw/why_im_skeptical_about_discovery_loop_leading/
+https://mp.weixin.qq.com/s/neQpuRvzoPcKmm6Cv_v0Rw
 
-https://mp.weixin.qq.com/s/AbY_z6WJsPmXtpM8-RPdMg?scene=334
-https://mp.weixin.qq.com/s/YW83j7nMuPOC-lJUYkkQ6g?scene=334
-
-https://mp.weixin.qq.com/s/rJN5U_cyv8BOxycfBZEiFQ?scene=334
-https://mp.weixin.qq.com/s/umvJI9mu3VJ9kuOar8EFzA?scene=334
-https://mp.weixin.qq.com/s/jcpF2yBF2S3RYd5tFVbTcw?scene=334
-https://mp.weixin.qq.com/s/OeEBC4kcU2kkeXktW_z0lA?scene=334
+https://mp.weixin.qq.com/s/KYxssPfkufEIpefwA3_6Dw?scene=334
 
 
 
