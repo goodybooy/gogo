@@ -40,6 +40,10 @@ hbk capital
 
 sava
 
+
+
+dispersion of rates ~ fx carry return
+
 https://mp.weixin.qq.com/s/akRjUQDIhU9QmmZUZXk_sA
 
 https://www.linkedin.com/pulse/blackstone-just-let-gate-fall-its-own-flagship-fund-gibran-mmdwe/?trackingId=gb7WzQllQIqAViRpMOlkgQ%3D%3D
