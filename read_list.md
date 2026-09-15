@@ -1,18 +1,22 @@
 Hub A — Friend A
 
-* URL: `https://launch-regular-astronomy-staff.trycloudflare.com`
-* Token: `QlCcQ5cUpItnCcpPYbgOIz9KcW3J5zNGDxVkrQolwJc`
+* URL: `https://minimize-kills-cordless-pledge.trycloudflare.com
+* Token: `QlCcQ5cUpItnCcpPYbgOIz9KcW3J5zNGDxVkrQolwJc
 
 Hub B — Friend B
 
-* URL: `https://juice-arrivals-stops-walnut.trycloudflare.com`
-* Token: `qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ`
+* URL: ``https://vacations-lat-cotton-ahead.trycloudflare.com`
+* Token: `qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ
+
+
+
+
 
 roko capital management 2024 quant graduate programme.md github
 
-100人，每人100筹码，多轮比赛押注两支队伍，maximize payout
 
-100士兵，分给10城堡，和另外99竞争
+
+
 
 hy vs ig difference
 
@@ -34,19 +38,9 @@ merton model
 
 
 
-centiva
-
-hbk capital
-
-sava
 
 
 
-dispersion of rates ~ fx carry return
-
-https://mp.weixin.qq.com/s/akRjUQDIhU9QmmZUZXk_sA
-
-https://www.linkedin.com/pulse/blackstone-just-let-gate-fall-its-own-flagship-fund-gibran-mmdwe/?trackingId=gb7WzQllQIqAViRpMOlkgQ%3D%3D
 
 
 
