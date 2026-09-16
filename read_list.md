@@ -20,11 +20,11 @@ roko capital management 2024 quant graduate programme.md github
 
 hy vs ig difference
 
-bond default, duration will short (jump risk)
 
 
 
-regression assumption
+
+
 
 when will be biased (blue)
 
@@ -35,6 +35,14 @@ regression vs isotonic
 value vs mean revert signal
 
 merton model
+
+
+
+https://mp.weixin.qq.com/s/w601705XTQhgXaNQILjiBQ
+
+https://mp.weixin.qq.com/s/jYNTJB_Mb8bdvv-wt5v6rg
+
+https://mp.weixin.qq.com/s/-aV1FDbCdq7cEzDSmACtjQ
 
 
 
