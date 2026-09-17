@@ -38,11 +38,11 @@ merton model
 
 
 
-https://mp.weixin.qq.com/s/w601705XTQhgXaNQILjiBQ
+https://mp.weixin.qq.com/s/C7wFty1mltVJwRqQKwy5gg?scene=334
 
-https://mp.weixin.qq.com/s/jYNTJB_Mb8bdvv-wt5v6rg
+https://mp.weixin.qq.com/s/sNHB9GYY1mJbToFiqveQuQ
 
-https://mp.weixin.qq.com/s/-aV1FDbCdq7cEzDSmACtjQ
+https://mp.weixin.qq.com/s/oH4rxczuuRMpppnvUm-LhQ?scene=334
 
 
 
