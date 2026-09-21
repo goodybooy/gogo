@@ -7,10 +7,10 @@ Hub B — Friend B
 
 * URL: ``https://vacations-lat-cotton-ahead.trycloudflare.com`
 * Token: `qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ
-
-
-
-
+  
+  
+  
+  
 
 roko capital management 2024 quant graduate programme.md github
 
@@ -32,45 +32,54 @@ merton model
 
 
 
-https://mp.weixin.qq.com/s/w601705XTQhgXaNQILjiBQ
-
-https://mp.weixin.qq.com/s/jYNTJB_Mb8bdvv-wt5v6rg
-
-https://mp.weixin.qq.com/s/-aV1FDbCdq7cEzDSmACtjQ
+N=2n players, random bracket. What's P(players i and j meet)?
 
 
 
+[Office Hours with Portfolio Manager Grace Gu - Two Sigma](https://www.twosigma.com/articles/office-hours-with-portfolio-manager-grace-gu/)
+
+https://www.schroders.com/en/nordics/professional/insights/schroder-gaia-two-sigma-diversified-a-diverse-investment-approach-where-we-combine-human-oversight-with-systematic-investment/
+
+[Systematic and Discretionary Macro: Better Together - Two Sigma](https://www.twosigma.com/articles/systematic-and-discretionary-macro-better-together/)
+
+
+
+openai agent api vs api vs claude sdk
+
+
+
+four quadrant/CORE CPI PCE
+
+recent rates dispersion environment (tie with macro allocator)
+
+prepare liquidity shock portfolio
+
+
+
+curve factor exposure in bond
+
+convexity factor
+
+skew factor/swaption factor
+
+DTS/MWS
+
+
+
+EMDM convergence trade
+
+sell america
+
+regime change
+
+
+
+csa factor review
+
+
+
+dispersion optimization
 
 
 
 
-
-
-----------------------------------------
-
----
-
-## Web Browse Fetch — 2026-08-17
-
-- Serenity (@aleabitoreddit): 08:16 UTC — NAND 供需失衡，Phison CEO 称 2027 产能约束将比 2026 更严峻，利好 $SNDK/$SKHY/$MU/Kioxia
-- Serenity (@aleabitoreddit): 02:52 UTC — AI 服务器 MLCC 需求挤压消费/通用级产能，类比 $MU/三星/SK海力士 的 legacy DRAM 紧张
-- Serenity (@aleabitoreddit): 01:39 UTC — $AXTI 磷化铟(InP)出现史上最大涨价，供应严重短缺
-- Serenity (@aleabitoreddit): 00:34 UTC — Stripe 据传以约 $70 亿收购 OpenRouter，认为其护城河有限但握有用户与数据、动能
-- Serenity (@aleabitoreddit): 08-16 18:33 UTC — 认同马斯克"通用机器人应贴合人类世界"，预计 $TSLA Optimus 形态将收敛
-- （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均无新内容，未包含在本次记录中。）
-
----
-
-## Web Browse Fetch — 2026-08-16
-
-- Serenity (@aleabitoreddit): 11:15 UTC — 认为 AI 投资比想象中简单，$NVDA 和黄仁勋已明示趋势，但市场每次都在真正兑现前忽视
-- Serenity (@aleabitoreddit): 08:07 UTC — 边吃拉面边随笔分享当前持仓与思路（原文较长/截断）
-- Serenity (@aleabitoreddit): 04:50 UTC — 分享 $SNDK 投资者日要点：2030 年前调整后毛利率约 80%、经营利润率约 75%、FCF 利润率约 50%，LTA 已锁定 2028 产出约 2/3，最低合约收入达 $93B
-- （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均无新内容，未包含在本次记录中。）
-
----
-
-## Web Browse Fetch — 2026-08-15
-
-- Serenity (@aleabitoreddit): 08-15 05:40 UTC — 回应"归零"传闻，称经历 7 月 AI 板块崩盘后 YTD 收益仍有 +2,411.84%
-- （Julian Petroulas、Alex Moon、Benjamin Hedge 本次均无新内容，未包含在本次记录中。）
