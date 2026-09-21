@@ -18,6 +18,8 @@ roko capital management 2024 quant graduate programme.md github
 
 hy vs ig difference
 
+merton model
+
 
 
 when will be biased (blue)
@@ -28,11 +30,17 @@ regression vs isotonic
 
 value vs mean revert signal
 
-merton model
+
+
+https://mp.weixin.qq.com/s/zBeAL8qvXJyOE80gx7Jzqw?scene=334
+
+https://mp.weixin.qq.com/s/YtdfOVoAyijRp-aisC0ePw
 
 
 
-N=2n players, random bracket. What's P(players i and j meet)?
+https://www.nomura.com/events/10th-annual-global-quantitative-investment-strategies-conference/resources/upload/Style_Premia_Ilmanen.pdf
+
+
 
 
 
@@ -45,6 +53,14 @@ https://www.schroders.com/en/nordics/professional/insights/schroder-gaia-two-sig
 
 
 openai agent api vs api vs claude sdk
+
+
+
+tti aerospace holding
+
+
+
+N=2n players, random bracket. What's P(players i and j meet)?
 
 
 
@@ -79,7 +95,5 @@ csa factor review
 
 
 dispersion optimization
-
-
 
 
