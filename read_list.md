@@ -52,6 +52,8 @@ prepare liquidity shock portfolio
 
 skew factor/swaption factor
 
+rates attribution ytian
+
 ------
 
 EMDM convergence trade\EM Election event study
