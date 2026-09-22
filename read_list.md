@@ -1,11 +1,11 @@
 Hub A — Friend A
 
-* URL: `https://minimize-kills-cordless-pledge.trycloudflare.com
+* URL: `https://enormous-change-projection-founder.trycloudflare.com`
 * Token: `QlCcQ5cUpItnCcpPYbgOIz9KcW3J5zNGDxVkrQolwJc
 
 Hub B — Friend B
 
-* URL: ``https://vacations-lat-cotton-ahead.trycloudflare.com`
+* URL: `https://admit-ruling-threshold-suppliers.trycloudflare.com`
 * Token: `qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ
   
   
@@ -32,37 +32,15 @@ value vs mean revert signal
 
 
 
-https://mp.weixin.qq.com/s/zBeAL8qvXJyOE80gx7Jzqw?scene=334
-
-https://mp.weixin.qq.com/s/YtdfOVoAyijRp-aisC0ePw
-
-
-
 https://www.nomura.com/events/10th-annual-global-quantitative-investment-strategies-conference/resources/upload/Style_Premia_Ilmanen.pdf
 
 
 
 
 
-[Office Hours with Portfolio Manager Grace Gu - Two Sigma](https://www.twosigma.com/articles/office-hours-with-portfolio-manager-grace-gu/)
-
-https://www.schroders.com/en/nordics/professional/insights/schroder-gaia-two-sigma-diversified-a-diverse-investment-approach-where-we-combine-human-oversight-with-systematic-investment/
-
-[Systematic and Discretionary Macro: Better Together - Two Sigma](https://www.twosigma.com/articles/systematic-and-discretionary-macro-better-together/)
-
-
-
-openai agent api vs api vs claude sdk
-
-
-
-tti aerospace holding
-
-
-
 N=2n players, random bracket. What's P(players i and j meet)?
 
-
+-----
 
 four quadrant/CORE CPI PCE
 
@@ -70,30 +48,22 @@ recent rates dispersion environment (tie with macro allocator)
 
 prepare liquidity shock portfolio
 
-
-
-curve factor exposure in bond
-
-convexity factor
+-----
 
 skew factor/swaption factor
 
-DTS/MWS
+------
 
-
-
-EMDM convergence trade
+EMDM convergence trade\EM Election event study
 
 sell america
 
 regime change
 
-
-
-csa factor review
-
-
+------
 
 dispersion optimization
+
+
 
 
