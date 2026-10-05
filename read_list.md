@@ -14,10 +14,8 @@ Hub B — Friend B
 
 roko capital management 2024 quant graduate programme.md github
 
-https://mp.weixin.qq.com/s/Y3vpO3AOvMGkd9t6j0XkpA
+https://mp.weixin.qq.com/s/-sN6ha40yO9Y1P5CQIUMvw
 
-https://mp.weixin.qq.com/s/NH6DcBFYzNH7MVXwpJXKsQ?scene=334
+https://mp.weixin.qq.com/s/ZUnj4fdBCfj2uwB98MbtJg
 
-https://mp.weixin.qq.com/s/WXVWwR8yeAQnmvpUmiEI2Q?scene=334
-
-https://mp.weixin.qq.com/s/ThVLRqbZI5UxbhGXWh1xUQ
+https://mp.weixin.qq.com/s/L2c2ECvnUfwalyujOuEO0w
