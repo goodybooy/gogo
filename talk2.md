@@ -1,32 +1,28 @@
 Very excited and looking forward to this meeting. 
 
-Graduated college about three years ago, during college, internships exposure was on mid frequency equities. After I finish my master program from uchicago, I joined Pimco now close to 4 years, where I spent the first year in portfolio analytics, working on the portfolio related modeling such as factor models, risk/return decomposition 
+Graduated college about 4 years ago, after I finish my master program from uchicago, I joined Pimco, where I spent my first year in portfolio analytics, working on the portfolio related modeling such as factor models 
 
-And then I began working closely with trade desk, a fraction of my time I work with discretionary pms to perform analysis and modeling on market patterns to help systemaize relative values trades 
+And then I began working closely with trade desk, part of the work I interact with discretionary pms to perform analysis and modeling on market patterns to help systemaize relative values trades building mostly mean reversion models flag market 
 
-by building mostly mean reversion based models and monitors to flag market dislocation and surface potential trades to pm and traders to take. 
+dislocation and surface potential trades to pm and traders to take. 
 
-Also help with the portfolio management on risk aspect, exante basis (trades correlation, stress scenario as well as (dispersion)) asset allocation type analysis for separated managed account. 
+Also help with the portfolio management on risk aspect, exante basis (trades correlation, stress scenario type analysis 
 
 Then I focus more on systematic side, project in swap spread, curve, cdx momentum and fx carries, and more recently working with credit team on indices and single names work focus on monetization of signal and portfolio constuction. 
 
-###### Why move 
+##### Why move 
 
-I definitely enjoyed time here with broad exposure of fixed income space and the opportunity to experience both the technical and business aspect of the portfolios management. It’s been over three years, have been noticed systematic approach isn’t that recognized in a top down driven institution. So i thought of to start conversations at the current point with some experience looking for a more dynamic team with opportunities for more ownership to bring things end to end and making an impact. 
+I definitely enjoyed the broad exposure of fixed income space and the opportunity to experience both the technical and business aspect of the portfolios management. It’s been over three years, have been noticed systematic approach isn’t that recognized in a top down driven institution. So i thought of to start conversations at the current point with some experience looking for a more dynamic team with opportunities for more ownership to bring things end to end and making an impact. 
 
-###### Q&A 
-
-In your experience, what characteristics or traits you typically find successful for this role or for your team 
+##### Q&A 
 
 How does the investment process look like in terms of reserach work into production line 
 
 IAC in macro space 
 
-How would you think macro fixed income would eveloe in coming years, in terms of opportunity for systematic approaches 
+How would you think macro space would eveloe in coming years, in terms of opportunity for systematic approaches 
 
-AI streamlined automate lots of scheduled batch jobs, monitors, dashboard 
-
-Unconstructed text into features (avoid look ahead, model are build afterwards) Code reivew, pipeline optimization 
+AI streamlined automate lots of scheduled batch jobs, monitors, dashboard Unconstructed text into features (avoid look ahead, model are build afterwards) Code reivew, pipeline optimization 
 
 Hypothesis and prior why it works 
 
@@ -40,27 +36,27 @@ Portfolio Backtest
 
 (check Sys too) 
 
-## cdx trend 
+# cdx trend 
 
 Out of respect, I'll keep the implementation details light and focus on the methodology and approach 
 
 It's a long short beta timing strategy on weekly horizon as a defensive sleeve with its positive convexity profile added to the portfolio 
 
-###### Hypothesis: 
+Hypothesis: 
 
 HY: equity price news faster while CDX lags, (equity vol propagate to credit spread with a lag) 
 
 DM HY Beta timing takes a more complex approaching considering bottom up fair value using default probability model/merton model 
 
-EM: highly driven by dealer balance sheet persists over days to weeks, real money manager shock takes weeks to absorb 
+EM: highly driven by dealer balance sheet persists over days to weeks, real money manager shock takes weeks to absorb, Flows into dedicated EM funds follow trends themselves: redemptions lead to more redemptions. 
 
 Momentum compensating for vol, bearing crash risk. The strategy earns steadily during trends and loses sharply during reversals 
 
-###### Data: 
+##### Data: 
 
 return and spread of hy cdx, em cdx, and embig total return, embig spread return 
 
-###### Analysis: 
+##### Analysis: 
 
 Autocorrelation (spread return vs total return) 
 
@@ -70,11 +66,11 @@ Log - Spread only, because carry component is naturally correlated (return based
 
 Contamination check. If EM momentum is really HY momentum arriving late, that's the finding. Regress EM returns on lagged HY 
 
-###### **Signal Construction** 
+##### **Signal Construction** 
 
 Signal = average percentage (spread) return over (1m,2m,3m) moving average for basket of indices (em cdx, hy cdx, embig spread) (robust) 
 
-###### **Characteristics and Observations** 
+##### **Characteristics and Observations** 
 
 Slight positive skew (trend with positive skew offset carry negative skew) 
 
@@ -86,15 +82,21 @@ Long vol mechanically
 
 Defensive, diversifier during drawdown positive in 2008, 2011, 2015-16, 2020, 2022 
 
-One of the big challenge of the problem is the signal is jump during choppy markets, extending observation window will just smooth out both noise and signal: Introduce a pca regim filter, our prior is that momentum signal is strongest when there’s underlying driving forces collectively goes into same position. The idea is to run pca on underlying constituent cds and related indices, fx. Signal filter when the number of significant pc is large or % variance explained pass threshold, because the trend is strongest when driven by a massive, possibly by systemic macro factors versus idiosyncratic (asset-specific) drivers. 
+IC: "Isn't this just short beta with extra steps?" Show that beta to EM spreads is about zero overall and negative in drawdowns. Show the alpha left after regressing on EM CDX, HY CDX and a generic trend factor (SG Trend or TSMOM). 
 
-###### **PCA Gated Enhance** 
+1% pmv for ~7~8bps  vol which is about 10% of tracking error, target is 2.5% pmv for 15bp standalone vol. T-Cost 3~5bp, lagged execution 
+
+Notional: scale to the target vol using a lagged EWMA vol estimate, then multiply by conviction in [-1, 1]. (clip) 
+
+One of the big challenge of the problem is the signal is jump during choppy markets, extending observation window will just smooth out both noise and signal: Introduce a pca regim filter, our prior is that momentum signal is strongest when there’s underlying driving forces collectively goes into same position. The idea is to run pca on underlying constituent cds and related indices, fx. Signal filter when the number of significant pc is large or % variance explained pass threshold, because the trend is strongest when driven by a massive, possibly by group of macro factors versus idiosyncratic (asset-specific) drivers. 
+
+##### **PCA Gated Enhance** 
 
 underlying cds (or bring related indices into pca instead) 
 
 - 1.kaiser criterion, 2. elbow rule, 
 
-- 3.% variance explained threshold. 
+3.% variance explained threshold. 
 
 When number of PCs is low, momentum collapses and turns into reversal, when number of PCs is high, returns are strong 
 
@@ -124,7 +126,7 @@ Cross-asset (if include fx) pca is better because it checks for any combination 
 <!-- Start of picture text -->
 n<br>m=_ Typ<br>‘approaches 1/ as n grows large. For al<br><!-- End of picture text -->
 
-###### **Future** 
+##### **Future** 
 
 Binary to incremental, decide notional scale to meet target vol first, then notional scale * conviction (-1, 1) 
 
@@ -134,17 +136,11 @@ Continuous PCA filter(rather than filter on/off)
 
 ------------------------------------------------------------------ 
 
-Served as timing signal highlighting key technical levels where the momentum sign may flip. 
-
-Had an occurrence on April this year the em cdx spread rallied 10+ bps on one day and pm has seen flip level very accessible and decided to get position before hand which worked out (discretionary trade as a call option overlay) 
-
 Signal band filter of 5bp (x times tcost) to avoid trading noise/minimum days observation to confirm/incremental position sizing 
-
-1% pmv for ~7~8bps  vol which is about 10% of tracking error, target is 2.5% pmv for 15bp standalone vol. Trade cost 3,5bp 
 
 Vol target sizing vs sizing by cvar (max drawdown), max loss x bps, drawdown 1.5*vol. 
 
-###### Statistical tests: 
+##### Statistical tests: 
 
 1. Auto correlation change, find it correlated time series return and also use this to infer moving average observation window 
 
@@ -154,7 +150,7 @@ Vol target sizing vs sizing by cvar (max drawdown), max loss x bps, drawdown 1.5
 
 3. Initially smoothing was done by observing similar momentum measure for comparable indices such as gbiem, embig, hycdx 
 
-###### Observation 
+##### Observation 
 
 Sustained Macro Cycles, dollar tightening, money flow into DM, EM tightening since last year. 
 
@@ -164,15 +160,15 @@ Absorption Ratio, which measures the fraction of total variance explained by a f
 
 Future: cross sectional underlying em cdx constituents (subject to jump to default risk) and combine carr/cdx cash basis 
 
-## FX carry 
+# FX carry 
 
 This strategy is an alternative version to the DM FX focused one, for DM FX, carry return is mostly associated with **yield differential** , however, when we focus more EM FX, yield isn’t entirely risk-free like DM, so the hypothesis is that for EM FX, THE sovereign risk is large component of nominal yields, exploit the true carry return, need to strip out credit component 
 
 And major enhancements is that people has been looking at momentum filter in carry trades, to downsize when against the trend, we actually looked at skew, the third moment of return, to capture risk premia at extreme moves with elevated vols. 
 
-###### Hypothesis 
+##### Hypothesis 
 
-###### High Level Current Implementation 
+##### High Level Current Implementation 
 
 - Long-short, dollar-neutral, equity-beta-neutral, DXY-beta-bounded 
 
@@ -180,7 +176,7 @@ And major enhancements is that people has been looking at momentum filter in car
 
 - Carry signal augmented with momentum filter (and optional value/PPP overlay) 
 
-###### Analysis 
+##### Analysis 
 
 First establish premium exist, in DM, beta ~0.5 means FX doesn’t depreciate from higher implied yield, while beta for em much higher, means depreciate more than yield bring (fx change_depreciation) ~ beta*implied yield 
 
@@ -192,11 +188,11 @@ different ways to strip out the credit layer
 
 cds, beta to embig credit spread index, sovereign bond oas 
 
-- Quintile portfolio 
+Quintile portfolio 
 
 1 day lagged return to account for different closing time zone 
 
-###### Signal Construction 
+##### Signal Construction 
 
 FX implied yield – CDX 
 
@@ -206,9 +202,9 @@ FX implied yield – beta of the previous 2
 
 Level vs change 
 
-###### Portfolio 
+##### Portfolio 
 
-###### Preprocess 
+Preprocess 
 
 DM correlation filter — 5y rolling weekly correlation to each of 10 DM currencies, take average; exclude when avg corr > 0.5. Hysteresis ±0.05 around the threshold. 
 
@@ -220,7 +216,7 @@ Signal
 
 Rank carry signal, top % -> 1, bottom % ->-1 else 0, or continuous rank and Z-score (inverse normal) 
 
-# <mark>Filter (Trend DM, Skew, Sentiment EM) ee</mark> modifies raw signal 
+> <mark>Filter (Trend DM, Skew, Sentiment EM) ee</mark> modifies raw signal 
 
 EM FX Sensitment: inflow/outflow, COT positioning, EM VXY(FX Vol), RSI 
 
@@ -228,9 +224,7 @@ Skew, not many observations, sensitive to hyperparameter
 
 Winsorize (not much for rank signal, but for z-score based signal) 
 
-Demean (APT with column of 1, intercept is doing the same thing) 
-
-Linear: 
+Demean (APT with column of 1, intercept is doing the same thing) Linear: 
 
 1. APT [1, beta duration, beta spy] 
 
@@ -287,13 +281,7 @@ Muted for current year, pillot trade for discretionary execution
 
 ------------ 
 
-###### G10 + EM FX 
-
-Higher-yielding currencies outperform lower-yielding ones over time when sized appropriately and conditioned on a benign environment. Capture by going long high-carry, short low-carry currencies. 
-
-Prior 
-
-The parity conditions. CIP holds by arbitrage: (1+ is) = R/S, *(1+i¢) . UIP is the testable claim that FL = E,[S:+x] — the unbiasedness hypothesis. If UIP held, the interest pickup would be exactly offset by spot depreciation and carry would earn nothing. 
+The parity conditions. CIP holds by arbitrage: . UIP is the testable claim that — the unbiasedness hypothesis. If UIP held, the interest pickup would be exactly offset by spot depreciation and carry would earn nothing. 
 
 Why UIP fails: 
 
@@ -307,7 +295,7 @@ Why UIP fails:
 
 DM FXC running both DM and EM fx, descent size (100b+) with trend filter 
 
-###### DM: 
+##### DM: 
 
 1. Excluding EM currency with >50% correlation with DM 
 
@@ -319,7 +307,7 @@ DM FXC running both DM and EM fx, descent size (100b+) with trend filter
 
 5. Optimizer maximizing signal/turnover penalty and beta neutral, pmv limits 
 
-###### EM: 
+##### EM: 
 
 1. Credit adjusted carry signal ranking (beta*cds, beta*curve oas) 
 
@@ -327,9 +315,9 @@ DM FXC running both DM and EM fx, descent size (100b+) with trend filter
 
 3. Dollar neutral sizing(scale down to smaller of l/s) / equal vol sizing (risk neural) 
 
-## Credit 
+# Credit 
 
-This has been a very recent focus on monetization of IG and HY credit signals for example value from default model like merton, event-driven, mean reversion signals (excess spread to peers) in broader universe like asia hard currency corp and quasi credit. 
+This has been a very recent focus on monetization of IG and HY credit signals for example value from default model like merton, event-driven, mean reversion signals (excess spread to peers) in broader universe like asia hard currency corp and quasi credit. I had been focused on bottom up portfolio construction on value signals and expanding the new issue flow momentum for credit indice trading 
 
 One highlight would be the portfolio construction, value signals at the end of the day are long cheap bonds and sell rich bonds, however, empirically, this would contain some credit beta although forming a DTS neutral portfolio and show biases by long high oas bonds as high oas bonds tend to be cheap and tight oas bonds tend to be rich. as a result, portfolio would have oas exposure biases. One example would be for bonds in boundaries of two oas bucket, it could go from cheapest to richest just because sell off moved to a higher oas bucket. So we’ve studies a new method that’s based on dynamic ranking based on neighbors, without the fixed bucket rule, and as a results, we are able to preserve the original signal and return with much less turnover and reduced beta and bias exposure. 
 
@@ -337,9 +325,31 @@ Regress on OAS (residualize), buckets with overlap
 
 Another study was done on the credit curve trades, discretionary pms and systematic mean reversion signals likes to express mini curve trades, for example a 3year 5year or 7year 10year these mini curve trades to pickup carry/rolldown as an RV expression. However, because there’s not that many issuance for 3 year or 7 year, very often people are trading aged bonds against a new issued one, so the trade is not just pure curve risk, but embeds a liquidity premium for aged bonds. We’ve done analysis trying to show that aged bond embeds liquidity premium, which is actually another bias value signal expose to. So a portion of turnover is attributed to rebalance on bond oas moves from liquidity, after study it could well be just another component of return like carry/rolldown that no need extra turnover for. 
 
-There’s follow up studies on new issued bond behaviors and like many signal that actually work well for new issues but not aged bonds, likely driven by different investors base in new issue vs aged illiquid bonds. 
+There’s studies on new issued bond behaviors and like many signal that actually work well for new issues but not aged bonds, likely driven by different investors base in new issue vs aged illiquid bonds. 
 
-#### Credit Ideas 
+This was build on top of earlier study of new issued vs aged bond behaviros we concluded that informed investors tend to trade the more liquid new issued bonds. 
+
+CDX vs SPY (EWMA beta x spy 3 month half life lagg one day), trade equity beta adjusted residuals, benchmark is the mean reversion of the residual, we’ve found that new issued bond liquid universe (0-3 month) serve as an very effective barometer for market sentiment that we used for credit indice trading. 
+
+TRACE data, weighted trade ratio sqrt(buy quantity) x number of buy trades, wkly_avg_net/wkly_avg_ross (remove weekday seasonality), EWMA z score with 1 month half life, 5/22 crossover. Order Imbalance Momentum 
+
+This surprisingly also works for EM CDX - SPY 
+
+This also applies to trade CDX IG and HY, which has been the preferred given this has less directional exposure and more about the basis between the two. Hedge ratio different methods, rolling EWMA, equity beta adjusted, DTS neutral. Can combine with benchmark mean reversion of outright residual 
+
+It can also extend to ETF, LQD, HYG, although facing higher t-cost and funding/borrow, signal has still been effective. 1 sharp 
+
+For example, after equity rises, new issues are sold and aged bonds bought, because buyside tolerates iliquidity more when risk appetite is high and vice versa, this extends into trade liquid vs illiquid 
+
+When equity fall more than 1%, buy liquid credit beta and sell illiquid, event study with lags etc. 
+
+Pairs be: CDX-bond basis, ETF - bond, CDX-CDS, new issue - aged bonds 
+
+There had been some month end effect that decayed, but when signals are constructed from new issued bond, it’s still effective 
+
+Rebalance FVS after big market move to take advance of different investor pool of macro investor (total return driven) and RV trader (focus on credit) 
+
+### Credit Ideas 
 
 Trace/Market Access RFQ (electronic trading venue) All to All 
 
@@ -365,17 +375,15 @@ front end credit has extreme left tail in crisis, front end name selection bette
 
 LTV work better in HY than IG 
 
-!!! recent issued bond more reflective of market sentiment (buy volumne - sell volume) 
+!!! recent issued bond more reflective of market sentiment (buy volumne - sell volume) SPY account for CDX 50% Vol. 
 
-SPY account for CDX 50% Vol. 
-
-!!!! DD doesn't align with existing rating, trade where it's DD implies 
+##### !!!! DD doesn't align with existing rating, trade where it's DD implies 
 
 !!!! mix DD model with analyst 
 
 CDS over Cash has been cash efficient and better return. During stress periods, CDS can sell off very quickly (high insurance buying demand) careful duration hedge, bond choice, hedge ratio when including bond basket (3-7y) against CDS, which may imply curve trade. 
 
-## FVS 
+# FVS 
 
 Extending DM model into EM space, 
 
@@ -393,23 +401,23 @@ backtest oas limit, sensitive to parameters
 
 isotonic regression to avoid jumps/idio event for time series observation 
 
-Steps 
+##### Steps 
 
 
 
 <!-- Start of picture text -->
-a. 1st lien bond from multi-layer companies + unsecured bonds from single layer companies.<br>if debt < $85 use market value, otherwise use notional<br>b. Fit regression<br>size weighted if FVS residual ~market_cap/sov_oas is pharallel shift, then just do 2<br>step FVS final=FVSDD+AdjustmentSize, where adjustment size can be a regression of<br>residual to log*(market cap), if residual ~ market_cap/sov_oas regression not the same<br>shape, then separate the two groups<br>c. Use regression to backout unsecured for multi-layer companies<br>Because the unsecured bond from a multi-tier company trades wider than an unsecured bond from<br>a comparable single-tier company. Backout is weighted<br>d. use fitted regression to get log(oas) ~ dd: oas percentage change per dd<br>e. percentage cheapness oas - fvs / fvs<br><!-- End of picture text -->
+a. 1st lien bond from multi-layer companies + unsecured bonds from single layer companies.<br>if debt < $85 use market value, otherwise use notional<br>b. Fit regression<br>size weighted if FVS residual ~market_cap/sov_oas is pharallel shift, then just do 2<br>step FVS_final=FVSDD+AdjustmentSize, where adjustment size can be a regression of<br>residual to log*(market cap), if residual ~ market_cap/sov_oas regression not the same<br>shape, then separate the two groups<br>c. Use regression to backout unsecured for multi-layer companies<br>Because the unsecured bond from a multi-tier company trades wider than an unsecured bond from<br>a comparable single-tier company. Backout is weighted<br>d. use fitted regression to get log(oas) ~ dd: oas percentage change per dd<br>e. percentage cheapness oas - fvs / fvs<br><!-- End of picture text -->
 
 A. Compute Cushion/equity vol, marketCap/(marketCap + debt) 1Y ATM Equity option vol for equity vol, if no option, then use RV and approximate IV by ratio 
 
 compared this with textbook implementation of calibrate Asset Vol and DD, and usage of enterprise value (market cap+ liability)with IV equity vol is better 
 
-###### KMV 
+KMV 
 
 
 
 <!-- Start of picture text -->
-E=V, N(d) — De? N(do)<br>here<br>=<br>dy In(V4/D)AIP + FOF(r+ $2 0 AT%)T yy ov T<br>COAVT<br>his is one equation with two unknowns (V4 and o4), so KMV adds a second<br>quation linking equity volatility to asset volatility. Because equity is a function of<br>ssets, It6's lemma gives the relationship between their volatilities:<br>V.<br>of= a N(di)oa<br><!-- End of picture text -->
+E=V, N(d) — De N(d)<br>here<br>dy = VAPIn(V4/D) + CH(r+ 20a $0%)T y= dy —oavT<br>osVT<br>his is one equation with two unknowns (V4 and o4), So KMV adds a second<br>quation linking equity volatility to asset volatility. Because equity is a function of<br>lassets, It6's lemma gives the relationship between their volatilities:<br>COE olV.  N(d;) CoA<br><!-- End of picture text -->
 
 Default point (near term debt + ½ long term debt) vs total debt 
 
@@ -417,7 +425,7 @@ Expected Default Frequency empirical (rising EDF doesn’t mean firm is fundamen
 
 EDF 1Y forward vs Merton debt maturity (5y etc) 
 
-###### observations: 
+##### observations: 
 
 Some bond remain cheap/rich, change is more important than level. Structural cheapness (given DD, HY outperform IG, secured bond outperform unsecured) 
 
@@ -431,15 +439,15 @@ Private company vol, provided by analyst, mimic public comp, basket comp, privat
 
 CapIQ for balance sheet data 
 
-Pro forma cap table in case for m&a buy out negative convexity, at small DD, OAS blow up. 
+Pro forma cap table in case for m&a buy out 
+
+negative convexity, at small DD, OAS blow up. 
 
 small size penalty 
 
 fin, capital plan, regulator's policy 
 
-holdco/op co, op co safer (LTV doesn't mean riskier, financial companies, ) 
-
-non-banking financial: scale adjust 
+holdco/op co, op co safer (LTV doesn't mean riskier, financial companies, ) non-banking financial: scale adjust 
 
 utility, opco-holdco, regulated revenut etc 
 
@@ -490,7 +498,7 @@ CheapCDX=raw basis(CDX spread-Cash spread)+roll-down adjustment(rollcash-rol1CDX
 <!-- Start of picture text -->
 CUSIP-Level Cheapness — the time-series (self) anchor<br>bond's own history — OAS, FVS, cheapness IG/HY plotted over time for a single<br>identifier<br>Cheapits(t)=OASi(t)-FVSi(t),judged vs its own past range\text{Cheap}*{\text{ts}}i(t)<br>= \text{OAS}i(t) - \text{FvS} i(t), \quad \text{judged vs its own past range}<br>Cheapits(t)=OASi(t)-FVSi(t),judged vs its own past range<br>Why it complements the cross-section: the base score is cross-sectional (“cheap vs<br>peers now"). This is time-series ("cheap vs its own normal”). A bond can be<br>cross-sectionally cheap but time-series rich (its whole cohort widened) or vice<br>versa. When it wins: for a single-name entry/exit timing decision — the<br>cross-sectional model says which bonds, the time-series view says when. It's also<br>your reversion/half-life sanity check at the name level.<br><!-- End of picture text -->
 
-## EMSA 
+# EMSA 
 
 It’s a synthetic series try to quantify risk premia in relative value trades, for example swap spread, curve basket, cdx-cash basis, dollar eur bond basis, quasi basis. 
 
@@ -508,7 +516,7 @@ Basis roll-down — the EUR and USD spread curves have different slopes, so the 
 
 Basis mark-to-market — EUR OAS − USD OAS moving over the holding period. 
 
-#### Curve based 
+### Curve based 
 
 Pairing is at the issuer (ticker) curve level, match on tenor points 2,3,5,7,10 (curve carry/rolldown, and mark to market) 
 
@@ -520,7 +528,7 @@ after issuer level, aggregate by country equal, issuer equal weight or index wei
 
 **1b:** dislocation of the curves, for region, rating, (quasi, corp) sector, or customized bucket (oil importer, exporter) (outlier detect, ML maybe?) (RV cross-sectional) **1b':** residual basis: remove beta to xccy_eur_usd (FV approach, more timing like K's quasi) 
 
-#### Portfolio Based 
+### Portfolio Based 
 
 portfolio, each tenor, pick the "on the run" bond, and hedge spread duration using the counterparty, and hedge residual duration using duration at the matching tenor or fx for usd eur hedge 
 
@@ -538,39 +546,59 @@ hedge residual using tsy/fx can use factor for rate, pnl a bit too neuanced aggr
 
 hedges = {bund: krd_eur, ust: krd_usd, fx_fwd: mv_eur} book = apply_no_trade_band(book, prev_book) pnl = realize_pnl(book, hedges, t→t+1) # carry+roll+MtM+xccy from curve pnl -= tcost(turnover, eur_bidask, usd_bidask) from actual cusips store(pnl, attribution, hedge_residual) report: SR(passive vs active), attribution, turnover, skew, DD, SPX-corr, hedge-residual regression, region/rating split, capacity 
 
-#### FV Residual 
+### FV Residual 
 
-(ideally to go with residualized basis to strip away beta for the signals that takes basis magnitude) way1: factor only, way2: factor x basis (prefer large basis) 
+(ideally to go with residualized basis to strip away beta for the signals that takes basis magnitude) 
 
-###### EUR-USD Bond Basis 
+way1: factor only, way2: factor x basis (prefer large basis) 
+
+##### EUR-USD Bond Basis 
 
 issuance new issue imbalance (upcoming vs outstanding), surprise issuance acceleartion EPFR EUR vs USD fund mandate flow illiquidity, TRACE data, local FX impact 
 
-###### Quasi 
+##### Quasi 
 
 rating uplift trajectory, rating momentum sovereign linkage, beta to sovereign 
 
-CDS 
+##### CDS 
 
 new issue, issuance calendar, rebalance weight change, supply shock: issuance/outsanding 
 
-###### **Swap Spread (dm trades invoice spread)** 
+##### **Swap Spread (dm trades invoice spread, future carry by CTD+opt prem)** 
 
-carry momentum, skew (cross-sectional) 
+swap spreads price balance-sheet and funding costs, not credit. 
+
+- Dealers' leverage constraints (SLR, leverage ratio) limit how much bond inventory they can hold, so bonds can cheapen relative to swaps. 
+
+- Supply (deficits, QT), repo conditions, real-money hedging flows and the futures-cash basis trade move spreads in persistent, slow ways. 
+
+- These are flow and constraint driven, not information driven, so they trend (carry momentum) and occasionally crash (skew). 
+
+carry momentum, skew (cross-sectional), initially reversal (too fast) 
 
 Basket to maximize Carry, mean reversion, neutral to major market factors 
 
 Carry measure: dm: secular downardd trend in swap spread, libor transition (stale fall back spread, libor more credit/liquidity), CTD/wild card option on futures 
 
-###### Empirical duration beta, hedging 
+Empirical duration beta, hedging 
 
 Asia domestic bank, government buybacks (bond yield < swap) 
 
-###### **Curve** 
+EM: 
 
-Direction: value (simple rule based policy cycle unemployment/inflation rate)/Analyst (execution overlay) 
+Shorting is limited. There are no bond futures and little repo for foreigners, so the short-bond side is often not implementable. 
 
-Carry 
+The spread includes sovereign credit and convertibility risk. Credit-adjust it (ASW - beta x CDS). 
+
+Express duration via bonds when ASW is cheap and via swaps when it's rich, so no shorting is needed. 
+
+##### **Curve** 
+
+Direction: value (simple rule based policy cycle or unemployment/inflation rate)/Analyst (execution overlay) 
+
+DM ½ time series + ½ cross sectional (allow curve exposure) 
+
+Carry/carry momentum 
 
 mean reversion 1.time series level, 2. DM/EM curve spread 
 
@@ -578,13 +606,15 @@ hiking cycle correlation, EM lead hike, lags easing
 
 7s30s for dm, avoid 2s fed influence, 10s mortgages, 20s messy/premium 
 
-Cross sectional (curve neutral) + time series (curve exposure) 
+EM curve backend carry more credit risk, consider credit beta adjusted 
+
+Optimizer, maximize carry/vol, neutral to beta 
 
 **Swap** (macro momentum, economic fundamentals) 
 
-###### **EM FX ELECTION** 
+##### **EM FX ELECTION** 
 
-###### **DM Rates: MonthEnd, Large Corp Bond Issuance** 
+##### **DM Rates: MonthEnd, Large Corp Bond Issuance** 
 
 for demo 
 
@@ -614,7 +644,7 @@ look up issuer's weight in index, can ignore it and only focus on tracking error
 
 quasi vs sov time series ret/1y mws 
 
-Refinitive - bond issuance Debt Management Office 
+##### Refinitive - bond issuance Debt Management Office 
 
 Sizing by cvar 
 
@@ -630,7 +660,7 @@ Bond’s positive convexity (convexity mismatch)
 
 China structural negative (huge demand onshore and money being regulated) 
 
-## PortM 
+# PortM 
 
 Kolmogorov Arnold Network – neural network, unlike neutral networks that more of a blackbox of fixed activation functions, it uses learnable univariate functions, spline, and aggregate them together to fit, then it search among common function forms to map to be interpretable functions, it’ been very helpful to to capture non-linearity between factors. 
 
@@ -662,27 +692,19 @@ TE/Factor exposure breakdown (credit/rates/country)
 
 Rates (key rate, curve) 
 
-Credit(Bond, cds) contribution by sector, oas bucket 
+Credit(Bond, cds) 
 
-Commodities Marginal Vol contribution (position, covar, interaction) 
+contribution by sector, oas bucket 
 
-exante-vol, index beta vs ex-post/attribution (beta, single name) CVaR(additive vs nonaddivie var)/Tail Risk 
+Commodities 
 
-###### Historical TE 
+Marginal Vol contribution (position, covar, interaction) 
 
-Draw down/Scenario Analysis (factor shocks to see non-linearity) 
+exante-vol, index beta vs ex-post/attribution (beta, single name) 
 
-Country Concentration TE/single name dispersion liquidity profile 
+CVaR(additive vs nonaddivie var)/Tail Risk 
 
-Competitor beta, vol, drawdown comparison (open position) 
-
-crowdness 
-
-Ad hoc: 
-
-correlation/vol difference scenario, hedge ratio 
-
-best duration expression from carry perspective, (bond, swap, fx, neighbor country) dispersion across similar mandates (due to different constraints) 
+Historical TE Draw down/Scenario Analysis (factor shocks to see non-linearity) Country Concentration TE/single name dispersion liquidity profile Competitor beta, vol, drawdown comparison (open position) crowdness Ad hoc: correlation/vol difference scenario, hedge ratio best duration expression from carry perspective, (bond, swap, fx, neighbor country) dispersion across similar mandates (due to different constraints) 
 
 
 
@@ -725,7 +747,7 @@ r, = Beh, + &<br>Beta factor loading on factor F<br>a-b=|al * |b] « cos()<br>to
 
 Sys 
 
-###### data preprocess 
+##### data preprocess 
 
 outliers, log transformation, check distribution 
 
@@ -743,7 +765,7 @@ profitability etc
 
 does DD survive after control OAS level 
 
-###### backtest: 
+##### backtest: 
 
 cheapness to DD 
 
@@ -765,7 +787,7 @@ subtract sector mean (regression one hot encoding)
 
 smoothing signal (reduce turnover) 
 
-###### construction 
+##### construction 
 
 rank/quintile (equal distance between #1 and #2 vs normal dis) 
 
@@ -787,7 +809,7 @@ signal combine
 
 (standardize, equal weight, IC weighted, MVO optimal weight, orthognal weight (residual)) 
 
-###### post analysis/portfolio risk 
+##### post analysis/portfolio risk 
 
 decompose realized P&L into: DD-level, ΔDD, residual-vs-OAS, and leftover. If most P&L is coming from the residual-vs-spread leg 
 
@@ -844,7 +866,7 @@ residual correlation converge in stress scenarios (cvar, tail risk that factor m
 
 thru stresstest/factor shocks see portfolio lienarity or not 
 
-###### scalability 
+##### scalability 
 
 alpha - turnover*cost/AUM 
 
@@ -856,7 +878,7 @@ among these, liquid or illiquid names
 
 bring signal to simple equal weight, see if results decay linearly with no jump Stresstest slippage assumption to back out max scale doable by alpha 
 
-### Data structures worth knowing cold 
+## Data structures worth knowing cold 
 
 |Structure|Usewhen|Keyops|
 |---|---|---|
@@ -927,7 +949,7 @@ Objective: Find 0, such that : y = X0 Shapes: y—(n,1) X (n,m) 0- (m,1)
 <!-- Start of picture text -->
 Proof #1 Proof #2<br>1) Linear Regression Equation: 1) Minimize Squared Error:<br>_<br>2<br>y= X0 L = |ly — X6l|<br>2) We cannot invert X to get 0 2) Split the squared norm into 2 terms<br>g6=x! T<br>wi<br>...this is because X may noty be square. L=(y—.. Pa X60)" (y—Tr X86)r<br>Hence, non-invertible. =vyy-y X0—(X8)'y + (X60) XO<br>3) Multiple both sides of (1) by X7 3) Minimize by differentiating w.r.t 0<br>XXXTy=XTxoT T | |, and then solve for 0<br>4) Invert is  X7X  square. Hence, invertible*. Wo = -2XxTy + 2x7 x0<br>FP VE 4) Set the derivative to zero<br>9=(X°X)X y | _axTy+exTxe=0<br>rearrange...<br>XTXO=XTy<br>5) Invert X7X<br>*In case of perfect multicollinearity, this won't be invertible. YIULY).VIVLY:<br><!-- End of picture text -->
 
-## MarketComments 
+# MarketComments 
 
 Asia credit has high demand recently, recent UST sell of are creating lots of entry point, front end and belly, not so much in the back end for high beta to rates sell off, when stabalize, real money continue compress high quality IG spreads. 
 
@@ -966,7 +988,7 @@ AeA, MADURA<br>Xt MEN aRRS (Gila m1) , BBKESE:<br>E[re1<br>ri] = —_—_S>|_Cov
 
 relative value trades being a big portion in the portfolio construction, to complement discretionary trades such outright duration call, this was our effort to enhance to the decision making process by quantify and properly track and model the structural premiums in a quantamental way, Many of the structural alpha trades were extended from US credit desk’s framework. Think of in equity space we’ve seen implied vol > realized vol for most of the time and in equity, similarly there’s many long short basis opportunities in em bond space. 
 
-###### Quasi vs Sov 
+##### Quasi vs Sov 
 
 quasi - sov + UST residual duration 
 
@@ -1010,7 +1032,7 @@ hard to short EUR, EUR are at tight
 
 often pmv neutral, eur bond has more sprd_dur than usd (more risk) 
 
-###### CDS vs Cash 
+##### CDS vs Cash 
 
 Positive basis (sweet entry point) , Buy CDS (sell insurance) - Bond + UST (dur) 
 
@@ -1032,7 +1054,7 @@ Cash generator, negative correlation, positive skew
 
 Front end: jump to default risk 
 
-###### ASW 
+##### ASW 
 
 Em bond + IRW + FX Hedge (3~5y focus) 
 
@@ -1052,7 +1074,7 @@ onshore offshore fx basis (different market participant for onshore bond vs offs
 
 <u>https://www.schroders.com/en/nordics/professional/insights/schroder-gaia-two-sigma-di versified-a-diverse-investment-approach-where-we-combine-human-oversight-with-syst ematic-investment/</u> 
 
-###### Career, education decisions 
+##### Career, education decisions 
 
 In my undergrad studied stats and computer science, have done a few research experience during my undergrad, in biolab, in a summer research program at UCLA, sort of seeing which space I can apply skills into. During my first internship with Geode capital, I found it particular interesting with quantitative investing, however, at that year the team there was acquired by Fidelity expanding Fidelity’s systematic business and due to this acquisition, they weren’t able to help with return offer that year. 
 
@@ -1064,7 +1086,7 @@ rock star 4 sharp strategy, should aim to find many less correlated predictors e
 
 Intention to look for place with more open collaborations which happen to be case for fixed income institutions and quiet enjoy the different dimensionality in fixed income which brings more things to explore. 
 
-###### Current team in pimco, what value do we bring in 
+##### Current team in pimco, what value do we bring in 
 
 Current site with the EM team, within complex, there’s two mandates the local currency bonds and hard currency bonds, so there’s exposure to both the rates and credit part. Team members we have pms who makes macro views and we have traders who own the relative value part of the portfolio, that would be for example curve trades, swap spread, CDX vs Cash, the kind of basis trades. Quant side, there me and two other senior researchers, and i am mostly focused on linear products, (working with trader to systematize RV trades), and with pms on portfolio related analysis and the systematic stategies which I mostly focus on 
 
@@ -1076,7 +1098,7 @@ Portfolio analysis utilizing factor model, to show the underlying driving risk
 
 credit space with quantitative approach, this is something that a macro top down manager may not have been realized, with growing credit all to all, i believe there’s a lot to explore in the systematic credit 
 
-###### Prepare portfolio for upcoming rate hike/shock 
+##### Prepare portfolio for upcoming rate hike/shock 
 
 Such analysis would leverage portfolio factor model, 1. Decompose portfolio from assets to risk factors, key rate duration, curve, credit spread, commodify 2. Apply relevant shocks to a few factors and to propagate to implied shocks, 
 
@@ -1100,7 +1122,7 @@ Or unsupervised (gaussian mixture) have the data infer the different regime
 
 Rather than prediction what’s next to come, make sure portfolio is robust to standthru different regime, and tacitial positioning short term regim changes, vol picks up etc. 
 
-###### Add new strat to port 
+##### Add new strat to port 
 
 robustness of idea, quality and quantity of historical data and value added (risk and return) to the portfolio. 
 
@@ -1116,7 +1138,7 @@ Step 1: Choose a universe or group of stocks from which<br>you'll construct your
 <!-- Start of picture text -->
 3. Weighting After we've calculated the “risk” of each<br>stock in our universe in Step<br>2, we need to determine how<br>we weight the stocks within the factor's long and short<br>portfolios. In this Street View, we'll explore two different<br>weighting schemes:<br>‘¢ Quintiles: Factor constructed by going long (short) an.<br>equi-weighted portfolio of stocks in the top (bottom)<br>quintile of the chosen low risk measure, with quintiles<br>computed over the chosen universe. Note that this scheme<br>would give weights to stocks in the most extreme quintiles<br>and ignore stocks in the middle.<br> Loadings:withchosen each risk Factor constructedstock's measure weight being using the z-score’ all stocksof inits the universe value for the<br>4. Neutrality The factor should be constructed in a way that<br>__isolatesits unique risk and removes the impact of the overall<br>stock market. We'll t ttrality options:<br>Store markets Well shalyze fWo NEUETSIITY OPEONS:<br>* “Dollar’-neutral: Factor constructed with equal dollar amounts<br>allocated to the factor's long and short portfolios<br>* Beta neutral: Factor constructed to be equity beta neutral<br>(ie. equal amount of equity risk in the factor’s long and short<br>portfolios)<br><!-- End of picture text -->
 
-###### Work with pm 
+##### Work with pm 
 
 Recently pm has an idea to look into sovereign cds around major rates move or election events, this is going to be a event study, i first checked with data team to see what’s been available, election calendar, front end curve moves, fx vol etc. then I also chatted with dm credit team on if they’ve done anything similar in their space. 
 
@@ -1124,7 +1146,7 @@ Then it’s mostly my work showing if there’s risk premia after rates sell off
 
 Has been highly involved in machine learning techniques, with ai has there been more shifting toward ai approach in investment decision or ai is more leveraged in engineering coding aspect. 
 
-### Calculating skew is very similar to 
+## Calculating skew is very similar to 
 
 ###### Asset Universe 
 
@@ -1146,7 +1168,7 @@ Has been highly involved in machine learning techniques, with ai has there been 
 
    - Signal= Skew(Spread, window) 
 
-##### Previous version 
+#### Previous version 
 
 ###### Timing Signals: 
 
