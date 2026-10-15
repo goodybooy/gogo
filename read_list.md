@@ -16,8 +16,10 @@ roko capital management 2024 quant graduate programme.md github
 
 
 
-https://mp.weixin.qq.com/s/1nWmIWtozjmVH-M-S_iMRg
+https://mp.weixin.qq.com/s/aMDzdXW0dYwOXxIITcQurA
 
-https://mp.weixin.qq.com/s/cwoOaDF8cOy8rOkiFn_A7g
+https://mp.weixin.qq.com/s/fiLgWweuidCneuOu3oPcJw?scene=334
+
+https://mp.weixin.qq.com/s/HgHOo2H4Hio91HwLQDp1GA?scene=334
 
 69403WAJ6
