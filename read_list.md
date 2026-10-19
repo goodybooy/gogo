@@ -1,11 +1,11 @@
 Hub A — Friend A
 
-* https://million-advice-bradley-quarter.trycloudflare.com
+* https://acre-sweet-poster-species.trycloudflare.com
 * QlCcQ5cUpItnCcpPYbgOIz9KcW3J5zNGDxVkrQolwJc
 
 Hub B — Friend B
 
-* https://path-disabilities-opponents-analyses.trycloudflare.com/sessions
+* https://virtual-buyer-hence-configuring.trycloudflare.com/sessions
 * qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ
   
   
