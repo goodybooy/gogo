@@ -16,15 +16,7 @@ roko capital management 2024 quant graduate programme.md github
 
 https://mp.weixin.qq.com/s/aMDzdXW0dYwOXxIITcQurA
 
-https://mp.weixin.qq.com/s/HeIMU0ZJMyzbxC2UddlwrA
-
-https://mp.weixin.qq.com/s/4pS_bvAQQo63ZJl25aKgUw
-
-
-
-https://mp.weixin.qq.com/s/ZXD_vjjk17T6VuGztvMt1Q
-
-
+https://mp.weixin.qq.com/s/pjtdRQs4Eql01xTBcsKbew
 
 **
 
@@ -41,3 +33,5 @@ Also help with the portfolio management on risk aspect, exante basis (trades cor
 Then I focus more on systematic side, risk premia strategies in macro space, fx carry, momentum in credit derivatives, and recent has been focused on monetization of credit signals in mean reversion, value, event driven, in both single name bottom up credit portfolios and credit indices.
 
 **
+
+
