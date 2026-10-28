@@ -19,3 +19,9 @@ https://mp.weixin.qq.com/s/aMDzdXW0dYwOXxIITcQurA
 https://mp.weixin.qq.com/s/pjtdRQs4Eql01xTBcsKbew
 
 https://macrosynergy.com/research/classifying-credit-markets-with-macro-factors/
+
+
+
+[Reddit](https://www.reddit.com/r/FinancialCareers/comments/mx3cu8/ratescredit_trading_to_macrocredit_hedge_funds/)
+
+
