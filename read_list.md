@@ -5,7 +5,7 @@ Hub A — Friend A
 
 Hub B — Friend B
 
-* https://virtual-buyer-hence-configuring.trycloudflare.com/sessions
+* https://outstanding-hold-hansen-destinations.trycloudflare.com/sessions
 * qDQArsOmA3rVzzHTE8FlMqsLgVYsoTkc6Hrvh0V0LRQ
   
   
@@ -18,10 +18,4 @@ https://mp.weixin.qq.com/s/aMDzdXW0dYwOXxIITcQurA
 
 https://mp.weixin.qq.com/s/pjtdRQs4Eql01xTBcsKbew
 
-https://macrosynergy.com/research/classifying-credit-markets-with-macro-factors/
-
-
-
-[Reddit](https://www.reddit.com/r/FinancialCareers/comments/mx3cu8/ratescredit_trading_to_macrocredit_hedge_funds/)
-
-
+[Reddit](https://www.reddit.com/r/quant/comments/1fcx3r4/what_do_quants_in_fixed_income_do/)
